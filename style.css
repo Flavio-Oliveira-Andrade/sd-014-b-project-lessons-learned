@@ -5,8 +5,9 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  display: block;
 }
 
 #minha_foto {
-  width: 200px;    
+  width: 200px;
 }
