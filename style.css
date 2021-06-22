@@ -1,42 +1,43 @@
-body{
-    background-color: rgb(253, 251, 251);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-    line-height: 28px;
-    color: #023047;
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #023047;
 }
-header{
-    position: fixed;
-    top: 0;
-    margin-left: 300px;
+header {
+  position: fixed;
+  top: 0;
+  margin-left: 300px;
 }
-#minha_foto{
-    width: 25%;
-    margin-top: 50px;
+#minha_foto {
+  width: 25%;
+  margin-top: 50px;
 }
-section a{
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
+section a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
-section a:hover{
-    background-color: green;
-    color: white;
-    padding: 5px;
-    border-radius: 30%;
+section a:hover {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 30%;
 }
-table tr, td{
-    border: 1px black solid;
-    text-align: left;
+table tr,
+td {
+  border: 1px black solid;
+  text-align: left;
 }
-.lado-direito{
-    float: right;
-    width: 46%;
-    display: inline;
-    margin: 10px;
+.lado-direito {
+  float: right;
+  width: 46%;
+  display: inline;
+  margin: 10px;
 }
-.lado-esquerdo{
-    float: left;
-    width: 46%;
-    margin: 10px;
+.lado-esquerdo {
+  float: left;
+  width: 46%;
+  margin: 10px;
 }
