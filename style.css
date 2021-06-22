@@ -7,6 +7,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  width: 100%;
 }
 
 #cabecalho {
@@ -41,6 +42,19 @@ body {
   float: right;
 }
 
+#secao_licoes_aprendidas {
+  display: block;
+  margin-top: 15%;
+  margin-left: 5%;
+}
+
+#secao_licoes_aprender {
+  display: inline-block;
+  margin-top: 16%;
+  margin-left: 10%;
+}
+
+/*
 #titulo_licoes_aprendidas {
   margin-top: 15%;
   margin-left: 5%;
@@ -66,6 +80,7 @@ body {
   display: inline-block;
   clear: left;
 }
+*/
 
 #sobre_meu_aprendizado {
   margin-left: 40%;
@@ -78,7 +93,7 @@ body {
 aside {
   float: left;
   width: 200px;
-  height: 800px;
+  height: 100%;
   margin: 0;
   background-color: salmon;
   border-style: solid;
