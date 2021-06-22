@@ -4,6 +4,7 @@ body{
 header{
     position: fixed;
     top: 0;
+    margin-left: 300px;
 }
 #minha_foto{
     width: 25%;
