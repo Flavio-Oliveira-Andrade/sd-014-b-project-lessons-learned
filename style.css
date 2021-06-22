@@ -1,125 +1,126 @@
-body{
-background-color: rgb(253, 251, 251);
-color: black;
-font-family: cursive;
-}      
-#cabecalho{
-background-color:#036b52;
-width: 100%;    
-position: fixed;     
-color: white;  
-top: 0;
-border-bottom: 7px solid #2fc18c;  
-text-align: center;     
+body {
+  background-color: rgb(253, 251, 251);
+  color: black;
+  font-family: cursive;
 }
-#titulo{
-text-align: center;
+#cabecalho {
+  background-color: #036b52;
+  width: 100%;
+  position: fixed;
+  color: white;
+  top: 0;
+  border-bottom: 7px solid #2fc18c;
+  text-align: center;
 }
-.link{
-font-family: helvetica, sans-serif;
-padding: 5px;  
-}  
-.link li{
-display: inline;
-list-style: none;
+#titulo {
+  text-align: center;
 }
-.link a{
-text-decoration: none;
-color: white;
-}  
-#minha_foto{
-border-radius: 50%;
-border: 6px solid #2fc18c;
-width: 150px;
-height: 150px;
+.link {
+  font-family: helvetica, sans-serif;
+  padding: 5px;
 }
-#section{
-margin-top: 200px;
-text-align: center;
+.link li {
+  display: inline;
+  list-style: none;
 }
-.lado-direito{
-display: inline-block;
-width: 30%;    
+.link a {
+  text-decoration: none;
+  color: white;
 }
-
-#imagemsection{
-float: center;
-margin-left: 10%;
+#minha_foto {
+  border-radius: 50%;
+  border: 6px solid #2fc18c;
+  width: 150px;
+  height: 150px;
 }
-.lado-esquerdo{
-line-height: 20px;    
-width: 30%;   
-float: right; 
-text-align: center;
+#section {
+  margin-top: 200px;
+  text-align: center;
 }
-#licoes_aprendidas{
-text-align: justify;
-font-weight: bold;        
-}
-.sectiontabela{
-    width: 40%;
-    display: inline-block;
-} 
-.aside1{   
-float: right;  
-width: 30%;  
-line-height: 25px;
-text-align: center;
-font-size: 30px;
+.lado-direito {
+  display: inline-block;
+  width: 30%;
 }
 
-#licoes_a_aprender{
-text-align: center;
-font-weight: bold;} 
-.botao{
-background-color:#2fc18c;
-border-radius: 10px;
-padding: 10px; 
-color: #036b52;         
-width: 85px;   
-border: 4px solid #036b52;
-font-weight: bolder;  
-display: inline-block;          
-}   
-.pbotao2:hover{
-color: rgb(253, 251, 251);
-background-color:#036b52;
-border: 4px solid #2fc18c; 
-font-weight: bolder;
-padding: 10px ;   
-width: 85px;      
+#imagemsection {
+  float: center;
+  margin-left: 10%;
 }
-#h2proximospassos{
-text-align: center;
-font-size: 50px;
+.lado-esquerdo {
+  line-height: 20px;
+  width: 30%;
+  float: right;
+  text-align: center;
 }
-.footer{
-background-color: #036b52;
-color: white;
-width: 100%;   
-padding: 10px;
-bottom: 0px;
+#licoes_aprendidas {
+  text-align: justify;
+  font-weight: bold;
 }
-.footer a{
-text-decoration: none;
-color: white;
-font-family: Helvetica, sans-serif;
-width: 50%;    
+.sectiontabela {
+  width: 40%;
+  display: inline-block;
 }
-.botaofooter{
-background-color:#2fc18c;
-border-radius: 5px;
-padding: 5px;
-color: #036b52;         
-width: 100%;   
-font-weight: bolder;  
-} 
-#nomerodape{ 
-text-align: left;
-width: 50%;
+.aside1 {
+  float: right;
+  width: 30%;
+  line-height: 25px;
+  text-align: center;
+  font-size: 30px;
 }
-#contatotrybe{
-text-align: right;
-width: 50%;
-float: right;
+
+#licoes_a_aprender {
+  text-align: center;
+  font-weight: bold;
+}
+.botao {
+  background-color: #2fc18c;
+  border-radius: 10px;
+  padding: 10px;
+  color: #036b52;
+  width: 85px;
+  border: 4px solid #036b52;
+  font-weight: bolder;
+  display: inline-block;
+}
+.pbotao2:hover {
+  color: rgb(253, 251, 251);
+  background-color: #036b52;
+  border: 4px solid #2fc18c;
+  font-weight: bolder;
+  padding: 10px;
+  width: 85px;
+}
+#h2proximospassos {
+  text-align: center;
+  font-size: 50px;
+}
+.footer {
+  background-color: #036b52;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  bottom: 0px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  width: 50%;
+}
+.botaofooter {
+  background-color: #2fc18c;
+  border-radius: 5px;
+  padding: 5px;
+  color: #036b52;
+  width: 100%;
+  font-weight: bolder;
+}
+#nomerodape {
+  text-align: left;
+  width: 50%;
+}
+#contatotrybe {
+  text-align: right;
+  width: 50%;
+  float: right;
 }
