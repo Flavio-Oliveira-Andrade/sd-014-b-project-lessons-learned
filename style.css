@@ -5,3 +5,8 @@ body{
     position: fixed;
     top: 0;
 }
+img{
+    margin: 1px;
+    padding: 1px;
+    border: 2px;
+}
