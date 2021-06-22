@@ -1,8 +1,8 @@
 body {
    background-color: rgb(253, 251, 251);
-   margin: auto;
    padding: auto;
    border: none;
+   margin: auto;
    font-family: sans-serif;
    font-size: large;
    line-height:20px;
@@ -15,11 +15,21 @@ header {
     top: 0;
 }
 
+div{
+    display: inline-block;
+}
 article{
-    
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+
 }
 
-section{
-    
+aside{
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+  
+  
 }
 
