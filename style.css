@@ -1,8 +1,35 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: sans-serif;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
+}
+
+table {
+    letter-spacing: 1px;
+    font-size: .9rem;
+}
+
+td, th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 15px 25px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(236, 236, 236);
+}
+
+th {
+    background-color: #2fc18c8a;
+}
+
+caption {
+    font-weight: 600;
+    font-style: italic;
+    padding: 10px;
+    caption-side: top;
 }
