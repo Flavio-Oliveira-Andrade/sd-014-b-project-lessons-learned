@@ -5,6 +5,7 @@ body{
 #cabecalho{
   position: fixed;
   top: 0;
+  z-index: 999;
 }
 
 main{
@@ -12,7 +13,19 @@ main{
   top: 60px;
 }
 
-footer{
+.container{
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+#rodape{
   position: absolute;
   bottom: 0;
+
+}
+
+#rodape a{
+  display: inline-block;
+  text-decoration: none;
 }
