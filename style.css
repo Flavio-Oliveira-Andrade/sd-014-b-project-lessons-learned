@@ -13,3 +13,16 @@ body {
   position: fixed;
   top: 0;
 }
+
+#minha_foto {
+  width: 200px;
+  display: block;
+}
+
+.lado-esquerdo{
+    display: inline-block
+}
+
+.lado-direito {
+    display: inline-block;
+}
