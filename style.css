@@ -9,6 +9,8 @@ body{
 margin-top: 40px;
 border-radius: 25%;
 padding: 10px;
+position: 
+z-index: 1;
 }
 .legend{
     font-size: small;
@@ -18,6 +20,7 @@ padding: 10px;
     color: rgb(28,28,28);
     letter-spacing: 1px;
     line-height: 1px;
+    margin-bottom: 20px;
 
 }
 div{
@@ -25,14 +28,29 @@ div{
 }
 ul,ol{
 display: inline-block;
-margin-inline: 20px;
+margin-inline: 200px;
+color: aliceblue;
 }
 article{
-    margin-top: 220px;
+    margin-top: 250px;
 }
 .lado-esquerdo{
 float: left;
 }
 .lado-direito{
 float: right;
+}
+#background{
+    background-image: url("https://scx2.b-cdn.net/gfx/news/2020/code.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+    background-position: 50% 25%;
+    position: absolute;
+    z-index: -1;
+    opacity: 80%;
+
+}
+table{
+    margin-top: 
 }
