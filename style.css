@@ -4,9 +4,9 @@ body {
   padding: 2%;
   border: 2%;
   font-size: 15px;
-  color:blue;
+  color: blue;
   line-height: 15px;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #cabecalho {
@@ -19,10 +19,10 @@ body {
   display: block;
 }
 
-.lado-esquerdo{
-    display: inline-block
+.lado-esquerdo {
+  display: inline-block;
 }
 
 .lado-direito {
-    display: inline-block;
+  display: inline-block;
 }
