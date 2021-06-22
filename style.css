@@ -13,7 +13,7 @@ header {
 #cabecalho {
   position: fixed;
   top: 0;
-  }
+}
 
 #menu {
   position: fixed;
@@ -46,7 +46,7 @@ aside {
   width: 25%;
   margin: 10px;
   position: relative;
-  left: 930px;  
+  left: 930px;
 }
 
 #licoes_aprendidas {
