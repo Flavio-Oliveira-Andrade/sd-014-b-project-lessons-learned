@@ -1,13 +1,68 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0px;
+}
+
+header {
+  background-color: cadetblue;
+  height: 100px;
+  width: 100%;
+  padding-left: 10px;
+  
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-}
+  }
 
 #menu {
   position: fixed;
   top: 70px;
+}
+
+#minha_foto{
+  width: 200px;
+  position: relative;
+  top: 130px;
+  padding: 10px;
+}
+
+
+article {
+  border: solid black;
+  width: 900px;
+  margin: 10px;
+  position: relative;
+  top: 120px;
+  padding-left: 10px;
+}
+
+p{
+padding-left: 20px;
+padding-right: 20px;
+}
+
+aside {
+  width: 25%;
+  margin: 10px;
+  position: relative;
+  left: 930px;  
+  
+}
+
+#licoes_aprendidas {
+  position: relative;
+  top: 150px;
+}
+
+#licoes_a_aprender {
+  position: relative;
+  top: 200px;
+}
+
+#link_git {
+  margin: 10px;
+  position: relative;
+  top: 300px
 }
