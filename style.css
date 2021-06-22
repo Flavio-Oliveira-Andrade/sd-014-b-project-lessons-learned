@@ -10,6 +10,17 @@ body {
     margin: 80px 10px 10px -5px;
 }
 #artigo {
-    width: 500px;
+    width: 400px;
     margin-bottom: 50px;
+    display: inline-block;
+
+}
+#secao_learn {
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 100px;
+}
+#secao_article {
+    display: inline-block;
 }
