@@ -6,3 +6,15 @@ body {
   position: fixed;
   top: 0;
 }
+
+#minha_foto{
+  margin: 80px;
+  padding: 20px;
+  border: 20px;
+}
+
+#article{
+  margin: 80px;
+  padding: 20px;
+  border: 20px;
+}
