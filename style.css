@@ -6,10 +6,15 @@ body {
     font-family: 'Bebas Neue', cursive, sans-serif;
     font-size: 16px;
     color: rgb(32, 32, 32);
-    letter-spacing: 1px;
+    line-height: 20px;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
+}
+
+#minha_foto {
+    border-radius: 50%;
+    
 }
