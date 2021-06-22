@@ -5,8 +5,18 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  margin-bottom: 30px;
 }
 
 #minha_foto {
-  size: 150px;
+  width: 150px;
+}
+
+.table {
+  border: 1px solid black;
+}
+
+.head-links {
+  padding: 30px 15px;
+  background-color: chartreuse;
 }
