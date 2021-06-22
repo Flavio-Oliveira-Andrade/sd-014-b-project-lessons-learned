@@ -23,3 +23,16 @@ padding: 10px;
 div{
     background-color: aliceblue;
 }
+ul,ol{
+display: inline-block;
+margin-inline: 20px;
+}
+article{
+    margin-top: 220px;
+}
+.lado-esquerdo{
+float: left;
+}
+.lado-direito{
+float: right;
+}
