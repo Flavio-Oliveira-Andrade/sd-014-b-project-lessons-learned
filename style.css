@@ -25,23 +25,17 @@ h1 {
 }
 
 section {
-    border: solid 4px black;
-}
-
-p {
-    
+  border: solid 4px black;
 }
 
 .lado-esquerdo {
-    float: left;
-    width: 12em;
+  float: left;
+  width: 12em;
 
 }
 
 .lado-direito {
   float: right;
   width: 12em;
-
 }
-
  
