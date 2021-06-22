@@ -1,18 +1,27 @@
 body {
       background-color: rgb(253, 251, 251);
 }
+aside{
+    padding: 2px 30px 40px 0px;
+}
+
+.texto {
+    padding: 2px 30px 40px 0px;
+}
+
 #cabecalho {
       top: 0px;
-      color: skyblue;
-      margin-top: 5px;
+      background-color: skyblue;
+      padding: 20px 30px 20px 0px;
 }
 #titulo {
-    color: seagreen;
+    color: white;
+    padding: 40px 30px 40px 30px;
 }
 #minha_foto {
     width: 150px;
-    
-}
+    padding: 10px 40px 20px 0px;
+  }
 
 #licoes_aprendidas {
 
