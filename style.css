@@ -3,6 +3,7 @@ body {
     font-family: 'Baloo Tammudu 2', sans-serif;
 
 }
+
 #cabecalho { 
     top: 0;
     position: fixed;
@@ -14,23 +15,29 @@ body {
     background-image: linear-gradient(180deg, #b4f2a0 0, #a1ec9c 16.67%, #89e397 33.33%, #6cd890 50%, #49cd8a 66.67%, #10c488 83.33%, #00bd88 100%);
 
 }
+
 #minha_foto {
     top: 150px;
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
+
 }
 
 #article {
     text-align: justify;
     margin: 10px;
     width: 60%;
+
 }
+
 h2 {
     font-weight: 250;
     line-height: 35px;
     margin: 10px;
+
 }
+
 #navegation li {
     display: inline-block;
     margin: 10px;
@@ -39,4 +46,19 @@ h2 {
     color: rgb(26, 146, 26);
     font-weight: bold;
 
+}
+
+#licoes_aprendidas {
+    border: 5px solid rgb(198, 243, 198)
+
+}
+
+#licoes_aprendidas img {
+    float: right;
+    margin-right: 20px;
+
+}
+#licoes_a_aprender {
+    border: 5px solid rgb(198, 243, 198)
+    
 }
