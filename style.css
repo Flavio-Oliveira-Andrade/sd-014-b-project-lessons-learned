@@ -1,3 +1,8 @@
 body {
     background-color: rgba(253,251,251,1);
 }
+
+#cabecalho {
+    position:fixed;
+    top: 0;
+}
