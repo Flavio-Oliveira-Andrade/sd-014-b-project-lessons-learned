@@ -5,9 +5,11 @@ body {
     position: fixed;
     top: 0;
     margin-bottom: 15px;
+    background-color: white;
+    padding-right: 100%;
 }
 img {
     width: 300px;
     margin-top: 70px;
-    display: block;
+    display: ;
 }
