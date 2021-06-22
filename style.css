@@ -39,3 +39,7 @@ body {
   position: absolute;
   color: white;
 }
+
+section a {
+  color: darkgreen;
+}
