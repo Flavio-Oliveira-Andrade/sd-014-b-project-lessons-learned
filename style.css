@@ -30,7 +30,7 @@ nav {
   width: 250px;
 }
 
-.lado-esquerdo {
+.lado-direito {
   border: 3px solid green;
   display: inline-block;
   width: 700px;
@@ -38,7 +38,7 @@ nav {
   line-height: 20px;
 }
 
-.lado-direito {
+.lado-esquerdo {
   border: 3px solid green;
   display: inline-block;
   width: 250px;
