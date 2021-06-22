@@ -4,6 +4,7 @@ body {
 
 #cabecalho {
     position: fixed;
+    background: #fff;
     top: 0;
 }
 
@@ -11,7 +12,7 @@ body {
     margin-top: 100px;
 }
 
-#licoes h2{
+#licoes h2 {
     text-align: center;
 }
 
@@ -27,4 +28,10 @@ body {
 
 .clear {
     clear: both;
+}
+
+table, th, td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    padding: 10px;
 }
