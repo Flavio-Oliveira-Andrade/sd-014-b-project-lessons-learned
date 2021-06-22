@@ -15,21 +15,18 @@ header {
     top: 0;
 }
 
-div{
-    display: inline-block;
-}
-article{
+
+.classe{
     text-align: center;
     width: 300px;
     display: inline-block;
-
+    height: auto;
 }
 
-aside{
+.classe{
     text-align: center;
     width: 300px;
     display: inline-block;
-  
-  
+    height: auto;
 }
 
