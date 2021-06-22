@@ -10,3 +10,21 @@ body {
 .foto {
     margin-top: 100px;
 }
+
+#licoes h2{
+    text-align: center;
+}
+
+#aprendidas {
+    width: 40%;
+    float: left;
+}
+
+#aprender {
+    width: 40%;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
