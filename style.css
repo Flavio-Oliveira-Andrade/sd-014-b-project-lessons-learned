@@ -3,10 +3,26 @@ body {
 }
 
 #cabecalho {
-  position: fixed;
   top: 0;
 }
 
 header {
   position: fixed;
+}
+
+#titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.licoesTitulo {
+  font-size: 1.3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#licoes_aprendidas {
+  color: rgb(27, 27, 27);
+}
+
+#minha_foto {
+  width: 400px;
 }
