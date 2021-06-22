@@ -22,6 +22,11 @@ body {
   background-color: var(--cor-requisito);
 }
 
+#cabecalho {
+  position: fixed;
+  top: 0;  
+}
+
 .sr-only {
     position: absolute;
     height: 1px;
