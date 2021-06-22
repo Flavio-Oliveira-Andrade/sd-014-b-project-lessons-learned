@@ -26,13 +26,13 @@ h1 {
   color: cadetblue;
 }
 
-article.lado-esquerdo{ 
+article.lado-esquerdo { 
     background-color:chocolate;
     border: solid black;
     display: inline-block;
 }
 
-article.lado-direito{ 
+article.lado-direito { 
     background-color: tomato;
     border: solid black;
     display: inline-block;
