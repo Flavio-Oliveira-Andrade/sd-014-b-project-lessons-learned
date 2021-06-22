@@ -1,11 +1,12 @@
 * {
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    
     
 }
 body {
     background: rgb(253, 251, 251);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
 #cabecalho {
     background: orange;
@@ -15,6 +16,7 @@ body {
 }
 #titulo {
     text-align: center;
+    margin: 10px auto;
 }
 #navega ul {
     list-style: none;
@@ -54,9 +56,9 @@ article {
 }
 aside {
     position: absolute;
-    top: 200px;
+    top: 900px;
     right: 0;
-    width: 300px;
+    width: 90px;
 }
 #rodape h3 {
     text-align: center;
