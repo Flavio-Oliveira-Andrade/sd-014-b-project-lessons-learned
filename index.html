@@ -10,42 +10,53 @@
     <body>
         <header id="cabecalho">
             <h1 id="titulo">Título da Página</h1>
+            <nav>
+                <a href="#minha_foto">Minha Foto</a>
+                <a href="#licoes">Lições</a>
+                <a href="#meu-aprendizado">Sobre meu aprendizado</a>
+            </nav>
         </header>
         <main>
-            <img id="minha_foto" src="minha-foto.jpeg" alt="Foto de Matheus Silveira">
-            <a href="https://github.com/matheuspmsilveira" target="_blank">Matheus Silveira</a>
-            <ol id="licoes_aprendidas">
-                <li>Linux/Mac OS</li>
-                <li>Unix</li>
-                <li>Bash</li>
-                <li>Git</li>
-                <li>Github</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>VS Code</li>
-                <li>Inteligência Emocional</li>
-                <li>Emoções</li>
-            </ol>
-            <ul id="licoes_a_aprender">
-                <li>Javascript</li>
-                <li>DOM</li>
-                <li>Forms</li>
-                <li>CSS Responsive</li>
-                <li>ES6</li>
-                <li>Unit Tests</li>
-                <li>React</li>
-                <li>NodeJS</li>
-                <li>SQL</li>
-                <li>Python</li>
-            </ul>
-            <article>
-                Meu aprendizado na Trybe tem sido além do que eu esperava, a cada dia é um conhecimento novo que acrescenta muito a minha caminhada rumo ao arco-íris do Desenvolvimento Web. As descobertas e aprendizados de novas ferramentas a cada dia deixa o curso bastante dinâmico e o aprendizado acontece de uma forma maravilhosa e leve acima de tudo. É muito bom estar todo dia com esse time e colegas de turma.
-            </article>
-            <aside>
-                Aprender a usar o Git e Github sem dúvida foi uma passagem marcante no meu aprendizado até aqui, porque Git é pra sempre e Git é maravilhoso.
-            </aside>
+            <section class="aboutMe">
+                <img id="minha_foto" src="minha-foto.jpeg" alt="Foto de Matheus Silveira">
+            </section>
+            <section id="licoes" class="licoes">
+                <ol id="licoes_aprendidas">
+                    <li>Linux/Mac OS</li>
+                    <li>Unix</li>
+                    <li>Bash</li>
+                    <li>Git</li>
+                    <li>Github</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>VS Code</li>
+                    <li>Inteligência Emocional</li>
+                    <li>Emoções</li>
+                </ol>
+                <ul id="licoes_a_aprender">
+                    <li>Javascript</li>
+                    <li>DOM</li>
+                    <li>Forms</li>
+                    <li>CSS Responsive</li>
+                    <li>ES6</li>
+                    <li>Unit Tests</li>
+                    <li>React</li>
+                    <li>NodeJS</li>
+                    <li>SQL</li>
+                    <li>Python</li>
+                </ul>
+            </section>
+            <section id="articles" class="articles">
+                <article id="meu-aprendizado">
+                    Meu aprendizado na Trybe tem sido além do que eu esperava, a cada dia é um conhecimento novo que acrescenta muito a minha caminhada rumo ao arco-íris do Desenvolvimento Web. As descobertas e aprendizados de novas ferramentas a cada dia deixa o curso bastante dinâmico e o aprendizado acontece de uma forma maravilhosa e leve acima de tudo. É muito bom estar todo dia com esse time e colegas de turma.
+                </article>
+                <aside>
+                    Aprender a usar o Git e Github sem dúvida foi uma passagem marcante no meu aprendizado até aqui, porque Git é pra sempre e Git é maravilhoso.
+                </aside>
+            </section>      
         </main>
         <footer id="rodape">
+            <p>Conteúdo compilado por <a href="https://github.com/matheuspmsilveira" target="_blank">Matheus Silveira</a></p>
         </footer>
     </body>
 </html>
