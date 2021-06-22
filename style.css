@@ -1,33 +1,63 @@
 body {
-
-  background-color:rgb(253, 251, 251);
+    background-color:rgb(253, 251, 251);
 }
 
 #cabecalho {
-  position: fixed;
-  top: 0;
+    position: fixed;
+    top: 0;
 }
 
 .image {
-    
+    border: 1px solid black;
+    margin: 1px solid black;
+    padding: 1px solid black;
 }
 
 #minha_foto {
-    
+    border: 1px solid black;
+    margin: 1px solid black;
+    padding: 1px solid black;
+    width: 50px;
 }
 
 #titulo {
-
+    border: 1px solid black;
+    margin: 1px solid black;
+    padding: 1px solid black;
 }
 
 #licoes_aprendidas {
-
+    border: 1px solid black;
+    margin: 1px solid black;
+    padding: 1px solid black;
+    display: inline-block
 }
 
 #licoes_a_aprender {
-
+    border: 1px solid black;
+    margin: 1px solid black;
+    padding: 1px solid black;
+    display: inline-block
 }
 
 #rodape {
+    border: 1px solid black;
+    margin: 1px solid black;
+    padding: 1px solid black;
+}
 
+.lado-esquerdo {
+    border: 1px solid black;
+    margin: 1px solid black;
+    padding: 1px solid black;
+    width: 50%;
+    margin-left: auto;
+}
+
+.lado-direito {
+    border: 1px solid black;
+    margin: 1px solid black;
+    padding: 1px solid black;
+    width: 50%;
+    margin-right: auto;
 }
