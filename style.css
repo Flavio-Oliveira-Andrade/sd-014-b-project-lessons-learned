@@ -1,21 +1,50 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: Georgia, 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
+    width: 100%;
+    padding: 30px;
+    background-color: #000;
+    color: #fff;
     position: fixed;
     top: 0;
 }
 
+#menu {
+    text-align: right;
+    margin-top: -34px;
+}
+
+#menu a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    background-color: #fff;
+    color: #000;
+    list-style: none;
+    margin-right: 50px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+
+}
+
 #minha_foto {
     width: 300px;
-    margin-top: 100px;
+    margin-top: 160px;
+    border-radius: 50%;
+}
+
+#licoes_a_aprender {
+    display: inline-block;
 }
 
 #git {
     display: inline-block;
     list-style: none;
     background-color: black;
+    border-radius: 10px;
     padding: 12px;
 }
 
