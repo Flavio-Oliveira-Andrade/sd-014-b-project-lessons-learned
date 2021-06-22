@@ -5,4 +5,8 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: #0c172b;
+  color: #e3e639;
+  padding: 20px;
+  margin-bottom: 15px;
 }
