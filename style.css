@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Courier New', Courier, monospace;
   margin: 0%;
 }
 
@@ -16,6 +17,8 @@ header {
 }
 
 #menu {
+  font-size: 30px;
+  color: blue;
   position: fixed;
   top: 70px;
 }
@@ -40,6 +43,7 @@ article {
 p {
   padding-left: 20px;
   padding-right: 20px;
+  line-height: 20px;
 }
 
 aside {
@@ -62,5 +66,5 @@ aside {
 #link_git {
   margin: 10px;
   position: relative;
-  top: 300px;
+  top: 350px;
 }
