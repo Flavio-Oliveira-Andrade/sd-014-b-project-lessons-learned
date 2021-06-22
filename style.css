@@ -14,4 +14,7 @@ body {
 
 #rodape {
   font-size: 10px;
+  font-family: fantasy;
+  color: gray;
+  line-height: 5px;
 }
