@@ -10,7 +10,7 @@ body {
   width: 52%;
   text-align: center;
   border: 2px solid black;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
 #minha_foto {
@@ -27,7 +27,7 @@ body {
   text-align: center;
   bottom: 0;
   padding: 5px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #article , aside {
