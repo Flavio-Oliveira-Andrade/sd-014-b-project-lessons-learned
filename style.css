@@ -4,6 +4,7 @@ body {
 
 #cabecalho {
     position: fixed;
+    width: 100%;
     background: #fff;
     top: 0;
 }
@@ -19,11 +20,17 @@ body {
 #aprendidas {
     width: 40%;
     float: left;
+    background: #4863F7;
+    margin: 5px;
+    padding: 5px;
 }
 
 #aprender {
     width: 40%;
     float: right;
+    background: #4C89E0;
+    margin: 5px;
+    padding: 5px;
 }
 
 .clear {
