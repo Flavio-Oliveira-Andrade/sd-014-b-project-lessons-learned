@@ -1,15 +1,15 @@
-body {
-    background-color: rgb(253, 251, 251);
-  }
+  body {
+      background-color: rgb(253, 251, 251);
+   }
 
-header {
-    position: fixed;
-    top: 0;
-  }
+  header {
+      position: fixed;
+      top: 0;
+   }
 
  div {
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+     width: 300px;
+     border: 15px solid green;
+     padding: 50px;
+     margin: 20px;
   }
