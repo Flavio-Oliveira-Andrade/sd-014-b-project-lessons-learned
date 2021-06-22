@@ -10,10 +10,20 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  color:blue;
+  color: blue;
 }
 
 #nav_border {
   border-bottom: 1px black solid;
   border-top: 1px black solid;
+}
+
+.lado-esquerdo{
+  float: left;
+  width: 40%;
+}
+
+.lado-direito {
+  float: right;
+  width: 40%;
 }
