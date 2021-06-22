@@ -1,14 +1,23 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
+  position: fixed;
+  top: 0;
 }
 
 #minha_foto {
-    width: 700px;
-    border-radius: 50%
+  width: 700px;
+  border-radius: 50%;
 
 }
+
+#licoes_aprendidas {
+  
+}
+
+#licoes_a_aprender {
+  
+}
+
