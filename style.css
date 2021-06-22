@@ -1,11 +1,17 @@
 /* requisito 1 */
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251); /* cor do fundo */
+
+  /* requisito 14 bonus */
+  font-size: 18px; /* tamanho do texto */
+  color: hsl(0, 85%, 8%); /* cor do texto */
+  line-height: 23px; /* espaçamento das linhas */
+  font-family: "Courier New", Courier, monospace; /* fonte do texto */
 }
 
 /* requisito 2 */
 #cabecalho {
-  position: fixed;
+  position: fixed; /* o titulo segue qnd pagina desce */
   top: 0;
 }
 
@@ -19,10 +25,10 @@ nav {
 /* estilizando a tabela */
 table {
   margin: 15px;
-  border-collapse: collapse;
+  border-collapse: collapse; /* removendo borda da table */
 }
 
 table tr td {
-  border: solid black;
-  padding: 7px;
+  border: solid black; /* adicionando borda no td */
+  padding: 7px; /* + padding borda maior
 }
