@@ -47,9 +47,10 @@ float: center;
 margin-left: 10%;
 }
 #article{
-    line-height: 20px;    
-    width: 30%;   
-    float: right; 
+line-height: 20px;    
+width: 30%;   
+float: right; 
+text-align: center;
 }
 #licoes_aprendidas{
 text-align: justify;
@@ -62,12 +63,13 @@ font-weight: bold;
 .aside1{   
 float: right;  
 width: 30%;  
-
+line-height: 15px;
+text-align: center;
 }
+
 #licoes_a_aprender{
-    text-align: center;
-    font-weight: bold;        
-} 
+text-align: center;
+font-weight: bold;} 
 .botao{
 background-color:#2fc18c;
 border-radius: 10px;
