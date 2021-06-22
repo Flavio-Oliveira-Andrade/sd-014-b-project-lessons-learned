@@ -25,9 +25,16 @@ body {
   padding: 30px 15px;
   background-color: goldenrod;
   font-size: 20px;
-  
 }
 
-.article {
+.lado-direito {
+  width: 60%;
   line-height: 10px;
+  float: left;
+}
+
+.lado-esquerdo {
+  width: 30%;
+  position: relative;
+  float: right;
 }
