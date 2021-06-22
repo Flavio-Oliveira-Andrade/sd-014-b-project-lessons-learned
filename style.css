@@ -3,6 +3,7 @@ body {
     font-family: monospace;
     color: cornflowerblue;
     line-height: 50px;
+    font-size: medium;
 }
 
 #cabecalho {
@@ -24,7 +25,7 @@ div img {
     margin: 1px;
 }
 
-#sobre {
+#lado-direito {
     border: 1px solid black;
     padding: 1px;
     margin: 1px;
@@ -33,7 +34,7 @@ div img {
     vertical-align: top;
 }
 
-#seçao {
+#lado-esquerdo {
     border: 1px solid black;
     padding: 1px;
     margin: 1px;
