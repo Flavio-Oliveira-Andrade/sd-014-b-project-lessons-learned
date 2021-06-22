@@ -6,3 +6,11 @@ body {
     position:fixed;
     top:0;
 }
+
+h1 {
+    font-style: initial;
+    font-size: 40px;
+    color: mediumblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: initial;
+}
