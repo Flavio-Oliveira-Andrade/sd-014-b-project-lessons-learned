@@ -14,8 +14,8 @@ body {
   margin-left: 50px;
 }
 
-.minha-foto {
-  max-width: 200px;
+#minha_foto {
+  width: 200px;
 }
 
 #licoes_aprendidas {
