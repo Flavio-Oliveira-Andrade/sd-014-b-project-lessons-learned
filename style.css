@@ -3,6 +3,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+/*********************** 
+        Conteúdo 
+***********************/
+
 #cabecalho {
     position: fixed;
     width: 100%;
@@ -35,6 +39,34 @@ body {
     margin: 5px;
     padding: 5px;
 }
+
+.aprendizado {
+    border: 1px solid red;
+    text-align: justify;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 45%;
+}
+
+.lado-direito {
+    float: right;
+    width: 45%;
+}
+
+/*********************** 
+        Rodapé 
+***********************/
+
+#rodape {
+    margin: 15px 0px;
+    text-align: center;
+}
+
+/*********************** 
+        Formatações Gerais 
+***********************/
 
 .clear {
     clear: both;
