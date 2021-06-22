@@ -15,10 +15,9 @@ body {
     font-family:'Courier New', Courier, monospace;
     font-size: 20px;
     color: orange;
-
 }
 
-nav ul {
+nav ul li {
     display: inline; 
 }
 article {
@@ -50,8 +49,21 @@ footer {
 #inicio {
     margin-top: 200px;
 }
-
-
+.lado-esquerdo {
+    background-color: aqua;
+    font-size: 10px;
+    width: 300px;
+    display: inline-block;
+}
+.lado-direito {
+    background-color: blue;
+    font-size: 15px;
+    width: 200px;
+    display: inline-block;
+}
+#main {
+    width: 900px;
+}
 
 
 
