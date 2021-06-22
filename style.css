@@ -24,3 +24,9 @@ body {
 #secao_article {
     display: inline-block;
 }
+.article_font {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    color: rgb(25, 92, 34);
+    line-height: 20px;
+}
