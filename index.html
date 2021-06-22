@@ -9,18 +9,21 @@
     </head>
     <body>
         <header id="cabecalho">
-            <h1 id="titulo">Título da Página</h1>
-            <nav>
-                <a href="#minha_foto">Minha Foto</a>
-                <a href="#licoes">Lições</a>
-                <a href="#meu-aprendizado">Sobre meu aprendizado</a>
+            <h1 id="titulo">Aprendizados na Trybe</h1>
+            <nav class="navigationMenu">
+                <ul>
+                    <li><a href="#minha_foto">Minha Foto</a></li>
+                    <li><a href="#licoes">Lições</a></li>
+                    <li><a href="#meu-aprendizado">Sobre meu aprendizado</a></li>
+                </ul>
             </nav>
         </header>
         <main>
-            <section class="aboutMe">
+            <section>
                 <img id="minha_foto" src="minha-foto.jpeg" alt="Foto de Matheus Silveira">
             </section>
-            <section id="licoes" class="licoes">
+            <section id="licoes">
+                <h2>Lições</h2>
                 <ol id="licoes_aprendidas">
                     <li>Linux/Mac OS</li>
                     <li>Unix</li>
@@ -46,7 +49,7 @@
                     <li>Python</li>
                 </ul>
             </section>
-            <section id="articles" class="articles">
+            <section id="articles">
                 <article id="meu-aprendizado">
                     Meu aprendizado na Trybe tem sido além do que eu esperava, a cada dia é um conhecimento novo que acrescenta muito a minha caminhada rumo ao arco-íris do Desenvolvimento Web. As descobertas e aprendizados de novas ferramentas a cada dia deixa o curso bastante dinâmico e o aprendizado acontece de uma forma maravilhosa e leve acima de tudo. É muito bom estar todo dia com esse time e colegas de turma.
                 </article>
@@ -56,18 +59,22 @@
             </section> 
             <section class="table">
                 <table>
-                    <tr>
-                        <th>Blocos</th>
-                        <th>Status</th>
-                    </tr>
-                    <tr>
-                        <td>Bloco 3</td>
-                        <td>Finalizado</td>
-                    </tr>
-                    <tr>
-                        <td>Bloco 4</td>
-                        <td>Começando</td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>Blocos</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bloco 3</td>
+                            <td>Finalizado</td>
+                        </tr>
+                        <tr>
+                            <td>Bloco 4</td>
+                            <td>Começando</td>
+                        </tr>
+                    </tbody>  
                 </table>
             </section>     
         </main>
