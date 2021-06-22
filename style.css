@@ -37,7 +37,7 @@ height: 150px;
 margin-top: 200px;
 text-align: center;
 }
-#section2{
+.lado-direito{
 display: inline-block;
 width: 30%;    
 }
@@ -46,7 +46,7 @@ width: 30%;
 float: center;
 margin-left: 10%;
 }
-#article{
+.lado-esquerdo{
 line-height: 20px;    
 width: 30%;   
 float: right; 
@@ -63,8 +63,9 @@ font-weight: bold;
 .aside1{   
 float: right;  
 width: 30%;  
-line-height: 15px;
+line-height: 25px;
 text-align: center;
+font-size: 30px;
 }
 
 #licoes_a_aprender{
