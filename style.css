@@ -13,14 +13,35 @@ body {
   border: solid yellow 4px;
   font-size: 35px;
   line-height: 50px;
-  
 }
 
 h1 {
-    color: white;
-    font-family:'Times New Roman', Times, serif ;
+  color: white;
+  font-family:'Times New Roman', Times, serif ;
 }
 
 #minha_foto {
   width: 200px;
 }
+
+section {
+    border: solid 4px black;
+}
+
+p {
+    
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 12em;
+
+}
+
+.lado-direito {
+  float: right;
+  width: 12em;
+
+}
+
+ 
