@@ -1,6 +1,8 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: monospace;
+    font-stretch: expanded;
 }
 
 body {
@@ -17,18 +19,15 @@ body {
     text-align: center;
 }
 
-#titulo {
-
-}
 nav {
-    margin-top: 35px;
+    margin-top: 30px;
     background-color: gray;
     width: 100%;
     text-align: center;
 }
 
 .links {
-    font-size: 25px;
+    font-size: 28px;
     margin-left: 25px;
     margin-right: 25px;
     color: antiquewhite;
@@ -39,34 +38,56 @@ main {
 }
 
 #sobre_mim{
-    align-items: center;
     width: 100%;
 }
 
 #minha_foto {
-    width: 20%;
-    border-radius: 50%;
-    margin-left: 25%;
+    border-radius: 20%;
+    margin-left: 5%;
     border: black 1px solid;
 }
 
 #listas {
-    width: 100%;
+    width: 40%;
     margin-top: 5%;
     margin-bottom: 5%;
     border: black 2px solid;
     padding: 10px;
+    display: inline-block;
 }
 
 #licoes_aprendidas, #licoes_a_aprender{
     display: inline-block;
     margin-left: 5%;
     margin-right: 5%;
-    text-align: center;
+}
+
+li {
+    text-align: left;
+    padding: 4px;
+    border: 1px solid black;
+}
+
+#trajetoria {
+    display: inline-block;
+    width: 20%;
+    margin-left: 2%;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 5%;
+    border: 2px black solid;
+    padding: 8px;
+    height: 250px;
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
 }
 
 #rodape {
     width: 100%;
     font-size: small;
-    margin: 5px;
+    margin: 50px;
 }
