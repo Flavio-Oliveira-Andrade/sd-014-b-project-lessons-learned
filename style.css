@@ -6,9 +6,27 @@
 
 body {
   background-color: rgb(253, 251, 251);
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 14pt;
+	color: rgb(163, 75, 75);
+	line-height: 24pt;
 }
 
 #cabecalho {
 	position: fixed;
 	top: 0;
+}
+
+.lado-esquerdo {
+	width: 50%;
+	float: left;
+}
+
+.lado-direito {
+	width: 50%;
+	float: right;
+}
+
+h2 {
+	clear: both;
 }
