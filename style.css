@@ -6,10 +6,16 @@ body{
 #cabecalho{
     position: fixed;
     top: 0;
+    margin: 10px;
+}
+
+#titulo{
+    text-align: center;
 }
 
 #minha_foto{
     width: 300px;
+    margin-top: 100px;
 }
 
 #licoes_aprendidas{
