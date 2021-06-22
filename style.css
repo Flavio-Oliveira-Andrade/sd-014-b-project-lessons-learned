@@ -29,3 +29,14 @@ table tr, td{
     border: 1px black solid;
     text-align: left;
 }
+.lado-direito{
+    float: right;
+    width: 46%;
+    display: inline;
+    margin: 10px;
+}
+.lado-esquerdo{
+    float: left;
+    width: 46%;
+    margin: 10px;
+}
