@@ -3,11 +3,11 @@
 body {
   background-color: rgb(253, 251, 251);
   color: rgb(58, 58, 58);
-  font-family: 'Esteban', serif;
+  font-family: "Esteban", serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: 'Oswald', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", sans-serif;
 }
 
 h1 {
@@ -32,6 +32,7 @@ h2 {
 
 #minha_foto {
   width: 200px;
+  border-radius: 25%;
 }
 
 #licoes_aprendidas {
@@ -43,16 +44,16 @@ h2 {
   line-height: 1.5em;
 }
 
-th,td {
+th, td {
   padding: 15px;
 }
 
 .lado-esquerdo {
-  
+  float: left;
 }
 
 .lado-direito {
-
+  float: right;
 }
 
 #rodape {
