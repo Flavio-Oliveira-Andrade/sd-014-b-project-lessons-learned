@@ -15,11 +15,13 @@ header {
 main {
   border: 3px solid green;
   height: 650px;
+  width: 100%;
 }
 
 nav {
   border: 3px solid green;
   display: inline-block;
+  padding-top: 100px;
   width: 250px;
 }
 
@@ -27,12 +29,14 @@ nav {
   border: 3px solid green;
   display: inline-block;
   width: 700px;
-  position: absolute;
+  padding-top: 100px;
 }
 
 aside {
   border: 3px solid green;
-  float: right;
+  display: inline-block;
   width: 250px;
-  vertical-align: bottom;
+  vertical-align: top;
+  padding-top: 100px;
+  
 }
