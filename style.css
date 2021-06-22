@@ -1,6 +1,7 @@
 body
 {
     background-color: rgb(253, 251, 251);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #cabecalho
 {
@@ -16,4 +17,49 @@ th, td
 {
     pad: 5px;
     text-align: left;
+    line-height: 25px;
+}
+aside
+{
+    width: 10%;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top: 100px;
+    float: right;
+    color: #ECCB48;
+    line-height: 25px;
+}
+#minha_foto
+{
+    margin-top: 50px;
+    width: 200px;
+    border-radius: 20px;
+}
+nav
+{
+    margin-top: 100px;
+    padding: 5px 5px 5px 5px;
+    background-color:  #F2F2F2;
+}
+a
+{
+    text-decoration: none;
+    color: #DB8D6E;
+    font-size: 20px;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: #aa6347;
+    font-size: 21px;
+}
+#licoes_aprendidas, #licoes_a_aprender
+{
+    line-height: 25px;
+    display: inline-block;
+}
+#sobre_mim
+{
+    display: inline-block;
+    margin-left: 15px;
 }
