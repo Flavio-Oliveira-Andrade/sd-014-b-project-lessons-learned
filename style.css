@@ -4,6 +4,7 @@ body {
 #cabecalho {
       top: 0px;
       color: skyblue;
+      margin-top: 5px;
 }
 #titulo {
     color: seagreen;
@@ -13,10 +14,14 @@ body {
     
 }
 
+#licoes_aprendidas {
+
+}
+
 #licoes_a_aprender {
 
 }
 
 #rodape {
-    
+
 }
