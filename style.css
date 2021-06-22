@@ -1,110 +1,110 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: sans-serif;
-    margin: 0;
+  background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+  margin: 0;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    background-color: #036b52;
-    text-align: center;
-    padding: 0px 31%;
-    color: rgb(253, 251, 251);
-    font-size: 1.34em;
-    letter-spacing: 1px
+  position: fixed;
+  top: 0;
+  background-color: rgb(3, 107, 82);
+  text-align: center;
+  padding: 0 31%;
+  color: rgb(253, 251, 251);
+  font-size: 1.34em;
+  letter-spacing: 1px;
 }
 
 #menu {
-    margin-top: 107px;
-    background-color: #2fc18c;
-    padding: 2px;
+  margin-top: 107px;
+  background-color: rgb(47, 193, 140);
+  padding: 2px;
 }
 
 #menu li {
-    list-style: none;
-    display: inline-block;
-    padding-right: 50px;
-    font-size: 25px;
-    font-weight: 700;
+  list-style: none;
+  display: inline-block;
+  padding-right: 50px;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 #menu li:first-of-type {
-    margin-left: 10%;
+  margin-left: 10%;
 }
 
 #minha_foto {
-    margin-left: 50%;
-    margin-right: 50%;
-    border-radius: 50%;
-    margin-top: 20px;
+  margin-left: 50%;
+  margin-right: 50%;
+  border-radius: 50%;
+  margin-top: 20px;
 }
 
 #licoes_aprendidas {
-    line-height: 30px;
-    letter-spacing: 1px;
+  line-height: 30px;
+  letter-spacing: 1px;
 }
 
 #licoes_a_aprender {
-    line-height: 30px;
-    letter-spacing: 1px;
+  line-height: 30px;
+  letter-spacing: 1px;
 }
 
 .lado-esquerdo {
-    float: left;
-    margin-left: 10%;
+  float: left;
+  margin-left: 10%;
 }
 
 .lado-direito {
-    float: right;
+  float: right;
 }
 
-article.lado-esquerdo {
-    max-width: 60%;
-    clear: both;
+article .lado-esquerdo {
+  max-width: 60%;
+  clear: both;
 }
 
-aside.lado-direito {
-    max-width: 20%;
-}
-
-section > table {
-    text-align: center;
+aside .lado-direito {
+  max-width: 20%;
 }
 
 table {
-    letter-spacing: 1px;
-    font-size: .9rem;
-    clear: both;
-    margin: auto;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  clear: both;
+  margin: auto;
 }
 
-td, th {
-    border: 1px solid rgb(190, 190, 190);
-    padding: 15px 25px;
-    text-align: left;
+section > table {
+  text-align: center;
 }
 
-tr:nth-child(even) {
-    background-color: rgb(236, 236, 236);
+td , th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 15px 25px;
+  text-align: left;
+}
+
+tr:nth-child( even ) {
+  background-color: rgb(236, 236, 236);
 }
 
 th {
-    background-color: #2fc18c8a;
+  background-color: rgba(47, 193, 140, 0.54);
 }
 
 caption {
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px;
-    caption-side: top;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px;
+  caption-side: top;
 }
 
 caption a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #rodape {
-    text-align: center;
-    padding: 10px;
+  text-align: center;
+  padding: 10px;
 }
