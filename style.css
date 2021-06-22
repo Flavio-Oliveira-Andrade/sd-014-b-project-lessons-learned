@@ -7,7 +7,12 @@ body {
   top: 0;
   background-color: green;
   text-align: center;
-  width: 2000px;
+  width: 100%
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
 }
 
 nav {
