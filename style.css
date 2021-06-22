@@ -5,8 +5,15 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  font-size: large;
 }
 
 #minha_foto {
   width: 200px;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 1px;
+  color: rgb(31, 32, 29);
 }
