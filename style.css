@@ -82,6 +82,10 @@ body {
 }
 */
 
+#artigo_sobre_meu_aprendizado {
+  display: inline-block;
+}
+
 #sobre_meu_aprendizado {
   margin-left: 40%;
   margin-top: 30%;
