@@ -27,6 +27,11 @@ body {
   line-height: 1.5em;
 }
 
+th, td {
+  padding: 15px;
+}
+
+
 #rodape {
   display: block;
 }
