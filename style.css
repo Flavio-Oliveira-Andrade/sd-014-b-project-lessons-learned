@@ -6,11 +6,49 @@ body {
     top: 0;
     left: 0;
     border: 1px black solid;
-    background-color: rgb(86, 248, 192);
+    background-color: rgb(185, 247, 225);
+    width: 100%;
+    font-size: 16px;
+    font-family: Impact;
 }
 section nav a {
     padding-right: 10px;
 }
-#licoes_aprendidas, #licoes_a_aprender  {
+section ol {
+    float: left;
+    display: table;
+}
+section ul {
     display: inline-block;
+    margin-bottom: 20px;
+}
+#link {
+    padding-bottom: 1%;
+}
+#aside {
+    float: left;
+}
+#Artigo {
+    display: block;
+    margin-left: 5%;
+    width: 35%;
+    border: 1px black solid;
+    float: left;
+    overflow: visible;
+}
+#aside {
+    display: block;
+    width: 35%;
+    float: right;
+    margin-right: 5%;
+    border: 1pt black solid;
+    overflow: visible;
+}
+#minha_foto {
+    margin-top: 4%;
+    width: 300px;
+}
+#foot {
+    position: absolute;
+    top: 115%;
 }
