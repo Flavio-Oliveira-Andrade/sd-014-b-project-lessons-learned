@@ -5,4 +5,26 @@ body {
 header {
  position: fixed;
  top: 0;
+ background-color: royalblue;
+ text-align: center;
+ width: 100%;
+ border: 3px solid #73AD21;
 }
+
+main {
+ border: 3px solid green;  
+ height: 650px;
+}
+
+.nav {
+ border: 3px solid green; 
+ display: inline-block;
+ width: 250px;
+}
+
+article {
+ border: 3px solid green;
+ display: inline-block;
+ width: 700px;  
+ position: absolute;       
+ }
