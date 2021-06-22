@@ -8,7 +8,7 @@
 
 html {
   --black: #0d114f;
-  --white:rgb(253, 251, 251);
+  --cor-requisito:rgb(253, 251, 251);
   --red: #e83f5b;
   --light-blue: #e0ecff;
   --blue: #3485ff;
@@ -18,6 +18,9 @@ html {
 }
 
 /* Essa classe serve para ocultar sessões da sua página exceto em leitores de tela. */
+body {
+  background-color: var(--cor-requisito);
+}
 
 .sr-only {
     position: absolute;
