@@ -18,6 +18,8 @@ body {
 }
 main {
     margin-top: 100px;
+    display: inline-block;
+    width: 100%;
 }
 
 #licoes_aprendidas {
@@ -34,4 +36,35 @@ p {
 
 a, img {
     display: block;
+}
+
+aside {
+    display: inline-block;
+    border: 1px solid red;
+    width: 400px;
+    vertical-align: top;
+    float: right;
+}
+
+.lado-esquerdo {
+    display: inline-block;
+    width: 40%;
+    text-align: justify;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .lado-direito {
+    display: inline-block;
+    width: 40%;
+    text-align: justify;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
 }
