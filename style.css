@@ -24,6 +24,16 @@ body {
 .margem-artigo {
     margin: 5px;
     padding: 10px;
-    width: 60%;
+    line-height: 30px;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 50%;
+}
+
+.lado-direito {
+    width: 50%;
+    float: right;
     line-height: 30px;
 }
