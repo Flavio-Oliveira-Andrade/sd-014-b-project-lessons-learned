@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   letter-spacing: 0.4px;
+  line-height: 110%;
 }
 
 #cabecalho {
@@ -42,6 +43,7 @@ table , th , td {
   border-collapse: collapse;
   text-align: center;
   padding: 3px;
+  font-size: 14px;
 }
 
 caption {
@@ -59,8 +61,14 @@ h2 {
   max-width: 52%;
   font-size: 20px;
   text-align: center;
+  padding: 10px;
 }
 
 li:nth-of-type( odd ) {
   color: red;
+}
+
+li {
+  text-align: justify;
+  max-width: 50%;
 }
