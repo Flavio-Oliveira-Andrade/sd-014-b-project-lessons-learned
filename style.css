@@ -1,18 +1,32 @@
 header {
-  border: 1px solid red;
-  /* background-color: red; */
+  background-color: #f3f3f3;
   position: fixed;
   top: 0;
   width: 100%;
   text-align: center;
+  box-shadow: 0px 0px 50px -35px black; /* adiciona o efeito sombreado no bottom do header (x y blur spread cor)*/
+  margin-bottom: 10px;
 }
 
-#menu p {
+#titulo {
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+}
+
+#menu p, #menu a {
   display: inline;
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
 }
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* margin: none; Não deixou tirar a margem */
+  text-align: center;
+  margin: 0%;
+
 }
 
 section, aside, article {
@@ -20,11 +34,16 @@ section, aside, article {
 }
 
 #minha_foto {
-  border: 1px solid red;
+  border-radius: 50%;
+  border: 3px solid grey;
   width: 200px;
-  margin-top: 100px;
+  margin-top: 10%;
 }
 
+#linkedin {
+  text-decoration: none;
+  color: black;
+}
 footer {
   border: 1px solid red;
 }
