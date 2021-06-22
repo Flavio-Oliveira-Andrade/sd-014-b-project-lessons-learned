@@ -19,6 +19,19 @@ body {
   float: right; 
 }
 
+
+#titulo_licoes {
+  margin-top: 15%;
+  margin-left: 5%;
+  display: inline-block;
+  vertical-align:top;
+}
+
+#licoes_aprendidas {
+  margin-top: 15%;
+  display: inline-block;
+}
+
 aside {
   float: left;
   width: 200px;
