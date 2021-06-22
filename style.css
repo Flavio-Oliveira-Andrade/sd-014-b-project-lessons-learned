@@ -9,8 +9,13 @@ body {
 
 h1 {
     font-style: initial;
-    font-size: 40px;
+    font-size: 10px;
     color: mediumblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: initial;
 }
+
+nav {
+    background-color:ivory;
+    width: 100%;
+  }
