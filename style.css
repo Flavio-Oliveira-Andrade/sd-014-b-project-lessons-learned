@@ -4,6 +4,8 @@ body {
     padding: 100px 40px 0px;
 }
 
+/* CABEÇALHO */
+
 #cabecalho {
     background-color: #55C063;
     width: 100%;
@@ -14,7 +16,80 @@ body {
     color: white;
 }
 
+h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 100px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(99, 209, 99);
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: rgb(60, 95, 44);
+}
+
+/* *************** */
+
+.lado-esquerdo {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+#perfil a {
+    text-decoration: none;
+    color: rgb(60, 95, 44);
+}
+
 #minha_foto {
     width: 300px;
     border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.lado-direito {
+    float: right;
+    width: 80%;
+}
+
+#licoes {
+    float: right;
+}
+
+/* ***** */
+
+table {
+    border-radius: 10px;
+}
+
+th {
+    background-color: rgb(145, 222, 135);
+    padding: 10px 20px;
+}
+
+th h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+td {
+    background-color: rgb(187, 253, 178);
 }
