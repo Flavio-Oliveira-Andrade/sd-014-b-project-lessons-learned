@@ -23,8 +23,7 @@ h1 {
     margin-left: 0%;
 }
 
-  article, aside {
-      position: inherit;
-      width: 50%;
+  section, article, aside {
+      width:40%;
       display: inline-block;
 }
