@@ -23,3 +23,7 @@ body {
   width: 280px;
   border-radius: 50%;
 }
+
+#licoes_aprendidas {
+  font-size: 20px;
+}
