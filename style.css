@@ -22,8 +22,12 @@ body {
 #minha_foto {
     display: inline-block;
     width: 20%;
-    padding: 6% 3% 0 1%;
-
+    margin: 6% 3% 0 1%;
+    border: groove black;
+}
+article {
+    padding:5px;
+    max-width: 60%;
 }
 #listas div {
     display: inline-block;
@@ -31,7 +35,7 @@ body {
     border: groove black;
     max-width: 55%;
 }
-h3 {
+h3, h2 {
     padding-bottom: 15px;
 }
 #rodape {
