@@ -6,14 +6,10 @@
   text-decoration: none;
 }
 
-html {
-  --cor-requisito:rgb(253, 251, 251);
-}
 
-/* Essa classe serve para ocultar sessões da sua página exceto em leitores de tela. */
+
 body {
-  background-color: rgb(253, 251, 251);
-  /* background-color: var(--cor-requisito); */
+  background-color:rgb(253, 251, 251);
 }
 
 #cabecalho {
@@ -21,15 +17,4 @@ body {
   top: 0;  
 }
 
-.sr-only {
-  position: absolute;
-  height: 1px;
-  width: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip-path: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-  }
 
