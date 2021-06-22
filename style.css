@@ -12,6 +12,21 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    background-color: #223E88;
+    margin: 0px 0px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    clear: both;
+}
+
+h1 {
+    color: #D8D8D8;
+    margin: 40px;
 }
 
 #minha_foto {
