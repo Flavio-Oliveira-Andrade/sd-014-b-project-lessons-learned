@@ -1,11 +1,17 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
 }
 
 
 #cabecalho {
     position: fixed;
     top: 0;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
 }
 
 
@@ -13,27 +19,42 @@ body {
     margin-top: 100px;
     width: 100px;
     height: 100px;
+    padding: 10px;
+    border: 1px dashed black;
 }
 
 
 .wrapper {
-    display: block;
+    display: inline-block;
     border: 1px solid black;
     width: 100%;
 }
 
 
-article {
+.lado-direito {
+    float: right;
     border: 1px solid blue;
     margin-bottom: 10px;
     max-width: 50%;
 }
 
 
-aside {
-    max-width: 50%;
+.lado-esquerdo {
     float: right;
+    margin-left: 50px;
+    border: 1px solid black;
+    width: 300px;
+
 }
 table,th,td {
     border: 1px solid black;
 }
+
+
+#licoes_aprendidas li , #licoes_a_aprender li{
+    margin: 10px;
+    padding: 5px;
+    border: 1px dashed pink;
+}
+
+
