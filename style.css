@@ -5,7 +5,8 @@ body {
 header {
   position: fixed;
   top: 0;
-  background-color: royalblue;
+  background-color: rgb(230, 3, 3);
+  color: yellow;
   text-align: center;
   width: 100%;
   border: 3px solid green;
@@ -29,7 +30,7 @@ article {
   position: absolute;
 }
 
- aside {
+aside {
   border: 3px solid green;
   float: right;
   width: 250px;
