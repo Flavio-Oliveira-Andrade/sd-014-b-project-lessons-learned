@@ -5,10 +5,13 @@ body {
 #cabecalho {
   top: 0;
   position: fixed;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
 }
 
 #titulo {
   line-height: 0.5em;
+  margin-left: 50px;
 }
 
 .minha-foto {
@@ -16,11 +19,12 @@ body {
 }
 
 #licoes_aprendidas {
-  
+  list-style-type: lower-greek;
+  line-height: 1.5em;
 }
 
 #licoes_a_aprender {
-  
+  line-height: 1.5em;
 }
 
 #rodape {
