@@ -23,6 +23,7 @@ h2 {
   position: fixed;
   background-color: white;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 #titulo {
@@ -31,8 +32,10 @@ h2 {
 }
 
 #minha_foto {
+  margin-top: 80px;
   width: 200px;
-  border-radius: 25%;
+  border-radius: 50%;
+  position: 20% 50%;
 }
 
 #licoes_aprendidas {
