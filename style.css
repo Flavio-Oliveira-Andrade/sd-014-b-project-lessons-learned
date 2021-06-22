@@ -4,6 +4,8 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
 }
 .table th,td {
     border: 1px solid black;
@@ -14,4 +16,10 @@ body {
 #minha_foto {
     margin: 100px 5px 5px 5px;
     width: 300px;
+}
+#licoes_aprendidas,#licoes_a_aprender{
+    font-size: 20px;
+}
+.article p{
+    line-height: 30px;
 }
