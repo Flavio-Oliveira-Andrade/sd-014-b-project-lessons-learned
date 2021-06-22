@@ -18,3 +18,7 @@ body {
 #licoes_aprendidas {
     border: 1px solid black;
 }
+
+#licoes_a_aprender {
+    border: 1px solid violet;
+}
