@@ -15,4 +15,29 @@ body {
     margin: 50px;
     padding: 5px;
     border: solid cyan;
+    width: 50px;
+}
+
+.lado-esquerdo {
+    background-color: darkgreen;
+    display: inline;
+    width: 20%;
+    float: left;
+}
+
+.lado-direito {
+    background-color: darkkhaki;
+    display: inline;
+    width: 20%;
+    float: right;
+}
+
+#artigo {
+    background-color: darkorange;
+    display: inline;
+}
+
+#aside {
+    background-color: darksalmon;
+    
 }
