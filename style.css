@@ -1,6 +1,7 @@
 * {
-    margin: 0;
-    
+  margin: 0;
+  text-decoration: none;
+  color: black;
 }
 
 body {
@@ -20,18 +21,16 @@ body {
   margin-left: 500px;
 }
 
-section {
-  font-size: 25px;
-  color: rgb(109, 0, 0);
-  line-height: 30px;
-  font-family: sans-serif;
-}
-
 .lado-esquerdo {
-  width: 250px;
+  width: 300px;
   background-color: rgb(151, 255, 165);
   display: inline-block;
   text-align: center;
+  padding: 20px;
+  line-height: 30px;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .lado-direito {
@@ -40,8 +39,10 @@ section {
   width: 300px;
   height: 500px;
   font-size: 25px;
+  padding: 20px;
   margin: 10px;
 }
+
 aside {
   background-color: rgb(255, 248, 157);
   width: 200px;
@@ -52,11 +53,33 @@ aside {
   padding: 20px;
   display: inline-block;
 }
+
 .aside-img {
     width: 50%;
 }
 
 #rodape {
-    background-color: brown;
-    height: 80px;
+  background-color: brown;
+  height: 100px;
 }
+
+.rodape-info {
+  color: white;
+  text-align: center;
+  margin: 20px;
+  align-items: center;
+}
+
+.links {
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.links:hover {
+    color: white;
+    margin: 20px;
+    background-color: rgb(129, 31, 31);
+    padding: 20px;
+    border-radius: 25px;
+  }
