@@ -25,7 +25,7 @@ div img {
     margin: 1px;
 }
 
-#lado-direito {
+.lado-direito {
     border: 1px solid black;
     padding: 1px;
     margin: 1px;
@@ -34,7 +34,7 @@ div img {
     vertical-align: top;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
     border: 1px solid black;
     padding: 1px;
     margin: 1px;
