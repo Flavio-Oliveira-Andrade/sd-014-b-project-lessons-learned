@@ -7,7 +7,7 @@ body {
   background-color: rgb(253, 251, 251);
   font-size: 16px;
   color: rgb(20, 20, 20);
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat , sans-serif;
   line-height: 1.5;
 }
 
@@ -22,46 +22,46 @@ body {
 .navigationMenu li {
   list-style-type: none;
   display: inline;
-  margin: 0 30px 30px 30px;
+  margin: 0 30px 30px;
 }
 
 #minha_foto {
-  margin: 80px 30px 30px 30px;
+  margin: 80px 30px 30px;
   width: 300px;
   border-radius: 50%;
 }
 
 #licoes {
-  margin: 0 30px 30px 30px;
+  margin: 0 30px 30px;
 }
 
 #licoes h2 {
-  margin: 0 30px 30px 30px;
+  margin: 0 30px 30px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
   width: 33%;
   vertical-align: top;
-  margin: 0 30px 30px 30px;
+  margin: 0 30px 30px;
 }
 
 #articles {
-  margin: 0 30px 30px 30px;
+  margin: 0 30px 30px;
 }
 
 table {
-  margin: 0 30px 30px 30px;
+  margin: 0 30px 30px;
   text-align: center;
   border: 1px solid black;
   padding: 5px;
 }
 
-table td, th {
+table td , th {
   padding: 3px;
 }
 
-.lado-esquerdo, .lado-direito {
+.lado-esquerdo , .lado-direito {
   display: inline-block;
   width: 44%;
   height: 250px;
@@ -70,5 +70,3 @@ table td, th {
   padding: 10px;
   margin-right: 20px;
 }
-
-
