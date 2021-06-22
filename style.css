@@ -4,6 +4,9 @@
 body {
     background-color: rgb(253, 251, 251);
     margin: 5px;
+    font-size: 18px;
+    color: rgb(68, 43, 11);
+    font-family: monospace;
 }
 #cabecalho {
     top: 0;
@@ -23,4 +26,12 @@ main {
 
 #licoes_a_aprender {
     border: 2px solid red
+}
+
+p {
+    line-height: 30px;
+}
+
+a, img {
+    display: block;
 }
