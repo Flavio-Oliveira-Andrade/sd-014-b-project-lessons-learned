@@ -1,5 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-size: 17px;
+  color: black;
+  line-height: 21px;
 }
 
 #menu li {
@@ -61,8 +64,9 @@ body {
   background-color: aquamarine;
   padding: 5px;
 }
+
 #aprendizados p {
-   font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 #aside {
