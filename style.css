@@ -3,24 +3,25 @@ body {
 }
 
 #menu li{
-    display: inline;
-    padding: 10px 40px;
-    background-color: rgb(233, 219, 219);
-    color: rgb(15, 189, 15);
-    border-radius: 6px;
-    margin-right: 5%;
+        display: inline;
+        padding: 10px 40px;
+        background-color: rgb(233, 219, 219);
+        color: rgb(15, 189, 15);
+        border-radius: 6px;
+        margin-right: 5%;
+        text-decoration: none;
+}
+#menu a{
     text-decoration: none;
-
-    
 }
 
 #menu{
-    margin-top: 6%;
-    width: 100%;
-    padding: 10px;
-    text-decoration: none;
-    background-color: greenyellow;
-    text-align: center;
+        margin-top: 7%;
+        width: 100%;
+        padding: 10px;
+        text-decoration: none;
+        background-color: greenyellow;
+        text-align: center;
 }
 
 #cabecalho {
@@ -29,25 +30,41 @@ body {
         background-color: green;
         width: 100%;
         text-align: center;
+        font-family: 'Dela Gothic One';
 }
 
 #minha_foto {
-    width: 15%;
-    border-radius: 70px;
-    text-align: center;
-    display: inline-block;
-    margin-top: 5%;
-    margin-left: 40%;
-    
+        width: 15%;
+        border-radius: 70px;
+        text-align: center;
+        display: inline-block;
+        margin-top: 5%;
+        margin-left: 40%;
 }
 
 #rodape{
-    background-color: rgb(104, 121, 107);
-    height: 50px;
+        background-color: rgb(104, 121, 107);
+        height: 50px;
 }
 
 #rodape p {
-    text-align: center;
-    margin: auto;
-    padding: 15px;
+        text-align: center;
+        margin: auto;
+        padding: 15px;
 }
+
+#aprendizados {
+    display: inline-block;
+    width: 50%;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color: aquamarine;
+}
+
+#aside{
+    display: inline-block;
+    width: 45%;
+    margin: 0%;
+    background-color: grey;
+}
+
