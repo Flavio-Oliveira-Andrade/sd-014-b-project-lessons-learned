@@ -1,7 +1,9 @@
 * {
-    text-decoration: none;
     padding: 0;
     margin: 0;
+}
+a:visited {
+    color: currentColor;
 }
 body {
     background-color: rgb(253, 251, 251);
@@ -15,11 +17,19 @@ body {
     padding: 10px;
 }
 #minha_foto {
+    display: inline-block;
     width: 20%;
-    left: 3%;
-    display: block;
+    padding: 6% 3% 0 1%;
+
 }
 #listas div {
     display: inline-block;
     padding: 5%;
+}
+#rodape {
+    background-color: darkgray;
+    height: 100px;
+    padding: 20px;
+    color: forestgreen;
+    font-weight: 600;
 }
