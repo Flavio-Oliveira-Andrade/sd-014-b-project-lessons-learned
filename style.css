@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(253, 251, 251);
-  border: 1px solid #cccccc;
+  border: 1px solid gray;
 }
 
 #cabecalho {
@@ -82,7 +82,7 @@ span {
 }
 
 a {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   line-height: 2px;
   color: black;
 }
