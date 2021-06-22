@@ -3,23 +3,23 @@
 }
 
 body {
-   background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-   position: fixed;
-   top: 0;
-   background-color: aquamarine;
-   text-align: center;
-   font-family: 'Courier New', Courier, monospace;
-   font-size: 25px;
-   margin: 15px;
+  position: fixed;
+  top: 0;
+  background-color: aquamarine;
+  text-align: center;
+  font-family: monospace;
+  font-size: 25px;
+  margin: 15px;
 }
 
 #text-article {
   background-color: azure;
   color: brown;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: sans-serif;
   text-align: justify;
   line-height: 28px;
   padding: 25px;
@@ -28,7 +28,7 @@ body {
 #text-section {
   background-color: azure;
   color: brown;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: sans-serif;
   text-align: justify;
   line-height: 28px;
   padding: 25px;
@@ -55,5 +55,4 @@ body {
   width: 30%;
   text-align: center;
   margin: 10px;
-
 }
