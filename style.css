@@ -1,8 +1,8 @@
 body {
-  background-color: rgb(253, 251, 251); 
+  background-color: rgb(253, 251, 251);
 }
 
-#menu li{
+#menu li {
   display: inline;
   padding: 10px 40px;
   background-color: rgb(233, 219, 219);
@@ -12,11 +12,11 @@ body {
   text-decoration: none;
 }
 
-#menu a{
+#menu a {
   text-decoration: none;
 }
 
-#menu{
+#menu {
   margin-top: 7%;
   width: 100%;
   padding: 10px;
@@ -42,7 +42,7 @@ body {
   margin-left: 40%;
 }
 
-#rodape{
+#rodape {
   background-color: rgb(104, 121, 107);
   height: 50px;
 }
@@ -61,15 +61,14 @@ body {
   background-color: aquamarine;
   padding: 5px;
 }
-#aprendizados p{
-   font-family:'Courier New', Courier, monospace;
+#aprendizados p {
+   font-family: 'Courier New', Courier, monospace;
 }
 
-#aside{
+#aside {
   display: inline-block;
   width: 30%;
   margin: 0%;
   background-color: grey;
   padding: 5px;
 }
-
