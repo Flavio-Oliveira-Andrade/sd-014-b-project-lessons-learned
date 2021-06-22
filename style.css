@@ -1,67 +1,149 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: monospace;
-  color: cornflowerblue;
-  line-height: 50px;
-  font-size: medium;
+  color: #715AFF;
+  margin: 0;
+  background-color: black;
 }
 
 #cabecalho {
   top: 0;
   position: fixed;
   border: 1px solid black;
-  padding: 1px;
-  margin: 1px;
-}
-
-div img {
-  margin-top: 80px;
-  margin-bottom: 15px;
+  width: 100%;
+  height: 60px;
+  color: black;
+  background-color: #715AFF;;
+  }
+  
+#titles {
+  display: inline-block;
+  width: 70%;
+  margin-left: 15px;
 }
 
 #navegation {
-  border: 1px solid black;
-  padding: 1px;
-  margin: 1px;
+  display: inline-block;
+  display: 30%;
 }
 
-.lado-direito {
-  border: 1px solid black;
-  padding: 1px;
-  margin: 1px;
+.bottom {
+  background-color: black;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 15px;
+  text-decoration: none;
+  color: #715AFF;
+  border-radius: 10%;
+  margin-right: 10px;
+}
+
+img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 35px;
+  border-radius: 50%;
+  padding: 3px;
+  background-color: #715AFF;
+}
+
+#sobre {
   display: inline-block;
-  width: 75%;
-  vertical-align: top;
 }
 
 .lado-esquerdo {
-  border: 1px solid black;
-  padding: 1px;
-  margin: 1px;
-  display: inline-block;
-  width: 20%;
+  width: 30%;
+  vertical-align: top;
+  margin-left: 17%;
+  margin-bottom: 8px;
 }
 
+.linha-vertical {
+  height: 180px;
+  border-right: 1px solid #715AFF;
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: auto;
+}
+
+.lado-direito {
+  margin-top: 8px;
+  width: 20%; 
+  height: 90px;
+  display: inline-block;
+  margin-left: 30px;
+  vertical-align: top;
+  }
+
 #aprendidas {
-  border: 1px solid black;
-  padding: 1px;
-  margin: 1px;
+  margin-left: 25%;
+  margin-bottom: 8px;
+  width: 30%;
+  margin-top: 50px;
+  display: inline-block;
 }
 
 #aprender {
-  border: 1px solid black;
-  padding: 1px;
-  margin: 1px;
+  margin-bottom: 8px;
+  width: 30%;
+  display: inline-block;
 }
-
+  
 #tabela {
   border: 1px solid black;
   padding: 1px;
   margin: 1px;
 }
 
+.tables h3 {
+  text-align: center;
+}
+ 
+#tabela {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+#tabela td {
+  width: 200px;
+  text-align: center;
+  border: 1px solid #715AFF;
+  }
+
 #rodape {
   border: 1px solid black;
-  padding: 1px;
-  margin: 1px;
+  height: 60px;
+  background-color: #715AFF;
 }
+
+.port {
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 50px;
+  width: 40%;
+}
+
+.myname {
+  display: inline-block;
+  margin-left: 220px;
+  color: black;
+} 
+
+.bottom1 {
+  text-decoration: none;
+  color: #715AFF;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10%;
+}
+  
+  
+  
+
+

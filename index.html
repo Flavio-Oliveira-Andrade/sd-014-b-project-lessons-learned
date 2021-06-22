@@ -11,29 +11,35 @@
 
 <body>
     <header id="cabecalho">
-        <h1 id="titulo">
-            Projeto Lessons Learned
-        </h1>
+        <div id="titles">
+            <h1 id="titulo">
+             Projeto Lessons Learned
+            </h1>
+        </div>
+         <div id="navegation">
+            <nav>
+                <a class="bottom" href="">Início</a>
+                <a class="bottom" href="#sobre">Sobre</a>
+                <a class="bottom" href="#rodape">Contato</a>
+            </nav> 
+        </div>   
     </header>
-
-    <div>
-        <img id="minha_foto" src="https://media-exp1.licdn.com/dms/image/C5603AQG6VYDQCBKfvA/profile-displayphoto-shrink_200_200/0/1623198297875?e=1629936000&v=beta&t=jKS9sH71q8bQZ3kH6noPx8zEaUvxAbtWOSSDSt959PQ" alt="uma selfie de Kauan Carvalho">
-    </div>
-    <nav id="navegation">
-        <a href="#sobre">Sobre</a>
-        <a href="#rodape">Contato</a>
-    </nav>
-    <article id="sobre" class="lado-direito">
+    
+    <img class="imagem" id="minha_foto" src="https://media-exp1.licdn.com/dms/image/C5603AQG6VYDQCBKfvA/profile-displayphoto-shrink_200_200/0/1623198297875?e=1629936000&v=beta&t=jKS9sH71q8bQZ3kH6noPx8zEaUvxAbtWOSSDSt959PQ" alt="uma selfie de Kauan Carvalho">
+    
+    <article id="sobre" class="lado-esquerdo">
         Nessas duas semanas eu aprendi sobre diversas ferramentas que nunca tinha ouvido falar, aprendi sobre html e css e já consigo criar sites básicos mas funcionais, com a ajuda dessas ferramentas eu criei o meu primeiro portfólio que vem evoluindo junto
         comigo, estou sempre tentando incrementar nele o que eu venho aprendendo. Programação é prática, e temos oportunidades de sobra para praticar na Trybe, sinto que seja impossível eu esquecer o que aprendi até agora depois de diversas horas praticando.
     </article>
-    <aside class="lado-esquerdo">
+    <div class="linha-vertical"></div>
+    <aside class="lado-direito">
         <section>
             Sinto que sou uma pessoa completamente diferente da que eu era a duas semanas atrás e não tenho nem noção do quão diferente eu possa ficar durante esses 12 meses.
         </section>
     </aside>
 
     <div id="aprendidas">
+        <h2>Lições Aprendidas</h2>
         <ol id="licoes_aprendidas">
             <li>Unix</li>
             <li>Bash</li>
@@ -48,6 +54,7 @@
         </ol>
     </div>
     <div id="aprender">
+        <h2>Lições a aprender</h2>
         <ul id="licoes_a_aprender">
             <li>Javascript</li>
             <li>Lógica de programação</li>
@@ -61,16 +68,42 @@
             <li>Python</li>
         </ul>
     </div>
+    <div class="tables">
+        <h3>Resultado do Projeto</h3>
     <table id="tabela">
         <tr>
-            <td style="width: 200px; text-align: center;">item</td>
+            <td>item</td>
             <td>avaliação</td>
         </tr>
+        <tr>
+            <td>Desempenho</td>
+            <td>Suficiente</td>
+        </tr>
+        <tr>
+            <td>Critério de Avaliação</td>
+            <td>Padrão</td>
+        </tr>
+        <tr>
+            <td>Percentual de cumprimento de requisitos obrigatórios</td>
+            <td>100.00%</td>
+        </tr>
+        <tr>
+            <td>Percentual de cumprimento de requisitos totais</td>
+            <td>100.00%</td>
+        </tr>
+    </div>
     </table>
     <footer id="rodape">
-        Kauan Carvalho de Almeida, 2021. Telefone: (99) 99999-9999
+        <span class="port">
+            <a class="bottom1" href="https://kcda1102.github.io/person_port/" target="_blank">Portfólio</a>
+         </span>
+        <span class="myname">
+            Kauan Carvalho de Almeida, 2021. Telefone: (99) 99999-9999
+        </span>
+       
+        
     </footer>
-    Melhor escola do mundo <a href="https://www.betrybe.com/" target="_blank">nesse link</a>
+    
 </body>
 
 </html>
