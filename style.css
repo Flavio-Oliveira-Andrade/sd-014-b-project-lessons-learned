@@ -25,18 +25,17 @@ nav {
   width: 250px;
 }
 
-#foto_article {
+.lado-esquerdo {
   border: 3px solid green;
   display: inline-block;
   width: 700px;
   padding-top: 100px;
 }
 
-aside {
+.lado-direito {
   border: 3px solid green;
   display: inline-block;
   width: 250px;
   vertical-align: top;
   padding-top: 100px;
-  
 }
