@@ -14,3 +14,12 @@ body {
     text-align: center;
     padding: 10px;
 }
+#minha_foto {
+    width: 20%;
+    left: 3%;
+    display: block;
+}
+#listas div {
+    display: inline-block;
+    padding: 5%;
+}
