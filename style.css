@@ -13,6 +13,15 @@ body {
 #titulo {
     text-align: center;
 }
+#navega ul {
+    list-style: none;
+    
+}
+#navega ul li a {
+    text-decoration: none;
+    color: green;
+    
+}
 img {
     margin-top: 50px;
     width: 200px;
@@ -23,7 +32,7 @@ img {
     text-align: center;
 }
 #foto img {
-    margin: 50px auto 10px;
+    margin: 100px auto 10px;
 }
 .listas {
     display: flex;
