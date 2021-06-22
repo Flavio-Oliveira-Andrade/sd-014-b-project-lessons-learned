@@ -1,7 +1,29 @@
+*{
+  border: 10px;
+}
 body{
    background-color: rgb(253, 251, 251);
 }
 #cabecalho{
    position: fixed;
    top: 0;
+   background-color: aquamarine;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 25px;
+   margin: 15px;
+}
+.texto-artigo{
+  background-color: azure;
+  color: brown;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  line-height: 28px;
+  padding: 25px;
+}
+#minha_foto{
+  width: 500px;
+  display: block;
+  border-radius: 25%;
+  margin: auto;
 }
