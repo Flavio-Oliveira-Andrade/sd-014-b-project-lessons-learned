@@ -1,7 +1,7 @@
-body {
-    background-color: rgb(253, 251, 251);
-}
-#cabecalho {
+    body {
+     background-color: rgb(253, 251, 251);
+    }
+    #cabecalho {
     position: fixed;
     top: 0;
     left: 0;
@@ -10,11 +10,11 @@ body {
     width: 100%;
     font-size: 16px;
     font-family: Impact;
-}
-section nav a {
+    }
+    section nav a {
     padding-right: 10px;
-}
-section ol {
+    }
+    section ol {
     float: left;
     display: table;
 }
@@ -27,6 +27,12 @@ section ul {
 }
 #aside {
     float: left;
+    display: block;
+    width: 35%;
+    float: right;
+    margin-right: 5%;
+    border: 1pt black solid;
+    overflow: visible;
 }
 #Artigo {
     display: block;
@@ -34,14 +40,6 @@ section ul {
     width: 35%;
     border: 1px black solid;
     float: left;
-    overflow: visible;
-}
-#aside {
-    display: block;
-    width: 35%;
-    float: right;
-    margin-right: 5%;
-    border: 1pt black solid;
     overflow: visible;
 }
 #minha_foto {
