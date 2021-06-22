@@ -10,4 +10,17 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    background-color: lightgrey;
+    width: 100%;
+    text-align: center;
+}
+
+#titulo {
+
+}
+
+#minha_foto {
+    width: 20%;
+    margin-top: 50px;
+    align-content: center;
 }
