@@ -11,7 +11,8 @@ body {
 }
 
 #minha_foto{
-    position: fixed;
+    position: relative;
+    float: above;
     top: 150px;
     left: 20px;
 }
