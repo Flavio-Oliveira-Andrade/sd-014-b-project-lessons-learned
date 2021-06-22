@@ -6,12 +6,28 @@ body{
 
 #cabecalho{
     position: fixed;
+    width: 100%;
     top: 0px;
+    background-color: green;
 }
 
-div.foto{
+/* div.foto{
     /* width: 100px;
     height: 150px;
     display: block;
-    top: 100px; */
+    top: 100px; */ 
+}
+#licoes_aprendidas{
+    display: inline-block;
+    float: left;
+}
+
+/* div#licoes_a_aprender{
+    width: 200px;
+    height: 300px; */
+}
+#licoes_a_aprender{
+    display: inline-block;
+    float: right;
+    margin-left: 50px;
 }
