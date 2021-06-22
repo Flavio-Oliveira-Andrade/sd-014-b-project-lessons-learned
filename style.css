@@ -1,8 +1,62 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
     position: fixed;
     top: 0;
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(99, 151, 172);
+}
+
+main {
+    position: absolute;
+    top: 120px;
+    font-size: 17px;
+}
+
+.links {
+    display: inline-block;
+    position: relative;
+    left: 78%;
+}
+
+#port {
+    position: relative;
+    right: 25px;
+    text-decoration: none;
+}
+
+#port:hover {
+    background-color: rgb(184, 150, 3);
+    padding: 6px 8px;
+    border-radius: 10%;
+    color: white;
+}
+
+#titulo {
+    display: inline-block;
+}
+
+.comment-box {
+    margin: 5px;
+    color: rgb(41, 40, 40);
+    line-height: 25px;
+    text-align: justify;
+}
+
+.lado-esquerdo {
+    position: relative;
+    display: inline-block;
+    width: 45%;
+}
+
+.lado-direito {
+    float: right;
+    position: relative;
+    text-align: left;
+    width: 45%;
+    border: 1px solid black;
 }
