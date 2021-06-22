@@ -1,43 +1,43 @@
 body {
-    background-color: rgb(253, 251, 251);
+background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    top: 0;
-    position: fixed;
-    font-size: 15px;
-    color: darkblue;
-    font-family: sans-serif;
-    line-height: 2em;
+top: 0;
+position: fixed;
+font-size: 15px;
+color: darkblue;
+font-family: sans-serif;
+line-height: 2em;
 }
 
 #minha_foto {
-    margin: 50px;
-    padding: 5px;
-    border: solid cyan;
-    width: 50px;
+margin: 50px;
+padding: 5px;
+border: solid cyan;
+width: 50px;
 }
 
 .lado-esquerdo {
-    background-color: darkgreen;
-    display: inline;
-    width: 20%;
-    float: left;
+background-color: darkgreen;
+display: inline;
+width: 20%;
+float: left;
 }
 
 .lado-direito {
-    background-color: darkkhaki;
-    display: inline;
-    width: 20%;
-    float: right;
+background-color: darkkhaki;
+display: inline;
+width: 20%;
+float: right;
 }
 
 #artigo {
-    background-color: darkorange;
-    display: inline;
+background-color: darkorange;
+display: inline;
 }
 
 #aside {
-    background-color: darksalmon;
+background-color: darksalmon;
     
 }
