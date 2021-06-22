@@ -3,6 +3,10 @@ body {
     margin: 0;
     padding: 0;
     border: 10px;
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    font-size: 16px;
+    color: rgb(32, 32, 32);
+    letter-spacing: 1px;
 }
 
 #cabecalho {
