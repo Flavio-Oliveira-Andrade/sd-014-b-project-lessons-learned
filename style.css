@@ -1,6 +1,6 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 95%;
+  font-size: 105%;
   line-height: 1.75;
   color: black;
 }
@@ -43,15 +43,15 @@ body {
 }
 
 #secao_licoes_aprendidas {
-  display: block;
+  display: inline-block;
   margin-top: 15%;
-  margin-left: 5%;
+  margin-left: 50%;
 }
 
 #secao_licoes_aprender {
   display: inline-block;
-  margin-top: 16%;
-  margin-left: 10%;
+  margin-top: 30%;
+  margin-left: 50%;
 }
 
 /*
@@ -84,6 +84,7 @@ body {
 
 #sobre_meu_aprendizado {
   margin-left: 40%;
+  margin-top: 30%;
   text-align: justify;
   width: 500px;
   padding: 5px;
@@ -93,8 +94,7 @@ body {
 aside {
   float: left;
   width: 200px;
-  height: 100%;
-  margin: 0;
+  margin: 0 auto;
   background-color: salmon;
   border-style: solid;
   border-color: lightslategray;
