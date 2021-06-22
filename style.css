@@ -10,6 +10,9 @@ body {
 
 #titulo {
     text-align: center;
+    font-size: 35px;
+    color: blue;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 #minha_foto {
@@ -19,6 +22,8 @@ body {
 }
 
 .margem-artigo {
-    margin: 5px 2px 5px 2px;
+    margin: 5px;
     padding: 10px;
+    width: 60%;
+    line-height: 30px;
 }
