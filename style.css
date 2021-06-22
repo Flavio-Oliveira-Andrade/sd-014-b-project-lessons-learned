@@ -1,16 +1,19 @@
-
 body {
     background-color: rgb(253, 251, 251);
-}
+    }
 
 header {
     position: fixed;
     top: 0;
-}
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(11, 124, 30);
+    line-height: 5px;
+    }
 
 #minha_foto {
     padding: 5%;
     margin: 1%;
     width: 300px;
     border-radius: 50%;
-}
+    }
