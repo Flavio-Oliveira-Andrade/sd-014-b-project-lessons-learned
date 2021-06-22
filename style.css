@@ -6,10 +6,29 @@ body {
     background: rgb(253, 251, 251);
 }
 #cabecalho {
+    background: orange;
     position: fixed;
     top: 0;
+    width: 100vw;
+}
+#titulo {
+    text-align: center;
 }
 img {
     margin-top: 50px;
     width: 200px;
+}
+article {
+    border: 1px solid #000;
+    margin: 20px auto;
+    width: 70vw;
+}
+aside {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    width: 300px;
+}
+#rodape h4 {
+    text-align: center;
 }
