@@ -16,5 +16,18 @@ body {
 
 #minha_foto {
     border-radius: 50%;
-    
+}
+
+.lado-esquerdo {
+    width: 30%;
+    float: left;
+}
+
+.lado-direito {
+    width: 30%;
+    float: right;
+}
+
+#rodape {
+    clear: both;
 }
