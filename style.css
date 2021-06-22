@@ -4,4 +4,10 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    margin-bottom: 15px;
+}
+img {
+    width: 300px;
+    margin-top: 70px;
+    display: block;
 }
