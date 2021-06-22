@@ -1,106 +1,102 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: 'Trebuchet MS', 'Lucida Sans', sans-serif;
-    padding: 100px 40px 0px;
+  background-color: rgb(253, 251, 251);
+  font-family: 'Trebuchet MS', 'Lucida Sans', sans-serif;
+  padding: 100px 40px 0px;
 }
 
-/* CABEÇALHO */
-
 #cabecalho {
-    background-color: #55C063;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    padding: 0px 40px;
-    color: white;
+  background-color: #55C063;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 0px 40px;
+  color: white;
 }
 
 h1 {
-    float: left;
+  float: left;
 }
 
 nav ul {
-    float: right;
-    position: relative;
-    top: 15px;
-    right: 100px;
+  float: right;
+  position: relative;
+  top: 15px;
+  right: 100px;
 }
 
 nav ul li {
-    display: inline-block;
-    margin-left: 10px;
+  display: inline-block;
+  margin-left: 10px;
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-    background-color: rgb(99, 209, 99);
-    border-radius: 5px;
-    padding: 10px;
-    transition: 0.2s;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  background-color: rgb(99, 209, 99);
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.2s;
 }
 
 nav a:hover {
-    color: rgb(60, 95, 44);
+  color: rgb(60, 95, 44);
 }
 
 .lado-esquerdo {
-    float: left;
-    width: 20%;
+  float: left;
+  width: 20%;
 }
 
 #perfil a {
-    text-decoration: none;
-    color: rgb(60, 95, 44);
-    margin-left: 100px;
+  text-decoration: none;
+  color: rgb(60, 95, 44);
+  margin-left: 100px;
 }
 
 #minha_foto {
-    width: 300px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+  width: 300px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .lado-direito {
-    float: right;
-    width: 80%;
+  float: right;
+  width: 80%;
 }
 
 #artigo {
-    width: 55%;
+  width: 55%;
 }
 
 #artigo h2 {
-    margin: 0;
+  margin: 0;
 }
 
 p {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 #licoes {
-    float: right;
-    width: 40%;
+  float: right;
+  width: 40%;
 }
-
-/* ***** */
-
+  
 table {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 th {
-    background-color: rgb(145, 222, 135);
-    padding: 10px 20px;
+  background-color: rgb(145, 222, 135);
+  padding: 10px 20px;
 }
 
 th h2 {
-    margin: 0;
-    font-size: 18px;
+  margin: 0;
+  font-size: 18px;
 }
 
 td {
-    background-color: rgb(187, 253, 178);
+  background-color: rgb(187, 253, 178);
 }
