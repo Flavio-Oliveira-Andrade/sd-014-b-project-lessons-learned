@@ -1,51 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
 
-body{
-    height: 768px;
-    width: 1366px;
-    background-color: rgb(253, 251, 251);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+body {
+  height: 768px;
+  width: 1366px;
+  background-color: rgb(253, 251, 251);
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
 }
 
-#cabecalho{
-    position: fixed;
-    width: 100%;
-    top: 0px;
-    background-color: green;
+#cabecalho {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: green;
 }
 
-.lado-esquerdo, .lado-direito{
-    width: 500px;
-    margin:10px;
-    padding: 10px;
-    border: 1px solid  #C0C0C0;
-    letter-spacing: 1px;
-    color: green;
-    font-size: 10px;
-    line-height: 12px;
-}
-
-
-.lado-esquerdo{
-    float: left;
-}
-
-.lado-direito{
-    float: right;
+.lado-esquerdo , .lado-direito {
+  width: 500px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid  silver;
+  letter-spacing: 1px;
+  color: green;
+  font-size: 10px;
+  line-height: 12px;
 }
 
 
-#tabela{
-    background-color: #C0C0C0;
-    border: 1px solid black;
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
 }
 
 
-#rodape{
-    position: absolute;
-    background-color: #C0C0C0;
-    bottom: 0px;
-    margin: 0px;
-    width: 100%;
+#tabela {
+  background-color: silver;
+  border: 1px solid black;
+}
+
+
+#rodape {
+  position: absolute;
+  background-color: silver;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
 }
