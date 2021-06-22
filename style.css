@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
 }
 body {
     background: rgb(253, 251, 251);
@@ -18,10 +17,27 @@ img {
     margin-top: 50px;
     width: 200px;
 }
+#foto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#foto img {
+    margin: 50px auto 10px;
+}
+.listas {
+    display: flex;
+    justify-content: center;
+}
+#lists h2 {
+    text-align: center;
+}
+
 article {
     border: 1px solid #000;
     margin: 20px auto;
     width: 70vw;
+    padding: 10px;
 }
 aside {
     position: absolute;
