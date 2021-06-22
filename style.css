@@ -18,3 +18,18 @@ body {
     margin-left: 300px;
 }
 
+.lado-esquerdo {
+    width: 70%
+}
+
+.lado-direito{
+    height: 700px;
+    width: 30%;
+    margin-top: -2400px;
+    margin-left:1400px;
+    display:flex;
+    background-color: #cccccc;
+    background-size:cover;
+    margin-bottom: -20px;
+
+}
