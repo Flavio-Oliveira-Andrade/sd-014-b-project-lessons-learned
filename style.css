@@ -30,18 +30,24 @@ nav {
   width: 250px;
 }
 
-.lado-direito {
+.lado-esquerdo {
+  vertical-align: top;
   border: 3px solid green;
+  padding: 50px;
   display: inline-block;
-  width: 700px;
-  padding-top: px;
+  width: 600px;
   line-height: 20px;
 }
 
-.lado-esquerdo {
+.lado-direito {
   border: 3px solid green;
   display: inline-block;
   width: 250px;
   vertical-align: top;
   padding-top: 70px;
+}
+
+img {
+  display: inline-block;
+  vertical-align: top;
 }
