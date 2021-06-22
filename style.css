@@ -2,7 +2,8 @@ body{
     background-color: rgb(253, 251, 251);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
-}
+    line-height: 12px 
+    }
 
 #cabecalho{
         top: 0;
@@ -15,13 +16,13 @@ body{
         font-size: 10px;
         height: 40px;
         padding: 1px 10px 5px 20px
-}
+    }
 
 #apresentacao{
     text-align: center;
-    border-color:lightcoral;
+    border-color:lightcoral;    
 }
 
-ul, ol{
-    
+h1{
+    color:white
 }
