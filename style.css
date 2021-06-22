@@ -1,7 +1,8 @@
 * {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: 20px;
+    
 }
 body {
     background: rgb(253, 251, 251);
@@ -49,6 +50,7 @@ article {
     margin: 20px auto;
     width: 70vw;
     padding: 10px;
+    line-height: 2em;
 }
 aside {
     position: absolute;
