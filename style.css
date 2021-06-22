@@ -30,4 +30,8 @@ body{
     display: inline-block;
     float: right;
     margin-left: 50px; */
+
+#tabela{
+    background-color: #C0C0C0;
+    border: 1px solid black;
 }
