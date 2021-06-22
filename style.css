@@ -6,4 +6,14 @@ body {
   position: fixed;
   top: 0;
   background-color: green;
+  text-align: center;
+  width: 2000px;
+}
+
+nav{
+  padding-bottom: 20px;
+}
+
+main{
+  padding-top: 100px;
 }
