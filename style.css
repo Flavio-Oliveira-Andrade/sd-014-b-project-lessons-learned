@@ -1,7 +1,26 @@
+* {
+    margin: 0;
+}
 body {
     background-color: rgb(253, 251, 251);
+    margin: 5px;
 }
 #cabecalho {
     top: 0;
     position: fixed;
+    background-color: darkgreen;
+    padding: 10px;
+    width: 100%;
+    margin: 5px;
+}
+main {
+    margin-top: 100px;
+}
+
+#licoes_aprendidas {
+    border: 2px solid green;
+}
+
+#licoes_a_aprender {
+    border: 2px solid red
 }
