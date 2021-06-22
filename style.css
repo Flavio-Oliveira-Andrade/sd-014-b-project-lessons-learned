@@ -1,7 +1,9 @@
+/* requisito 1 */
 body {
   background-color: rgb(253, 251, 251);
 }
 
+/* requisito 2 */
 #cabecalho {
   position: fixed;
   top: 0;
