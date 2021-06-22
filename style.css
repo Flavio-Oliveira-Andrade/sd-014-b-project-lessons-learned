@@ -7,7 +7,7 @@ body {
 header {
   position: fixed;
   top: 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 20px;
   color: rgb(11, 124, 30);
   line-height: 5px;
@@ -24,13 +24,13 @@ header {
 }
 
 .lado-esquerdo {
-    display: inline-block;
-    border: 1px solid black;
-    width: 45%;
+  display: inline-block;
+  border: 1px solid black;
+  width: 45%;
 }
 
 .lado-direito {
-    display: inline-block;
-    border: 1px solid black;
-    width: 45%;
+  display: inline-block;
+  border: 1px solid black;
+  width: 45%;
 }
