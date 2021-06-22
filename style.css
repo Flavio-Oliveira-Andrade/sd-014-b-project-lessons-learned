@@ -6,3 +6,8 @@ body{
   position: fixed;
   top: 0;
 }
+
+#minha_foto{
+  position: absolute;
+  top: 60px;
+}
