@@ -1,12 +1,18 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');*/
+
 body {
-    background-color: rgb(253,251,251);
+    background-color: rgb(253, 251, 251)
 }
 
 #cabecalho {
-    top:o;
+    top: 0;
     position: fixed;
 }
 
 #titulo {
+    line-height: 0.5em;
+}
 
+.minha-foto {
+    max-width: 200px;
 }
