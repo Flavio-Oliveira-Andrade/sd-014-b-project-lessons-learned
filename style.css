@@ -6,3 +6,8 @@ header {
     position: fixed;
     top: 0;
 }
+
+#minha_foto {
+    padding: 5%;
+    width: 300px;
+}
