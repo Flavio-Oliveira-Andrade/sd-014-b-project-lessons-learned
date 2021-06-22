@@ -5,3 +5,21 @@ body{
     position: fixed;
     top: 0;
 }
+#minha_foto{
+margin-top: 40px;
+border-radius: 25%;
+padding: 10px;
+}
+.legend{
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    color: rgb(28,28,28);
+    letter-spacing: 1px;
+    line-height: 1px;
+
+}
+div{
+    background-color: aliceblue;
+}
