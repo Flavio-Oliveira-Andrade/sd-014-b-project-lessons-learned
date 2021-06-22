@@ -9,8 +9,8 @@ body{
 margin-top: 40px;
 border-radius: 25%;
 padding: 10px;
-position: 
-z-index: 1;
+width: max-content;
+display: inline-block;
 }
 .legend{
     font-size: small;
@@ -25,12 +25,18 @@ z-index: 1;
 }
 div{
     background-color: aliceblue;
+    
 }
 ul,ol{
 display: inline-block;
 margin-inline: 200px;
 color: aliceblue;
 }
+ul:hover,ol:hover {
+color: rgb(236, 90, 83)
+}
+
+
 article{
     margin-top: 250px;
 }
@@ -53,4 +59,13 @@ float: right;
 }
 table{
     margin-top: 
+}
+h1{
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 20px;
+}
+a{
+    display: inline-block;
+    padding-right: 20px;
 }
