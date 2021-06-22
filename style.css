@@ -6,3 +6,11 @@ header {
   position: fixed;
   top: 0;
 }
+
+article {
+  max-width: 600px;
+  min-width: 300px;
+  overflow: hidden;
+  text-overflow: 600px;
+  white-space: nowrap;
+}
