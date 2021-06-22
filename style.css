@@ -47,12 +47,15 @@ main {
     width: 20%;
     border-radius: 50%;
     margin-left: 25%;
+    border: black 1px solid;
 }
 
 #listas {
     width: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
+    border: black 2px solid;
+    padding: 10px;
 }
 
 #licoes_aprendidas, #licoes_a_aprender{
