@@ -17,13 +17,13 @@ main {
   height: 650px;
 }
 
-.nav {
+nav {
   border: 3px solid green;
   display: inline-block;
   width: 250px;
 }
 
-article {
+#foto_article {
   border: 3px solid green;
   display: inline-block;
   width: 700px;
