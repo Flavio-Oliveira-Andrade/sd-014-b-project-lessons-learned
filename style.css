@@ -1,10 +1,13 @@
 body {
       background-color: rgb(253, 251, 251);
 }
-.cabecalho {
+#cabecalho {
       top: 0px;
       color: skyblue;
 }
-.titulo {
+#titulo {
     color: seagreen;
+}
+#minha_foto {
+    width: 150px;
 }
