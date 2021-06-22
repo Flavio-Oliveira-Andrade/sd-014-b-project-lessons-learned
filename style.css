@@ -54,6 +54,10 @@ aside {
     right: 0;
     width: 300px;
 }
-#rodape h4 {
+#rodape h3 {
     text-align: center;
+}
+#bonus table {
+    border: 1px solid #000;
+    margin: 10px auto;
 }
