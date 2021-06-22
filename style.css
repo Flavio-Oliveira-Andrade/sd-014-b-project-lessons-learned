@@ -10,6 +10,19 @@ body {
   background-color: lightskyblue;
 }
 
+#titulo {
+  margin-top: 25px;
+  margin-left: 25px;
+  float: left;
+}
+
+#lista_de_links {
+  list-style: none;
+  margin-top: 25px;
+  margin-right: 25px;
+  float: right;
+}
+
 #minha_foto {
   width: 10%;
   margin-top: 15%;
@@ -18,7 +31,6 @@ body {
   border-radius: 80%;
   float: right; 
 }
-
 
 #titulo_licoes_aprendidas {
   margin-top: 15%;
