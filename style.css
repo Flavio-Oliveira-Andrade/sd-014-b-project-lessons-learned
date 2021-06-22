@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
   font-size: 16px;
@@ -17,11 +22,11 @@ body {
 .navigationMenu li {
   list-style-type: none;
   display: inline;
-  margin-right: 30px;
+  margin: 0 30px 30px 30px;
 }
 
 #minha_foto {
-  margin: 130px 30px 30px 30px;
+  margin: 80px 30px 30px 30px;
   width: 300px;
   border-radius: 50%;
 }
@@ -30,10 +35,15 @@ body {
   margin: 0 30px 30px 30px;
 }
 
+#licoes h2 {
+  margin: 0 30px 30px 30px;
+}
+
 #licoes_aprendidas, #licoes_a_aprender {
   display: inline-block;
   width: 33%;
   vertical-align: top;
+  margin: 0 30px 30px 30px;
 }
 
 #articles {
@@ -45,6 +55,20 @@ table {
   text-align: center;
   border: 1px solid black;
   padding: 5px;
+}
+
+table td, th {
+  padding: 3px;
+}
+
+.lado-esquerdo, .lado-direito {
+  display: inline-block;
+  width: 44%;
+  height: 250px;
+  vertical-align: top;
+  border: 2px dashed black;
+  padding: 10px;
+  margin-right: 20px;
 }
 
 
