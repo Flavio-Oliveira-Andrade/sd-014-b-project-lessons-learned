@@ -8,5 +8,9 @@ body {
 }
 
 #minha_foto {
-  width: 300px;
+  width: 280px;
+}
+
+#licoes_aprendidas {
+  list-style-type: decimal;
 }
