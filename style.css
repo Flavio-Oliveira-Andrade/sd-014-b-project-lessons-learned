@@ -16,17 +16,20 @@ header {
 }
 
 
-.classe{
+.lado-direito{
     text-align: center;
-    width: 300px;
+    width: 30%;
     display: inline-block;
     height: auto;
+    vertical-align: top;
 }
 
-.classe{
+.lado-esquerdo{
     text-align: center;
-    width: 300px;
+    width: 30%;
     display: inline-block;
     height: auto;
+    vertical-align: top;
 }
+
 
