@@ -1,32 +1,67 @@
 body{
     background-color: rgb(253, 251, 251);
+    font-family: Montserrat;
+
 }
 
 #cabecalho{
     position: fixed;
     top: 0;
-    background-color: green;
-    width: 100%
+    background-color: #353535;
+    width: 100%;
+    }
+
+#titulo{
+    text-align: center;
+    font-family: Montserrat;
+    color: rgb(253, 251, 251);
     
 }
 
-#titulo{
-
-}
-
 #minha_foto{
+border-radius: 3%;
+width: 300px;
 
 }
+
+aside{
+    display: inline-block;
+    border: 1px solid black;
+}
+
 
 #licoes_aprendidas{
+    border: 1px solid black;
+    display: inline-block;
+    width: 50%;
 
 
 }
 
 #licoes_a_aprender{
+    border: 1px solid black;
+    display: inline-block;
+    
+
 
 }
 
 #rodape{
-    
+    background-color:#353535;
+    border: 1px solid black;
+}
+
+#rodape-direitos{
+    color: rgb(253, 251, 251);
+}
+
+#link{
+    background-color: hotpink;
+    padding: 16px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#link:hover{
+    background-color: indigo;
 }
