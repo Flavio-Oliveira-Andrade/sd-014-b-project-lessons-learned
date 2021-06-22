@@ -19,17 +19,38 @@ body {
     text-align: center;
     padding: 10px;
 }
+#secao-1 {
+    display: inline-block;
+}
+#tabela {
+    border:solid thin black;
+    margin: 20% 0 0 0;
+}
+#tabela tr th, td{
+    border:solid thin black;
+    padding: 3px;
+}
 #minha_foto {
     display: inline-block;
     width: 20%;
     margin: 6% 3% 0 1%;
     border: groove black;
+    float: left;
 }
-article {
+#secao-2 div {
+    display:inline;
+}
+.lado-esquerdo {
+    display: inline-block;
     padding:5px;
-    max-width: 60%;
+    max-width: 50%;
+    float: left:
 }
-#listas div {
+.lado-direito {
+    width: 20%;
+    float: right;
+}
+#secao-3 div {
     display: inline-block;
     padding: 3%;
     border: groove black;
