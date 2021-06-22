@@ -21,7 +21,6 @@ body {
     width: 100%;
     text-align: center;
     align-items: center;
-    clear: both;
 }
 
 h1 {
@@ -31,6 +30,9 @@ h1 {
 
 #minha_foto {
     border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 40px;
+    align-items: center;
 }
 
 .lado-esquerdo {
