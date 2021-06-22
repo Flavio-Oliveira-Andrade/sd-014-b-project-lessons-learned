@@ -10,6 +10,30 @@ body {
 
 
 #minha_foto {
+    margin-top: 100px;
     width: 100px;
     height: 100px;
+}
+
+
+.wrapper {
+    display: block;
+    border: 1px solid black;
+    width: 100%;
+}
+
+
+article {
+    border: 1px solid blue;
+    margin-bottom: 10px;
+    max-width: 50%;
+}
+
+
+aside {
+    max-width: 50%;
+    float: right;
+}
+table,th,td {
+    border: 1px solid black;
 }
