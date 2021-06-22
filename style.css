@@ -42,6 +42,7 @@ main {
 #minha_foto {
   border: 1px solid black;
   width: 300px;
+  display: inline-block;
 }
 
 table {
@@ -68,16 +69,29 @@ table {
   margin: auto;
 }
 
-section {
+.content {
+  display: inline-block;
+}
+
+.section {
   border: 1px solid red;
+  width: 40%;
+  height: 200px;
+  display: inline-block;
+  right: 100px;
 }
 
 aside {
   border: 1px solid blue;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
 }
 
 article {
   border: 1px solid pink;
+  display: inline-block;
+  width: 40%;
 }
 
 a {
