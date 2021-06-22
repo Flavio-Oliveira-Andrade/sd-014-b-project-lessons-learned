@@ -9,7 +9,8 @@ body {
     color: rgb(15, 189, 15);
     border-radius: 6px;
     margin-right: 5%;
-    
+    text-decoration: none;
+
     
 }
 
@@ -33,5 +34,20 @@ body {
 #minha_foto {
     width: 15%;
     border-radius: 70px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 40%;
     
+}
+
+#rodape{
+    background-color: rgb(104, 121, 107);
+    height: 50px;
+}
+
+#rodape p {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
 }
