@@ -23,7 +23,7 @@ main {
   opacity: 70%;
 }
 #titulo {
-  margin-left: 550px;
+  margin-left: 540px;
 }
 
 #minha_foto {
@@ -57,6 +57,7 @@ main {
   padding: 20px;
   margin: 10px;
   border-radius: 10px;
+  vertical-align: top; /*Colocando o bloco no meio, entre o aside e a lista*/
 }
 
 aside {
@@ -94,9 +95,9 @@ aside {
 }
 
 .links:hover {
-    color: white;
-    margin: 20px;
-    background-color: rgb(129, 31, 31);
-    padding: 20px;
-    border-radius: 25px;
+  color: white;
+  margin: 20px;
+  background-color: rgb(129, 31, 31);
+  padding: 20px;
+  border-radius: 25px;
   }
