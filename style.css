@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Raleway', sans-serif;
 }
 
 #cabecalho {
@@ -8,9 +9,53 @@ body {
     color: white;
     width: 100%;
     position:fixed;
-    top: 0
+    top: 0;
+    z-index: 2;
 }
 
 #minha_foto {
-    margin-top: 120px;
+    margin-top: 150px;
+    width: 300px;
+}
+
+.right {
+    width: 30%;
+    position:absolute;
+    left:70%;
+    top: 20%;
+    z-index: 1;
+
+}
+
+.left {
+    width: 70%;
+    position: absolute;
+    top: 60%;
+    
+}
+
+nav {
+    padding: 5px 5px 20px 5px;
+}
+
+.button {
+    margin-right: 10px;
+}
+
+#licoes_aprendidas {
+    position: absolute;
+    top: 15%;
+    left: 18%;
+}
+
+#licoes_a_aprender {
+    position: absolute;
+    top: 15%;
+    left: 42%;
+}
+
+#rodape {
+    text-align: center;
+    position: fixed;
+    bottom:0;    
 }

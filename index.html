@@ -7,57 +7,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header id="cabecalho">
         <h1 id="titulo">Project: Lessons Learned</h1>
+        <nav><button class="button">Lessons Already Learned</button><button>Lessons To Learn</button></nav>
     </header>
-    <img id="minha_foto" src="perfil.jpeg" alt="Foto de perfil">
-    <ol id="licoes_aprendidas">
-        <h2>Lessons Already Learned:</h2>
-        <li>Unix</li>
-        <li>Shell</li>
-        <li>Bash</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>How Internet Works</li>
-        <li>HTML Structure</li>
-        <li>CSS Concepts</li>
-        <li>CSS: positioning & selectors</li>
-        <li>Semantic HTML</li>
-    </ol>
-    <ul id="licoes_a_aprender">
-        <h2>Lessons To Learn:</h2>
-        <li>JavaScript Intro</li>
-        <li>Programming Logic</li>
-        <li>DOM, Events & Web Storage</li>
-        <li>HTML & CSS: Forms, Flexbox, Reponsive/li>
-        <li>JavaScript ES6</li>
-        <li>Unit tests</li>
-        <li>JavaScript ES6: Higher Order Functions</li>
-        <li>Async JavaScript</li>
-        <li>JavaScript Promises</li>
-        <li>Automatic test w/ Jest</li>
-    </ul>
-    <article>
-        <h3>About My Learning Experience</h3>
-        <p>Lorem ipsum congue eros mauris vel massa nec diam potenti, cursus nibh sit faucibus proin diam eu tincidunt
-            nostra, adipiscing lobortis vitae primis nec risus ipsum hendrerit. aenean lobortis justo aliquet viverra
-            rhoncus vel nec aliquet luctus, rhoncus nec praesent risus felis curae aliquam platea, nostra donec ad proin
-            maecenas fermentum aliquam ultrices. tellus volutpat cubilia rutrum fames est velit etiam morbi netus
-            accumsan, torquent mauris inceptos semper eu justo lorem auctor feugiat lacinia tempor, dapibus congue
-            lectus etiam tempor curabitur porta iaculis senectus.</p>
-    </article>
-    <aside>
-        <h4>Quick Experience Story</h4>
-        Lorem ipsum congue eros mauris vel massa nec diam potenti, cursus nibh sit faucibus proin diam eu tincidunt
-        nostra, adipiscing lobortis vitae primis nec risus ipsum hendrerit. aenean lobortis justo aliquet viverra
-        rhoncus vel nec aliquet luctus, rhoncus nec praesent risus felis curae aliquam platea.
-    </aside>
+    <main>
+        <img id="minha_foto" src="perfil.jpeg" alt="Foto de perfil">
+        <ol id="licoes_aprendidas">
+            <h2>Lessons Already Learned:</h2>
+            <li>Unix</li>
+            <li>Shell</li>
+            <li>Bash</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>How Internet Works</li>
+            <li>HTML Structure</li>
+            <li>CSS Concepts</li>
+            <li>CSS: positioning & selectors</li>
+            <li>Semantic HTML</li>
+        </ol>
+        <ul id="licoes_a_aprender">
+            <h2>Lessons To Learn:</h2>
+            <li>JavaScript Intro</li>
+            <li>Programming Logic</li>
+            <li>DOM, Events & Web Storage</li>
+            <li>HTML & CSS: Forms, Flexbox, Reponsive/li>
+            <li>JavaScript ES6</li>
+            <li>Unit tests</li>
+            <li>JavaScript ES6: Higher Order Functions</li>
+            <li>Async JavaScript</li>
+            <li>JavaScript Promises</li>
+            <li>Automatic test w/ Jest</li>
+        </ul>
+        <article class="left">
+            <h3>About My Learning Experience</h3>
+            <p>Lorem ipsum congue eros mauris vel massa nec diam potenti, cursus nibh sit faucibus proin diam eu
+                tincidunt
+                nostra, adipiscing lobortis vitae primis nec risus ipsum hendrerit. aenean lobortis justo aliquet
+                viverra
+                rhoncus vel nec aliquet luctus, rhoncus nec praesent risus felis curae aliquam platea, nostra donec ad
+                proin
+                maecenas fermentum aliquam ultrices. tellus volutpat cubilia rutrum fames est velit etiam morbi netus
+                accumsan.</p>
+        </article>
+        <aside>
+            <section class="right">
+                <h4>Quick Experience Story</h4>
+                <p>Lorem ipsum congue eros mauris vel massa nec diam potenti, cursus nibh sit faucibus proin diam eu tincidunt
+                nostra, adipiscing lobortis vitae primis nec risus ipsum hendrerit. aenean lobortis justo aliquet viverra
+                rhoncus vel nec aliquet luctus.</p>
+            </section>
+        </aside>
+    </main>
     <br>
     <footer id="rodape">
-        <small>© Bruno Trindade 2021 All rights reserved. Powered by <a target="_blank"
+        <small class="center_text">© Bruno Trindade 2021 All rights reserved. Powered by <a target="_blank"
                 href="https://www.betrybe.com/">Trybe</a></small>
     </footer>
 </body>
