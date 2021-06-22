@@ -7,3 +7,13 @@ body
     position: fixed;
     top: 0;
 }
+table, th, td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td
+{
+    pad: 5px;
+    text-align: left;
+}
