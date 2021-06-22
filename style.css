@@ -46,17 +46,15 @@ nav a:hover {
     color: rgb(60, 95, 44);
 }
 
-/* *************** */
-
 .lado-esquerdo {
     float: left;
     width: 20%;
-    text-align: center;
 }
 
 #perfil a {
     text-decoration: none;
     color: rgb(60, 95, 44);
+    margin-left: 100px;
 }
 
 #minha_foto {
@@ -70,8 +68,21 @@ nav a:hover {
     width: 80%;
 }
 
+#artigo {
+    width: 55%;
+}
+
+#artigo h2 {
+    margin: 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
 #licoes {
     float: right;
+    width: 40%;
 }
 
 /* ***** */
@@ -87,7 +98,7 @@ th {
 
 th h2 {
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 td {
