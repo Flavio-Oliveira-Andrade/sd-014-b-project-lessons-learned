@@ -11,6 +11,14 @@ article {
   max-width: 600px;
   min-width: 300px;
   overflow: hidden;
-  text-overflow: 600px;
+  text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+aside {
+  max-width: 300px;
+  min-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
