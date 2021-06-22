@@ -1,3 +1,8 @@
+* {
+    margin-left: 0px;
+    padding: 0;
+}
+
 body {
     background-color: rgb(253, 251, 251);
 }
@@ -5,4 +10,20 @@ body {
 #cabecalho {
     top: 0;
     position: fixed;
+}
+
+img {
+    width: 400px;
+    padding-bottom: 10px;
+}
+
+article {
+    width: 800px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: block;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
