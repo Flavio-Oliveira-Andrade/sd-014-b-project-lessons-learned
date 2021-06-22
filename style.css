@@ -8,3 +8,9 @@ body {
   position: fixed;
   top: 0;
 }
+
+/* requisito 10 add nav bar */
+/* empurrando para direita para não fica no Titulo*/
+nav {
+  margin-left: 150px; /* add margin a esquerda nav vai para direita */
+}
