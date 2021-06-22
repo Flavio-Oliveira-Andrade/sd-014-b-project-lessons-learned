@@ -2,7 +2,7 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-.nav {
+.header {
     position:top;
     top:0;
 }
@@ -15,7 +15,7 @@ h1 {
     line-height: initial;
 }
 
-nav {
+.nav {
     background-color:ivory;
     width: 100%;
     padding: 15px;
