@@ -1,11 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 body {
   background-color: rgb(253, 251, 251);
+  color: rgb(58, 58, 58);
+  font-family: 'Esteban', serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 400;
 }
 
 #cabecalho {
   top: 0;
   position: fixed;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   width: 100%;
 }
 
@@ -27,12 +43,12 @@ body {
   line-height: 1.5em;
 }
 
-th, td {
+th,td {
   padding: 15px;
 }
 
 .lado-esquerdo {
-    
+  
 }
 
 .lado-direito {
