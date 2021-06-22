@@ -24,7 +24,7 @@ body {
   padding: 5px;
 }
 
-#article, aside {
+#article , aside {
   max-width: 52%;
   text-align: justify;
   margin-bottom: 30px;
