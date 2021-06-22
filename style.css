@@ -9,3 +9,7 @@ body {
   left: 0;
   right: 0;
 }
+
+#minha_foto {
+  width: 200px;
+}
