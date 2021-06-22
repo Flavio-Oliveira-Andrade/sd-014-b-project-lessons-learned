@@ -39,7 +39,6 @@ a, img {
 }
 
 aside {
-    display: inline-block;
     border: 1px solid red;
     width: 400px;
     vertical-align: top;
@@ -52,9 +51,9 @@ aside {
     text-align: justify;
     border: 1px solid black;
     padding: 10px;
-  }
+}
   
-  .lado-direito {
+.lado-direito {
     display: inline-block;
     width: 40%;
     text-align: justify;
