@@ -7,6 +7,9 @@ a:visited {
 }
 body {
     background-color: rgb(253, 251, 251);
+    line-height: 1.1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1em;
 }
 #cabecalho {
     position: fixed;
@@ -24,7 +27,12 @@ body {
 }
 #listas div {
     display: inline-block;
-    padding: 5%;
+    padding: 3%;
+    border: groove black;
+    max-width: 55%;
+}
+h3 {
+    padding-bottom: 15px;
 }
 #rodape {
     background-color: darkgray;
