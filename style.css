@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  margin: 0px;
+  margin: 0%;
 }
 
 header {
@@ -8,7 +8,6 @@ header {
   height: 100px;
   width: 100%;
   padding-left: 10px;
-  
 }
 
 #cabecalho {
@@ -21,7 +20,7 @@ header {
   top: 70px;
 }
 
-#minha_foto{
+#minha_foto {
   width: 200px;
   position: relative;
   top: 130px;
@@ -38,9 +37,9 @@ article {
   padding-left: 10px;
 }
 
-p{
-padding-left: 20px;
-padding-right: 20px;
+p {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 aside {
@@ -48,7 +47,6 @@ aside {
   margin: 10px;
   position: relative;
   left: 930px;  
-  
 }
 
 #licoes_aprendidas {
@@ -64,5 +62,5 @@ aside {
 #link_git {
   margin: 10px;
   position: relative;
-  top: 300px
+  top: 300px;
 }
