@@ -1,20 +1,59 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 2%;
+}
+
+#titulo {
+  margin: 10px;
 }
 
 #minha_foto {
   display: block;
   width: 280px;
-  margin-top: 80px;
+  margin-top: 60px;
+  margin-left: 2%;
+}
+
+.txt {
+  display: inline-block;
+  margin-left: 2%;
+  max-width: 500px;
+}
+
+.txt h2 {
+  margin: 0;
+}
+
+aside {
+  vertical-align: top;
 }
 
 .tabs {
   display: inline-block;
   max-width: 300px;
   margin-right: 20px;
+  margin-left: 2%;
+}
+
+p {
+  text-indent: 4px;
+  margin: 8px;
+}
+
+#rodape {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+span {
+  font-size: 20px;
 }
