@@ -13,8 +13,10 @@ body {
   font-weight: 200;
 }
 
-main{
+main {
   margin-top: 10%;
+  border: 1px solid black;
+  display: inline-block;
 }
 
 #cabecalho {
@@ -45,11 +47,6 @@ main{
 table {
   border: 1px solid black;
   width: 100%;
-}
-
-main {
-  border: 1px solid black;
-  display: inline-block;
 }
 
 #listas {
