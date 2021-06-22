@@ -49,7 +49,7 @@ body {
 }
 
 #secao_licoes_aprender {
-  display: inline-block;
+  float: right;
   margin-top: 30%;
   margin-left: 50%;
 }
@@ -83,7 +83,7 @@ body {
 */
 
 #artigo_sobre_meu_aprendizado {
-  display: inline-block;
+  float: left;
 }
 
 #sobre_meu_aprendizado {
