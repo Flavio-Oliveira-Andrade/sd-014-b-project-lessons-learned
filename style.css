@@ -41,6 +41,10 @@ nav
     padding: 5px 5px 5px 5px;
     background-color:  #F2F2F2;
 }
+nav a
+{
+    margin-left: 200px;
+}
 a
 {
     text-decoration: none;
@@ -62,4 +66,25 @@ a:hover
 {
     display: inline-block;
     margin-left: 15px;
+    margin-right: 600px;
+    color: #a76449;
+}
+.lado-direito
+{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    line-height: 25px;
+    color: #dbaf6e;
+}
+.lado-esquerdo
+{
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 15px;
+    color: #8d4c33;
+}
+footer
+{
+
 }
