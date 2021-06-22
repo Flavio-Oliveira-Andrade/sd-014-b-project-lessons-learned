@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 25px;
   font-size: 15px;
 }
@@ -13,8 +13,7 @@ body {
   padding-right: 100%;
   font-weight: 500;
   color: springgreen;
-  padding-left: 20px;
-  
+  padding-left: 20px;  
 }
 img {
   width: 300px;
@@ -35,6 +34,7 @@ img {
   float: left;
   width: 50%;
   vertical-align: top;
+  margin-bottom: 30px;
 }
 .div-link {
   display: block;
@@ -47,7 +47,4 @@ img {
 }
 .lado-direito p {
   font-size: 17px;  
-}
-.link-externo {
-  m;
 }
