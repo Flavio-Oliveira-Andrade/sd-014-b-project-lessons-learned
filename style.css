@@ -15,7 +15,7 @@ body{
     background-color: green;
 }
 
-#lado-esquerdo, #lado-direito{
+.lado-esquerdo, .lado-direito{
     width: 500px;
     margin:10px;
     padding: 10px;
@@ -26,11 +26,12 @@ body{
     line-height: 12px;
 }
 
-#lado-esquerdo{
+
+.lado-esquerdo{
     float: left;
 }
 
-#lado-direito{
+.lado-direito{
     float: right;
 }
 
@@ -38,4 +39,13 @@ body{
 #tabela{
     background-color: #C0C0C0;
     border: 1px solid black;
+}
+
+
+#rodape{
+    position: absolute;
+    background-color: #C0C0C0;
+    bottom: 0px;
+    margin: 0px;
+    width: 100%;
 }
