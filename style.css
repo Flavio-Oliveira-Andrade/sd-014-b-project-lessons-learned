@@ -19,7 +19,8 @@ html {
 
 /* Essa classe serve para ocultar sessões da sua página exceto em leitores de tela. */
 body {
-  background-color: var(--cor-requisito);
+  background-color: rgb(253, 251, 251);
+  /* background-color: var(--cor-requisito); */
 }
 
 #cabecalho {
