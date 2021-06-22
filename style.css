@@ -4,9 +4,15 @@ body{
 #cabecalho{
     position: fixed;
     top: 0;
+    font-family: monospace;
+    color: rgb(111, 235, 111);
 }
 img{
     margin: 1px;
     padding: 1px;
     border: 2px;
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
 }
