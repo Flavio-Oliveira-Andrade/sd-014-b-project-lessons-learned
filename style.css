@@ -4,10 +4,8 @@ body {
 
 #cabecalho {
   top: 0;
-}
-
-header {
   position: fixed;
+  background-color: aquamarine;
 }
 
 #titulo {
@@ -19,6 +17,11 @@ header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.licoes {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
 #licoes_aprendidas {
   color: rgb(27, 27, 27);
 }
@@ -28,9 +31,15 @@ header {
 }
 
 #minha_foto {
+  margin-top: 70px;
+  margin-left: 6%;
   width: 400px;
 }
 
 #rodape {
   bottom: 0;
+}
+
+article {
+  padding: 3%;
 }
