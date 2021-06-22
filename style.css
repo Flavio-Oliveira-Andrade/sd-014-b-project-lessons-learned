@@ -11,25 +11,14 @@ body{
     background-color: green;
 }
 
-/* div.foto{
-    width: 100px;
-    height: 150px;
-    display: block;
-    top: 100px; 
-}
-#licoes_aprendidas{
-    display: inline-block;
-    float: left;
+#artigo1{
+    width: 500px;
+    margin:10px;
+    padding: 10px;
+    border: 1px solid  #C0C0C0;
+
 }
 
- div#licoes_a_aprender{
-    width: 200px;
-    height: 300px; 
-}
-#licoes_a_aprender{
-    display: inline-block;
-    float: right;
-    margin-left: 50px; */
 
 #tabela{
     background-color: #C0C0C0;
