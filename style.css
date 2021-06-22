@@ -8,6 +8,8 @@ body {
   width: 100%;
   position: fixed;
   background-color: lightskyblue;
+  border-style: solid;
+  border-color: lightslategray;
 }
 
 #titulo {
@@ -29,14 +31,14 @@ body {
   margin-right: 5%;
   margin-bottom: 15%;
   border-radius: 80%;
-  float: right; 
+  float: right;
 }
 
 #titulo_licoes_aprendidas {
   margin-top: 15%;
   margin-left: 5%;
   display: inline-block;
-  vertical-align:top;
+  vertical-align: top;
 }
 
 #licoes_aprendidas {
@@ -48,7 +50,7 @@ body {
   margin-top: 16%;
   margin-left: 5%;
   display: inline-block;
-  vertical-align:top;
+  vertical-align: top;
 }
 
 #licoes_a_aprender {
@@ -60,6 +62,7 @@ body {
   margin-left: 20%;
   text-align: justify;
   width: 500px;
+  padding: 5px;
 }
 
 aside {
@@ -68,6 +71,8 @@ aside {
   height: 600px;
   margin-top: 6%;
   background-color: salmon;
+  border-style: solid;
+  border-color: lightslategray;
 }
 
 #aprendizado_aside {
