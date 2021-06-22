@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -11,7 +16,8 @@ body {
   width: 300px;
   border-radius: 90px;
   display: block;
-  margin: 10px;
+  margin: 30px;
+  margin-left: 500px;
 }
 
 section {
@@ -22,7 +28,7 @@ section {
 }
 
 .lado-esquerdo {
-  width: 300px;
+  width: 250px;
   background-color: rgb(151, 255, 165);
   display: inline-block;
   text-align: center;
@@ -32,6 +38,25 @@ section {
   background-color: rgb(239, 157, 255);
   display: inline-block;
   width: 300px;
-  font-size: 25px
+  height: 500px;
+  font-size: 25px;
+  margin: 10px;
+}
+aside {
+  background-color: rgb(255, 248, 157);
+  width: 200px;
+  height: 400px;
+  font-size: 25px;
+  text-align: center;
+  float: right;
+  padding: 20px;
+  display: inline-block;
+}
+.aside-img {
+    width: 50%;
 }
 
+#rodape {
+    background-color: brown;
+    height: 80px;
+}
