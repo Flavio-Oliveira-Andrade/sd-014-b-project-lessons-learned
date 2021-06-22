@@ -5,6 +5,10 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: green;
+  width: 100%;
+  text-align: center;
+  border: 2px solid black;
 }
 
 #minha_foto {
@@ -18,4 +22,10 @@ body {
   text-align: center;
   bottom: 0;
   padding: 5px;
+}
+
+#article, aside {
+  max-width: 52%;
+  text-align: justify;
+  margin-bottom: 30px;
 }
