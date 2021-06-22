@@ -10,6 +10,12 @@ img {
     width: 100px;
     height: 150px;
 }
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    color: crimson;
+}
 table tr th{
     border: 2px double blue;
     margin: 10px;
