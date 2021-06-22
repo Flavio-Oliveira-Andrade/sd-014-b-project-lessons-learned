@@ -1,25 +1,30 @@
 header {
-    border: 1px solid red;
-    /* background-color: red; */
-    position: fixed;
-    top: 0;
-    width: 100%;
+  border: 1px solid red;
+  /* background-color: red; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#menu p {
+  display: inline;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
-section {
-    border: 1px solid green;
+section, aside, article {
+  border: 1px solid green;
 }
 
 #minha_foto {
-    border: 1px solid red;
-    width: 200px;
-    margin-top: 100px;
+  border: 1px solid red;
+  width: 200px;
+  margin-top: 100px;
 }
 
 footer {
-    border: 1px solid red;
+  border: 1px solid red;
 }
