@@ -56,11 +56,17 @@ body {
   display: inline-block;
 }
 
+#sobre_meu_aprendizado {
+  margin-left: 20%;
+  text-align: justify;
+  width: 500px;
+}
+
 aside {
   float: left;
   width: 200px;
   height: 600px;
-  margin-top: 10%;
+  margin-top: 6%;
   background-color: salmon;
 }
 
