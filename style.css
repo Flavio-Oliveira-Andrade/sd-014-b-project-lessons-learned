@@ -54,11 +54,13 @@ aside {
 }
 
 #licoes_aprendidas {
+  margin: 20px;
   position: relative;
   top: 150px;
 }
 
 #licoes_a_aprender {
+  margin:10px;
   position: relative;
   top: 200px;
 }
