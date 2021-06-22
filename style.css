@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
 body{
     height: 768px;
     width: 1366px;
     background-color: rgb(253, 251, 251);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
 
 #cabecalho{
@@ -16,6 +20,9 @@ body{
     margin:10px;
     padding: 10px;
     border: 1px solid  #C0C0C0;
+    letter-spacing: 1px;
+    color: green;
+    font-size: 10px;
 
 }
 
