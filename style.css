@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, monospace;
   color: gray;
   font-size: 14px;
   letter-spacing: 2px;
@@ -18,7 +18,21 @@ body {
 }
 
 #article {
-  margin: 80px;
   padding: 20px;
-  border: 20px;
+}
+
+.lado_direito {
+  border: solid;
+  border-color: black;
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  border-radius: 12px;
+}
+
+.lado_esquerdo {
+  border: solid;
+  border-color: black;
+  border-radius: 12px;
+  display: inline-block;
 }
