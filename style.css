@@ -22,6 +22,7 @@ main {
   background-image: linear-gradient(25deg, white, rgb(255, 210, 217));
   opacity: 70%;
 }
+
 #titulo {
   margin-left: 540px;
 }
@@ -48,7 +49,7 @@ main {
 }
 
 .lado-direito {
-  background-image: linear-gradient(35deg, pink, rgb(255, 151, 255)) ;
+  background-image: linear-gradient(35deg, pink, rgb(255, 151, 255));
   display: inline-block;
   width: 600px;
   height: 500px;
@@ -57,7 +58,7 @@ main {
   padding: 20px;
   margin: 10px;
   border-radius: 10px;
-  vertical-align: top; /*Colocando o bloco no meio, entre o aside e a lista*/
+  vertical-align: top; /* Colocando o bloco no meio, entre o aside e a lista */
 }
 
 aside {
@@ -73,7 +74,7 @@ aside {
 }
 
 .aside-img {
-    width: 50%;
+  width: 50%;
 }
 
 #rodape {
@@ -100,4 +101,4 @@ aside {
   background-color: rgb(129, 31, 31);
   padding: 20px;
   border-radius: 25px;
-  }
+}
