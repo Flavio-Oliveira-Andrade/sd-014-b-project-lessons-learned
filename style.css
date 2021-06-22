@@ -1,69 +1,70 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 5px;
-    font-size: 18px;
-    color: rgb(68, 43, 11);
-    font-family: monospace;
+  background-color: rgb(253, 251, 251);
+  margin: 5px;
+  font-size: 18px;
+  color: rgb(68, 43, 11);
+  font-family: monospace;
 }
 #cabecalho {
-    top: 0;
-    position: fixed;
-    background-color: darkgreen;
-    padding: 10px;
-    width: 100%;
-    margin: 5px;
+  top: 0;
+  position: fixed;
+  background-color: darkgreen;
+  padding: 10px;
+  width: 100%;
+  margin: 5px;
 }
 main {
-    margin-top: 100px;
-    display: inline-block;
-    width: 100%;
+  margin-top: 100px;
+  display: inline-block;
+  width: 100%;
 }
 
 #licoes_aprendidas {
-    border: 2px solid green;
+  border: 2px solid green;
 }
 
 #licoes_a_aprender {
-    border: 2px solid red
+  border: 2px solid red;
 }
 
 p {
-    line-height: 30px;
+  line-height: 30px;
 }
 
-a, img {
-    display: block;
+a,
+img {
+  display: block;
 }
 
 aside {
-    border: 1px solid red;
-    width: 400px;
-    vertical-align: top;
-    float: right;
+  border: 1px solid red;
+  width: 400px;
+  vertical-align: top;
+  float: right;
 }
 
 .lado-esquerdo {
-    display: inline-block;
-    width: 40%;
-    text-align: justify;
-    border: 1px solid black;
-    padding: 10px;
+  display: inline-block;
+  width: 40%;
+  text-align: justify;
+  border: 1px solid black;
+  padding: 10px;
 }
-  
+
 .lado-direito {
-    display: inline-block;
-    width: 40%;
-    text-align: justify;
-    border: 1px solid black;
-    padding: 10px;
+  display: inline-block;
+  width: 40%;
+  text-align: justify;
+  border: 1px solid black;
+  padding: 10px;
 }
 
 footer {
-    padding: 20px;
-    background-color: black;
-    color: white;
-    font-weight: bold;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
 }
