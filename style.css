@@ -14,3 +14,15 @@ body {
 nav {
   margin-left: 150px; /* add margin a esquerda nav vai para direita */
 }
+
+/* requisito 13 bonus */
+/* estilizando a tabela */
+table {
+  margin: 15px;
+  border-collapse: collapse;
+}
+
+table tr td {
+  border: solid black;
+  padding: 7px;
+}
