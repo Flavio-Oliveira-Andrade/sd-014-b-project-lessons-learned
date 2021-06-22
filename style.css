@@ -15,7 +15,7 @@ body{
     background-color: green;
 }
 
-#artigo1{
+#lado-esquerdo, #lado-direito{
     width: 500px;
     margin:10px;
     padding: 10px;
@@ -23,7 +23,15 @@ body{
     letter-spacing: 1px;
     color: green;
     font-size: 10px;
+    line-height: 12px;
+}
 
+#lado-esquerdo{
+    float: left;
+}
+
+#lado-direito{
+    float: right;
 }
 
 
