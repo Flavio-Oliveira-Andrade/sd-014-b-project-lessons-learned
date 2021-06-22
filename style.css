@@ -6,3 +6,7 @@ body {
   position: fixed;
   top: 0px;
 }
+
+.spanit {
+    font: italic;
+}
