@@ -27,7 +27,27 @@ img {
 }
 .lado-direito {
   float: right;
+  width: 50%;
+  margin-bottom: 30px;
+  vertical-align: top;
 }
 .lado-esquerdo {
-    float: left;
+  float: left;
+  width: 50%;
+  vertical-align: top;
+}
+.div-link {
+  display: block;
+  width: 100%;
+  position: relative
+}
+
+.lado-esquerdo p {
+  font-size: 17px;
+}
+.lado-direito p {
+  font-size: 17px;  
+}
+.link-externo {
+  m;
 }
