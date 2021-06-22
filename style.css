@@ -70,6 +70,12 @@ aside {
   background-color: salmon;
 }
 
+#aprendizado_aside {
+  text-align: justify;
+  margin: 5px;
+  margin-top: 150px;
+}
+
 footer {
   height: 200px;
   background-color: sandybrown;
