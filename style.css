@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+
 body {
   background-color: rgb(253, 251, 251);
   margin: 5px;
@@ -8,6 +9,7 @@ body {
   color: rgb(68, 43, 11);
   font-family: monospace;
 }
+
 #cabecalho {
   top: 0;
   position: fixed;
@@ -16,6 +18,7 @@ body {
   width: 100%;
   margin: 5px;
 }
+
 main {
   margin-top: 100px;
   display: inline-block;
@@ -34,8 +37,7 @@ p {
   line-height: 30px;
 }
 
-a,
-img {
+a, img {
   display: block;
 }
 
@@ -66,5 +68,5 @@ footer {
   padding: 20px;
   background-color: black;
   color: white;
-  font-weight: bold;
+  font-weight: 1000;
 }
