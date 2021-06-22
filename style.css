@@ -1,5 +1,9 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-size: 30px;
+    color: red;
+    line-height: 2.0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #cabecalho {
     position: fixed;
@@ -13,3 +17,4 @@ body {
     font-size: 30px;
     margin-left: 300px;
 }
+
