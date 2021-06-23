@@ -18,3 +18,18 @@ h1 {
 #rodape {
   font-size: 14px;
 }
+.lado-esquerdo {
+  display: inline-block;
+  float: left;
+  width: 500px;
+  height: 500px;
+}
+.lado-direito {
+  display: inline-block;
+  float: right;
+  width: 500px;
+  height: 500px;
+}
+.licoes {
+  display: inline-block;
+}
