@@ -1,10 +1,33 @@
+* {
+  margin: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
 }
 
 header {
+  text-align: center;
   position: fixed;
   top: 0;
+  padding: 20px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+}
+
+.conteudos {
+  padding: 30px;
+  overflow: hidden;
+  display: flex;
+
+}
+
+ul , ol {
+  padding: 20px;
+  font-size: 20px;
 }
 
 article {
@@ -13,6 +36,9 @@ article {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  border-style: dashed;
+  padding: 50px;
+  background-color: wheat;
 }
 
 aside {
@@ -20,5 +46,22 @@ aside {
   min-width: 100px;
   overflow: hidden;
   text-overflow: ellipsis;
+  border-style: dashed;
+  padding: 50px;
+  background-color: wheat;
+}
+
+#minha_foto {
+  width: 200px;
+  margin-top: 100px;
+  padding: 30px;
+}
+
+.lado-direito {
+  float: right;
+}
+
+.lado-esquerdo {
+  float: left;
 }
 
