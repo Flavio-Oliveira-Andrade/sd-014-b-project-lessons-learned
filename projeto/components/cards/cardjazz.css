@@ -3,13 +3,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
-.infocardContainerjazz * {
-  font-family: 'Bree Serif', serif;
-  font-weight: 300;
-}
 /*container*/
 /*before*/
 .infocardContainerjazz {
+  font-family: 'Bree Serif', serif;
+  font-weight: 16rem;
   display: flex;
   height: 200px;
   width: 200px;
@@ -25,18 +23,22 @@
 .infocardContainerjazz div {
   width: 100%;
 }
+/*text and pic*/
 /*before*/
+/*reset the margin and padding configs for the card expansion*/
+/*the text have no size before the hove*/
 .infocardContainerjazz div * {
   display: flex;
   overflow: hidden;
-  text-overflow: hidden;
   width: 0;
   white-space: nowrap;
-  text-align: justify;
+  text-align: center;
   color: rgb(255, 255, 255);
   transition: all 700ms ease-in;
 }
 /*after*/
+/*now the text have the container size*/
+/*it is visible and have a transition time*/
 .infocardContainerjazz:hover div * {
   display: flex;
   visibility: visible;
@@ -44,6 +46,8 @@
   width: 100%;
 }
 /*image*/
+/*the image doesnt have a hover, since it is static*/
+/*the image needs to have the same size of .infocardcontainer*/
 .infocardContainerjazz .main img {
   height: 180px;
   width: 180px;

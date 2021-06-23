@@ -5,15 +5,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 
 .buttonprog {
-    width: 170px;
-    height: 30px;
-    cursor: pointer;
     border: none;
+    width: 10rem;
+    height: 2rem;
+    cursor: pointer;
     font-family: "Bree Serif", serif;
     color: rgb(148, 42, 42);
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-size: 20px;
+    margin-top: 0.7rem;
+    margin-bottom: 0.3rem;
+    font-size: 1.2rem;
     border-radius: 4px;
     box-shadow: inset 0px 3px 5px rgba(255, 255, 255, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.15);
     background: rgb(2, 0, 36);
