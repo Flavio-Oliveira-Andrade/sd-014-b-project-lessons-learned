@@ -64,11 +64,11 @@ h2 {
   padding: 10px;
 }
 
-li:nth-of-type( odd ) {
-  color: red;
-}
-
 li {
   text-align: justify;
   max-width: 50%;
+}
+
+li:nth-of-type( odd ) {
+  color: red;
 }
