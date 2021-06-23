@@ -7,12 +7,12 @@ body {
   top: 0;
   background-color: green;
   text-align: center;
-  width: 100%
+  width: 100%;
 }
 
 h1 {
   font-size: 3em;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 nav {
@@ -36,4 +36,14 @@ ul {
   border: 3px solid red;
   padding-bottom: 15px;
   width: 40%;
+}
+
+.lado-direito{
+  float: right;
+  width: 60%;
+}
+
+.lado-esquerdo{
+  float: left;
+  width: 30%;
 }
