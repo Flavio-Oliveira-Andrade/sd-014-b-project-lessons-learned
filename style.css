@@ -1,65 +1,55 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid black;
+  background-color: rgb(253, 251, 251);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
 }
-
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid black;
+  position: fixed;
+  top: 0;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
 }
-
 
 #minha_foto {
-    margin-top: 100px;
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    border: 1px dashed black;
+  margin-top: 100px;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 1px dashed black;
 }
-
 
 .wrapper {
-    display: inline-block;
-    border: 1px solid black;
-    width: 100%;
+  display: inline-block;
+  border: 1px solid black;
+  width: 100%;
 }
-
 
 .lado-direito {
-    float: right;
-    border: 1px solid blue;
-    margin-bottom: 100px;
-    max-width: 50%;
+  float: right;
+  border: 1px solid blue;
+  margin-bottom: 100px;
+  max-width: 50%;
 }
-
 
 .lado-esquerdo {
-    float: right;
-    border: 1px solid black;
-    width: 300px;
+  float: right;
+  border: 1px solid black;
+  width: 300px;
 }
 
-
-table,th,td {
-    border: 1px solid black;
-    font-size: 20px;
-    color: blueviolet;
-    font-family :'Courier New', Courier, monospace;
-    line-height: 30px;
-    font:italic;
+table , th , td {
+  border: 1px solid black;
+  font-size: 20px;
+  color: blueviolet;
+  font-family: Courier , sans-serif;
+  line-height: 30px;
 }
 
-
-#licoes_aprendidas li , #licoes_a_aprender li{
-    margin: 10px;
-    padding: 5px;
-    border: 1px dashed pink;
+#licoes_aprendidas li , #licoes_a_aprender li {
+  margin: 10px;
+  padding: 5px;
+  border: 1px dashed pink;
 }
-
-
