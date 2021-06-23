@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  letter-spacing: 1px;
   font-family: monospace;
   font-size: 14px;
   color: gray;
@@ -12,7 +13,6 @@ body {
 }
 
 .lista {
-  letter-spacing: 1px;
   margin: 50px;
   padding: 5px;
   border: 2px solid gray;
