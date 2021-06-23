@@ -6,6 +6,22 @@ body{
     
 }
 
+#licoes_aprendidas{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: small;
+    color:blue; 
+    letter-spacing: 3%;
+}
+
+#licoes_a_aprender{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: small;
+    color:blue;
+    letter-spacing: 3%;
+}
+
 #navegacao{
     top: 0;
 }
