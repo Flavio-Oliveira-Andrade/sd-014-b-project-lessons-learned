@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Anton&family=Righteous&display=swap');
 
-
 /*body-jazz*/
 body{
     background: linear-gradient(-45deg, #fdfdfd, #a19fa0, #5d5d5e, #000000);
@@ -11,19 +10,17 @@ body{
 section.text {
     position: absolute;
     width: 100%;
-    min-width: 800px;
     text-align: center;
-    margin-top: -30px;
+    margin-top: -1.8rem;
 }
 h2 {
     font-family: 'Abril Fatface', cursive;
     text-transform: uppercase;
-    font-weight: 400;
-    font-size: 70px;
+    font-size: 4.4rem;
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px #3a3a3a, 2px 2px #777676;
     position: relative;
-    top: -60px;
+    top: -3.8rem;
 }
 h2 span {
     display: inline-block;
@@ -32,8 +29,7 @@ h2 span {
 h1 {
     font-family: 'Abril Fatface', cursive;
     text-transform: uppercase;
-    font-weight: 700px;
-    font-size: 40px;
+    font-size: 2.4rem;
     color: rgb(255, 255, 255);
     position: relative;
 }
