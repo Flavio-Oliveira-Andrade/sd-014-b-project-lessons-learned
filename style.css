@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: "Trebuchet MS", sans-serif;
-  padding: 120px 0px 0px 0px;
+  padding: 120px 0 0 0;
   margin: 0;
   box-sizing: border-box;
 }
@@ -12,7 +12,7 @@ body {
   position: fixed;
   left: 0;
   top: 0;
-  padding: 0px 40px;
+  padding: 0 40px;
   color: white;
 }
 
@@ -20,19 +20,19 @@ body {
   float: left;
 }
 
-nav#menu ul {
+#menu ul {
   float: right;
   position: relative;
   top: 15px;
   right: 100px;
 }
 
-nav#menu ul li {
+#menu ul li {
   display: inline-block;
   margin-left: 10px;
 }
 
-nav#menu a {
+#menu a {
   text-decoration: none;
   color: white;
   font-weight: 600;
@@ -42,7 +42,7 @@ nav#menu a {
   transition: 0.2s;
 }
 
-nav#menu a:hover {
+#menu a:hover {
   background-color: rgb(109, 212, 123);
   color: rgb(49, 97, 35);
 }
@@ -97,6 +97,10 @@ nav#menu a:hover {
   margin-bottom: 10px;
 }
 
+#conteudoPricinpal {
+  height: 750px;
+}
+
 #conteudoPricinpal p {
   text-align: justify;
   line-height: 1.5;
@@ -116,7 +120,7 @@ article h2 {
   float: right;
   width: 38%;
 }
-  
+
 table {
   width: 100%;
 }
