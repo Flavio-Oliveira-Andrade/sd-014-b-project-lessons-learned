@@ -43,13 +43,14 @@ article{
     margin-top: 10px;
     color: grey;
     font-size: 30px;
+    line-height: 140%;
 }
 aside{
     margin-top: 10px;
     color: blue;
     font-size: 30px;
     line-height: 140%;
-    font-family:'Impact';
+   
 
 }
 .lado-esquerdo{
@@ -57,17 +58,18 @@ aside{
         
     padding-left:500px;
     padding-right: 500px;
-    position:relative;
-    left: -500px;
-    float:left;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    
 }
 .lado-direito{
     color:blueviolet;
      
     padding-left:500px;
     padding-right: 500px;
-    position: relative;
-    top: -250px;
-    left: 400px;
-    float:right;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    
 }
