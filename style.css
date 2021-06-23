@@ -1,5 +1,6 @@
 header {
-
+    right: 0;
+    top: 50%;
     position: fixed;
 }
 body {
