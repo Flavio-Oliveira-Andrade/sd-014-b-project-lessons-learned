@@ -8,7 +8,7 @@ body {
   position: fixed;
   top: 0;
   background-color: green;
-  width: 52%;
+  width: 100%;
   text-align: center;
   border: 2px solid black;
   font-family: 'Trebuchet MS', sans-serif;
@@ -18,7 +18,6 @@ body {
   margin-top: 80px;
   border-radius: 50%;
   border: 5px solid black;
-
 }
 
 #rodape {
@@ -29,10 +28,11 @@ body {
   bottom: 0;
   padding: 5px;
   font-weight: 700;
+  position: fixed;
 }
 
 #article , aside {
-  max-width: 52%;
+  max-width: 50%;
   text-align: justify;
   margin-bottom: 30px;
   margin-top: 20px;
@@ -58,7 +58,7 @@ caption {
 
 h2 {
   background-color: green;
-  max-width: 52%;
+  max-width: 50%;
   font-size: 20px;
   text-align: center;
   padding: 10px;
