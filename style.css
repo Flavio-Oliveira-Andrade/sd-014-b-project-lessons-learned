@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: -0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
 }
 
 #cabecalho {
@@ -52,7 +52,7 @@ body {
 }
 
 .lado-esquerdo {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
   padding: 10px;
   position: relative;
   float: left;
@@ -61,7 +61,7 @@ body {
 }
 
 .lado-direito {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
   text-align: justify;
   padding: 15px;
   background-color: rgb(12, 23, 43);
