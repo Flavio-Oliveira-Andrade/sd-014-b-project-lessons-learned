@@ -5,7 +5,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  font-size: large;
+  font-size: x-large;
 }
 
 #minha_foto {
@@ -16,4 +16,5 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   word-spacing: 1px;
   color: rgb(31, 32, 29);
+  font-size: 97%;
 }
