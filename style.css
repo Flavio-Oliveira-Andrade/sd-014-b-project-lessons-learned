@@ -3,7 +3,8 @@ body{
 }
 
 header{
-    top: 0;
+    position: fixed;
+    top: 0%;
     padding: 25px;
     background-color: greenyellow;
 }
