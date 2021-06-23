@@ -1,113 +1,111 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: Georgia, "Times New Roman", Times, serif, Arial, Helvetica, sans-serif;
+  background-color: rgb(253, 251, 251);
+  font-family: Georgia, "Times New Roman", Times, serif, Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
-    width: 100%;
-    padding: 30px;
-    background-color: #000;
-    color: #fff;
-    position: fixed;
-    top: 0;
+  width: 100%;
+  padding: 30px;
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  top: 0;
 }
 
 #menu {
-    text-align: right;
-    margin-top: -34px;
+  text-align: right;
+  margin-top: -34px;
 }
 
 #menu a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    background-color: #fff;
-    color: #000;
-    list-style: none;
-    margin-right: 50px;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #fff;
+  color: #000;
+  list-style: none;
+  margin-right: 50px;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 8px;
 
 }
 
 #minha_foto {
-    display: block;
-    width: 300px;
-    border-radius: 50%;
-    margin: 0 auto;
-    margin-top: 120px;
-    margin-bottom: 35px;
+  display: block;
+  width: 300px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 35px;
 }
 
 .lado-esquerdo {
-    display: inline-block;
-    position: relative;
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 300px;
-    height: 500px;
-    padding: 10px;
-    margin:40px;
-    margin-left: 14%;
-    list-style: none;
-    text-align: center;
+  display: inline-block;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 500px;
+  padding: 10px;
+  margin:40px;
+  margin-left: 14%;
+  list-style: none;
+  text-align: center;
 
 }
 
 .lado-esquerdo h2 {
-    margin-bottom: 10px;
-    text-align: center;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .lado-direito {
-    display: inline-block;
-    position: relative;
-    border: 1px solid black;
-    border-radius: 10px;
-    text-align: justify;
-    width: 500px;
-    height: 500px;
-    margin: 40px;
-    padding: 10px;
-    vertical-align: top;
+  display: inline-block;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: justify;
+  width: 500px;
+  height: 500px;
+  margin: 40px;
+  padding: 10px;
+  vertical-align: top;
 
 }
 
 #side-bar {
-    display: inline-block;
-    position: relative;
-    border: 1px solid black;
-    border-radius: 10px;
-    text-align: justify;
-    width: 500px;
-    height: 500px;
-    margin: 40px;
-    padding: 10px;
-    vertical-align: top;
+  display: inline-block;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: justify;
+  width: 500px;
+  height: 500px;
+  margin: 40px;
+  padding: 10px;
+  vertical-align: top;
 }
 
-
 #rodape {
-    text-align: center;
-    margin-top: 80px;
+  text-align: center;
+  margin-top: 80px;
 }
 
 #git {
-    display: inline-block;
-    list-style: none;
-    background-color: black;
-    border-radius: 10px;
-    padding: 12px;
+  display: inline-block;
+  list-style: none;
+  background-color: black;
+  border-radius: 10px;
+  padding: 12px;
 }
 
 #git a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
 }
 
 #copy {
-    margin-top: 15px;
+  margin-top: 15px;
 }
-
