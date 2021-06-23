@@ -51,14 +51,16 @@ aside{
     font-family:'Impact';
 
 }
-#lado-esquerdo{
+.lado-esquerdo{
     color: aqua;
-    text-align: justify;
     float: left;
+    margin-left: 40px;
+    margin-right: 40px;
 
 }
-#lado-direito{
+.lado-direito{
     color:blueviolet;
-    text-align:center;
     float: right;
+    margin-left: 40px;
+    margin-right: 40px;
 }
