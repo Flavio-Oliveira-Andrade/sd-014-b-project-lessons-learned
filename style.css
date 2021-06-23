@@ -9,3 +9,10 @@ body{
 #minha_foto{
     width: 17%;
 }
+
+#aprendizado{
+    width: 50%;
+    height: 300px;
+    /*overflow-y: auto;
+    overflow-x: hidden;*/
+}
