@@ -1,0 +1,26 @@
+/*some references from https://codepen.io/ - searching for rainbow button references*/
+/*https://codepen.io/chancesq/pen/BajZVJd*/
+/*this works with the combination of the boxshadow with the hueRoration*/
+/*on this button i changed some values to have a darker background*/
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@keyframes hueRotation {
+	to {filter: hue-rotate(360deg);}
+}
+.buttonjazz {
+    border: none;
+    width: 170px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: "Bree Serif", serif;
+	cursor: pointer;
+	background: #1a1919;
+    font-size: 20px;
+	border-radius: 4px;
+	box-shadow: 0px 10px 25px rgb(166, 217, 226), 0px -10px 25px #aaaaaa, inset 0px -5px 10px #727272, inset 0px 5px 10px #0a0a0a;
+	color: white;
+}
+.buttonjazz:hover {
+	animation: hueRotation 3s linear infinite;
+}

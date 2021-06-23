@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400|Open+Sans:700);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+/*some references from https://speckyboy.com/css-retro-type-effects/*/
+
+/*body prog*/
+body {
+    background: #e6e6d8 url("https://dl.dropboxusercontent.com/s/t0gu051d08sei65/bg-retro-noise.png");
+    color: #121212;
+    overflow-x: hidden
+}
+/*title-prog*/
+section.text {
+    position: absolute;
+    width: 100%;
+    min-width: 800px;
+    text-align: center;
+    margin-top: -30px;
+}
+h2 {
+    font-family: "Bree Serif", serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 70px;
+    color: rgb(148, 42, 42);
+    text-shadow: 4px 5px #e6e6d8, 6px 7px #c6a39a;
+    position: relative;
+    top: -50px;
+}
+h2 span {
+    display: inline-block;
+    vertical-align: middle;
+}
+h1 {
+    font-family: "Bree Serif", serif;
+    text-transform: uppercase;
+    font-weight: 700px;
+    font-size: 30px;
+    color: rgb(148, 42, 42);
+    letter-spacing: 0.1em;
+    position: relative;
+}
+/*column*/
+.column {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    float: left;
+    width: 33.33%;
+}

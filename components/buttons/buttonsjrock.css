@@ -1,0 +1,30 @@
+/*some references from https://codepen.io/ - searching for rainbow button references*/
+/*https://codepen.io/chancesq/pen/BajZVJd*/
+/*this works with the combination of the boxshadow with the hueRoration*/
+/*i tried to made this code a bitter small for my peprsonal project*/
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@keyframes hueRotation {
+	to {filter: hue-rotate(360deg);}
+}
+.buttonjrock {
+    border: none;
+    width: 170px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: "Bree Serif", serif;
+	cursor: pointer;
+	background: rgb(170, 231, 247);
+    font-size: 20px;
+	border-radius: 4px;
+	box-shadow: 0px 2px 5px rgb(166, 217, 226), 0px -2px 5px #aaaaaa, inset 0px -1px 2px #727272, inset 0px 1px 2px rgb(170, 231, 247);
+	color: rgb(255, 255, 255);
+}
+.buttonjrock:hover {
+	animation: hueRotation 3s linear infinite;
+}
+
+
+
+

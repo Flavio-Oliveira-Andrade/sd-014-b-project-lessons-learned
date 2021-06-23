@@ -1,0 +1,54 @@
+/*some references from https://codepen.io/*/
+/*https://codepen.io/LIMESTA/pen/KKPbvpL*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+.infocardContainerjazz * {
+  font-family: 'Bree Serif', serif;
+  font-weight: 300;
+}
+/*container*/
+/*before*/
+.infocardContainerjazz {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  background: rgb(0, 0, 0);
+  transition: all 700ms ease-in;
+  margin: auto;
+}
+/*after*/
+.infocardContainerjazz:hover {
+  width: 500px;
+    transition: all 700ms ease-out;
+}
+.infocardContainerjazz div {
+  width: 100%;
+}
+/*before*/
+.infocardContainerjazz div * {
+  display: flex;
+  overflow: hidden;
+  text-overflow: hidden;
+  width: 0;
+  white-space: nowrap;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  transition: all 700ms ease-in;
+}
+/*after*/
+.infocardContainerjazz:hover div * {
+  display: flex;
+  visibility: visible;
+  transition: all 700ms ease-out;
+  width: 100%;
+}
+/*image*/
+.infocardContainerjazz .main img {
+  height: 180px;
+  width: 180px;
+  transition: none;
+  display: float;
+  border: 10px solid rgb(0, 0, 0);
+}
+
