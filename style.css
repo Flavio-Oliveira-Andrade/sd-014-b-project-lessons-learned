@@ -5,12 +5,13 @@ body {
 li{list-style: none;
 }
 #cabecalho {top: 0;
+  margin-left: 15px;
   position: fixed;
 }
 #navegacao {list-style: none;
   text-align: right;
   background-color:darkcyan;
-  border: solid 1px cyan;
+  border: solid 5px orangered;
   margin-bottom: 15px;
 }
 #n1 {border: solid 1px cyan;
@@ -30,43 +31,81 @@ li{list-style: none;
   display: inline-block;
 }
 #n1:hover {background-color: cyan;
-color: black;
+color: orangered;
+font-weight: bold;
   }
 #n2:hover {background-color: cyan;
-  color: black;
+  color: orangered;
+  font-weight: bold;
   }
 #n3:hover {background-color: cyan;
-  color: black;
+  color: orangered;
+  font-weight: bold;
   }
 #n4:hover {background-color: cyan;
-  color: black;
+  color: orangered;
+  font-weight: bold;
   }
-#licoes_aprendidas {margin-right: 410px;
-  padding-left: 15px;
+
+#licoes_aprendidas {
+  background-color:darkcyan;
+  border: solid 5px orangered;
   text-align: left;
+  width: 495px;
+  padding: 5px;
+  padding-right: 15px;
   display: inline-block;
+
 }
 
-#licoes_a_aprender {margin-left: 650px;
+#licoes_a_aprender {
+  background-color:darkcyan;
+  border: solid 5px orangered;
   text-align: right;
+  width: 550px;
+  padding: 5px;
   display: inline-block;
+  float: right;
 }
 
-#minha_foto{float: left;
-  }
-
-  #aprendizado, #historia {font-size: 30px;
-    line-height: 46px;
-  }
-
-.sections{background-color:darkcyan;
-  border: solid 5px #00ffff;
+main{
+  background-color: darkcyan;
+}
+.lado-direito {
+  width: 505px;
+  background-color:darkcyan;
+  border: solid 5px orangered;
+  text-align: center;
   margin-bottom: 15px;
-  padding-left: 15px;
+  padding: 5px;
+  display: inline-block;
+  float: left;
 }
-footer {background-color:darkcyan;
-  border: solid 5px cyan;
-  padding-left: 15px;
+#minha_foto{
+margin-top: 17px;
+width: 30%;
+margin-bottom: 15px;
+display: inline-block;
+float: left;
+margin-right: 15px;
+
 }
-#aprendizado{padding-left: 100px;
+.lado-esquerdo{
+  width: 550px;
+  background-color:darkcyan;
+  border: solid 5px orangered;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 5px;
+  display: inline-block;
+  float: right;
+
 }
+
+#rodape {background-color:darkcyan;
+  border: solid 5px  orangered;
+  text-align: center;
+  margin-top: 500px;
+}
+
+
