@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Montserrat', sans-serif;
 }
 
 #cabecalho {
@@ -15,4 +16,10 @@ body {
     float: above;
     top: 150px;
     left: 20px;
+}
+
+h2{
+    color: slategray;
+    font-size: 2em;
+    line-height: 1.5px;
 }
