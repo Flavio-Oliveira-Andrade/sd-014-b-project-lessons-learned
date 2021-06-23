@@ -87,12 +87,11 @@ h2 {
     text-decoration: none;
 }
 
-.lado-direito {
-    float: right;
-    width: ;
-    border: 5px solid rgb(198, 243, 198);
-}
 .lado-esquerdo {
     border: 5px solid rgb(198, 243, 198);
     width: 30%;
+}
+div {
+    margin: 20px;
+    vertical-align: top;
 }
