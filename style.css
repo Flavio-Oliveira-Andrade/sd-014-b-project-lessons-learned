@@ -2,22 +2,9 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-img {
-}
-
 #cabecalho {
   position: fixed;
   top: 0;
-}
-
-#rodape {
-}
-
-#licoes_aprendidas {
-
-}
-
-#licoes_a_aprender{
-
+  background-color: aqua;
 }
 
