@@ -24,6 +24,6 @@ h1{
     text-align: justify;
 }
 #rodape{
-    position:fixed;
+    position:relative;
     bottom: 0;
 }
