@@ -122,6 +122,10 @@ article h2 {
   width: 38%;
 }
 
+#artigo img {
+  border-radius: 5px;
+}
+
 table {
   width: 100%;
 }
