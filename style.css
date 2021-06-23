@@ -74,7 +74,18 @@ a:link {
 }
 
 #title-secund-list {
- display: inline-block;
- background-color: darkkhaki;
- margin-top: -400px;
+  display: inline-block;
+  background-color: darkkhaki;
+  margin-top: -400px;
+}
+
+#about-me {
+  margin-left: 85%;
+  margin-top: -350px;
+}
+
+#story-learning {
+  width: 150px;
+  height: 300px;
+  margin-top: 10px;
 }
