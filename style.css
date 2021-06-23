@@ -2,69 +2,71 @@ body {
   background: rgb(253, 251, 251);
   color: white;
 }
-
-li{
-  list-style: none;
-}#cabecalho {
-  top: 0;
+li{list-style: none;
+}
+#cabecalho {top: 0;
   position: fixed;
-}#navegacao {
-  list-style: none;
+}
+#navegacao {list-style: none;
   text-align: right;
   background-color:darkcyan;
   border: solid 1px cyan;
   margin-bottom: 15px;
-}#n1 {
-  border: solid 1px cyan;
+}
+#n1 {border: solid 1px cyan;
   margin: 15px;
   display: inline-block;
-}#n2 {
-  border: solid 1px cyan;
+}
+#n2 {border: solid 1px cyan;
   margin: 15px;
   display: inline-block;
-}#n3 {
-  border: solid 1px cyan;
+}
+#n3 {border: solid 1px cyan;
   margin: 15px;
   display: inline-block;
-}#n4 {
-  border: solid 1px cyan;
+}
+#n4 {border: solid 1px cyan;
   margin: 15px;
   display: inline-block;
-}#n1:hover {
-background-color: cyan;
+}
+#n1:hover {background-color: cyan;
 color: black;
-  }#n2:hover {
-  background-color: cyan;
+  }
+#n2:hover {background-color: cyan;
   color: black;
-  }#n3:hover {
-  background-color: cyan;
+  }
+#n3:hover {background-color: cyan;
   color: black;
-  }#n4:hover {
-  background-color: cyan;
+  }
+#n4:hover {background-color: cyan;
   color: black;
-  }#licoes_aprendidas {
-  margin-right: 410px;
+  }
+#licoes_aprendidas {margin-right: 410px;
   padding-left: 15px;
   text-align: left;
   display: inline-block;
-}#licoes_a_aprender {
-  margin-left: 650px;
+}
+
+#licoes_a_aprender {margin-left: 650px;
   text-align: right;
   display: inline-block;
-}#minha_foto{
-  float: left;
-  }  #aprendizado, #historia {
-    font-size: 30px;
-    line-height: 47px;
-  }.sections{
-  background-color:darkcyan;
+}
+
+#minha_foto{float: left;
+  }
+
+  #aprendizado, #historia {font-size: 30px;
+    line-height: 46px;
+  }
+
+.sections{background-color:darkcyan;
   border: solid 5px #00ffff;
   margin-bottom: 15px;
   padding-left: 15px;
-}footer {
-  background-color:darkcyan;
+}
+footer {background-color:darkcyan;
   border: solid 5px cyan;
   padding-left: 15px;
-}#aprendizado{
-  padding-left: 100px;
+}
+#aprendizado{padding-left: 100px;
 }
