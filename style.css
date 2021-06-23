@@ -22,3 +22,10 @@ body {
   width: 50%;
   display: inline-block;
 }
+
+#titulo {
+  font-size: 26px;
+  color: rgb(2, 6, 66);
+  line-height: 2px;
+  font-family: Noto Sans JP, sans-serif;
+}
