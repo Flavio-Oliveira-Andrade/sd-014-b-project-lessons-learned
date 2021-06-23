@@ -36,18 +36,22 @@ li{list-style: none;
 #n1:hover {background-color: cyan;
 color: orangered;
 font-weight: bold;
+font-size: 20px;
   }
 #n2:hover {background-color: cyan;
   color: orangered;
   font-weight: bold;
+  font-size: 20px;
   }
 #n3:hover {background-color: cyan;
   color: orangered;
   font-weight: bold;
+  font-size: 20px;
   }
 #n4:hover {background-color: cyan;
   color: orangered;
   font-weight: bold;
+  font-size: 20px;
   }
 
 #licoes_aprendidas {
