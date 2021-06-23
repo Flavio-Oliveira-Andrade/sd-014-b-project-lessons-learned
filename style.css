@@ -1,5 +1,10 @@
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: rgb(253, 251, 251);
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
@@ -12,10 +17,15 @@ body {
   position: fixed;
   display: inline-block;
   width: 720px;
+  background-color: #036B52;
 }
 
 #cabecalho nav {
   display: inline-block;
+}
+
+#cabecalho ul {
+  margin: 0;
 }
 
 #cabecalho li {
@@ -23,12 +33,24 @@ body {
 }
 
 #cabecalho li a { 
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   margin-bottom: 5px;
+  font-weight: 700;
+  margin: auto 10px;
+  color: #eee;
+  transition: all 0.3s;
+}
+
+#cabecalho li a:hover { 
+  text-decoration: underline;
+  font-size: 1.7rem;
 }
 
 #titulo {
+  padding-left: 1rem;
   display: inline-block;
+  color: #fff;
+  letter-spacing: .1rem;
 }
 
 #minha_foto {
@@ -47,3 +69,6 @@ td, th {
   padding: 8px;
 }
 
+article p {
+  line-height: .1rem
+}
