@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,14 +11,63 @@ body {
 }
 
 #cabecalho {
-  top: 0;
   position: fixed;
-  z-index: 2;
+  width: 100%;
+  top: 0;
+}
+
+#titulo {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-family: 'Libre Barcode 128 Text', cursive;
+}
+
+.study-list {
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  padding: 25px;
+}
+
+.aboutme-title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.aboutme-content {
+  display: inline;
+  vertical-align: top;
+}
+
+.aboutme {
+  padding: 15px;
+  margin-top: 60px;
+  border: 1px solid black;
+  background-color: orange;
+}
+
+.study-list .licoes_aprendidas {
+  width: 50%;
+  float: left;
+}
+
+.study-list .licoes_a_aprender {
+  width: 50%;
+  float: right;
+}
+
+li {
+  list-style-type: none;
 }
 
 #minha_foto {
   width: 150px;
   position: relative;
-  z-index: 1;
-  border-radius: 50%;
+  top: 0px;
+  left: px;
+  border: 10px;
+  padding: 10px;
 }
