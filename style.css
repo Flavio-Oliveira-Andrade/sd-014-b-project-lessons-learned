@@ -58,27 +58,17 @@ a {
 }
 
 .lado-esquerdo {
-    position: absolute;
-    box-sizing: border-box;
-    width: 664px;
+    width: 400px;
+    height: 300px;
     border: 1px solid black;
     display: inline-block;
-    z-index: 1;
 }
 
 .lado-direito {
-    position: absolute;
-    right: 100px;
-    top: 1000px;
-    box-sizing: content-box;
-    width: 500px;
+    width: 400px;
+    height: 200px;
     border: 1px solid black;
     display: inline-block;
-    z-index: 2;
 }
 
-#table {
-    position: absolute;
-    z-index: 3;
-    top: 130%;
-}
+
