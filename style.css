@@ -2,9 +2,33 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+.container {
+  margin: 0 auto;
+  width: 720px;
+}
+
 #cabecalho {
   top: 0;
   position: fixed;
+  display: inline-block;
+  width: 720px;
+}
+
+#cabecalho nav {
+  display: inline-block;
+}
+
+#cabecalho li {
+  display: inline-block;
+}
+
+#cabecalho li a { 
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+#titulo {
+  display: inline-block;
 }
 
 #minha_foto {
@@ -12,3 +36,14 @@ body {
   max-width: 100%;
   width: 360px;
 }
+
+table {
+  border: 1px collapse #000;
+}
+
+td, th {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 8px;
+}
+
