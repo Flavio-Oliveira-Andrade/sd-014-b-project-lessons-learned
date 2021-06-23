@@ -1,104 +1,110 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: 'Baloo Tammudu 2', sans-serif;
+  background-color: rgb(253, 251, 251);
+  font-family: 'Baloo Tammudu 2', sans-serif;
 
 }
 
 #cabecalho { 
-    top: 0;
-    position: fixed;
+  top: 0;
+  position: fixed;
 
 }
 #titulo {
-    top: 0;
-    font-weight: 350;
-    width: 1400px;
-    background-image: linear-gradient(180deg, #b4f2a0 0, #a1ec9c 16.67%, #89e397 33.33%, #6cd890 50%, #49cd8a 66.67%, #10c488 83.33%, #00bd88 100%);
+  top: 0;
+  font-weight: 350;
+  width: 1400px;
+  background-image: linear-gradient(180deg, #b4f2a0 0, #a1ec9c 16.67%, #89e397 33.33%, #6cd890 50%, #49cd8a 66.67%, #10c488 83.33%, #00bd88 100%);
 
 }
 
 #minha_foto {
-    top: 150px;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
+  top: 150px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
 
 }
 
 #article {
-    text-align: justify;
-    margin: 10px;
-    margin-bottom: 70px;
-    width: 75%;
+  text-align: justify;
+  margin: 10px;
+  margin-bottom: 70px;
+  width: 75%;
 
 }
 
 h2 {
-    font-weight: 250;
-    line-height: 35px;
-    margin: 10px;
+  font-weight: 250;
+  line-height: 35px;
+  margin: 10px;
 
 }
 
 
 #navegation li {
-    display: inline-block;
-    margin: 10px;
-    margin-top: 90px;
-    margin-bottom: 10px; 
-    color: rgb(26, 146, 26);
-    font-weight: bold;
+  display: inline-block;
+  margin: 10px;
+  margin-top: 90px;
+  margin-bottom: 10px; 
+  
+  color: rgb(26, 146, 26);
+  font-weight: bold;
 
 }
 
 #licoes_aprendidas {
-    border: 5px solid rgb(198, 243, 198);
-    width: 75%;
+  border: 5px solid rgb(198, 243, 198);
+  width: 75%;
 }
 
 #licoes_aprendidas img {
-    float: right;
-    margin-right: 20px;
+  float: right;
+  margin-right: 20px;
 
 }
 #licoes_a_aprender {
-    border: 5px solid rgb(198, 243, 198);
-    width: 75%;
+  border: 5px solid rgb(198, 243, 198);
+  width: 75%;
 
 }
+
 #licoes_a_aprender img {
-    float: right;
-    margin-right: 20px;
+  float: right;
+  margin-right: 20px;
 }
+
 #rodape {
-    background-image: linear-gradient(180deg, #b4f2a0 0, #a1ec9c 16.67%, #89e397 33.33%, #6cd890 50%, #49cd8a 66.67%, #10c488 83.33%, #00bd88 100%);
-    text-align: center;
-    font-weight: bold;
+  background-image: linear-gradient(180deg, #b4f2a0 0, #a1ec9c 16.67%, #89e397 33.33%, #6cd890 50%, #49cd8a 66.67%, #10c488 83.33%, #00bd88 100%);
+  text-align: center;
+  font-weight: bold;
 
 }
+
 #aside {
-    float: right;
-    right: 0;
-    width: 20%;
-    border: 5px solid rgb(238, 238, 238);
-    text-align: center;
+  float: right;
+  right: 0;
+  width: 20%;
+  border: 5px solid rgb(238, 238, 238);
+  text-align: center;
 }
+
 #aside a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .lado-esquerdo {
-    border: 5px solid rgb(198, 243, 198);
-    width: 30%;
+  border: 5px solid rgb(198, 243, 198);
+  width: 30%;
 }
 
 table {
-    border-collapse: collapse;
-    width: 75%;
+  border-collapse: collapse;
+  width: 75%;
+
 }
 
 table, td, th {
-    border: 4px solid rgb(198, 243, 198);
+  border: 4px solid rgb(198, 243, 198);
 
 }
   
