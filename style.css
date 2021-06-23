@@ -8,6 +8,22 @@ body {
 
 }
 
+.artigo {
+  width: 400px;
+  height: 400px;
+  margin-top: 300px;
+  border: 2px solid gray;
+  display: inline-block;
+}
+
+.aside {
+  width: 400px;
+  height: 400px;
+  margin-top: 300px;
+  border: 2px solid gray;
+  display: inline-block;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
