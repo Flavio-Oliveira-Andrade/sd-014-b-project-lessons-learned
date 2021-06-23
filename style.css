@@ -10,6 +10,7 @@ body {
 
 }
 #titulo {
+    top: 0;
     font-weight: 350;
     width: 1400px;
     background-image: linear-gradient(180deg, #b4f2a0 0, #a1ec9c 16.67%, #89e397 33.33%, #6cd890 50%, #49cd8a 66.67%, #10c488 83.33%, #00bd88 100%);
@@ -27,6 +28,7 @@ body {
 #article {
     text-align: justify;
     margin: 10px;
+    margin-bottom: 70px;
     width: 75%;
 
 }
@@ -38,11 +40,12 @@ h2 {
 
 }
 
+
 #navegation li {
     display: inline-block;
     margin: 10px;
     margin-top: 90px;
-    margin-bottom: 10px;  
+    margin-bottom: 10px; 
     color: rgb(26, 146, 26);
     font-weight: bold;
 
@@ -77,9 +80,19 @@ h2 {
     float: right;
     right: 0;
     width: 20%;
-    border:5px solid rgb(238, 238, 238);
+    border: 5px solid rgb(238, 238, 238);
     text-align: center;
 }
 #aside a {
     text-decoration: none;
+}
+
+.lado-direito {
+    float: right;
+    width: ;
+    border: 5px solid rgb(198, 243, 198);
+}
+.lado-esquerdo {
+    border: 5px solid rgb(198, 243, 198);
+    width: 30%;
 }
