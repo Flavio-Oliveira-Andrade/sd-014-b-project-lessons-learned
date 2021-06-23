@@ -4,13 +4,15 @@ body {
 
 img {
   display: block;
+  width: 200px;
 }
 
 #cabecalho {
-  position: relative;
+  position: fixed;
   top: 0;
 }
 
-#principal{
+#principal {
+  margin-top: 80px;
   display: block;
 }
