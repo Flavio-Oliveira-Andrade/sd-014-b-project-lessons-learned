@@ -5,4 +5,11 @@ body {
 header {
     top: 0;
     position: fixed;
+    background-color: black;
+    color: white;
+}
+
+#minha_foto {  
+    border-radius: 6000px;
+    height: 200px;
 }
