@@ -9,7 +9,7 @@ body {
   left: 0;
   background-color: darkgreen;
   width: 100%;
-  height: 80px;  
+  height: 80px;
 }
 
 #titulo {
@@ -41,7 +41,7 @@ body {
   color: darkgreen;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
   font-size: 20px;
 }
 
@@ -62,7 +62,7 @@ section {
 }
 
 section a {
-  color: darkgreen;  
+  color: darkgreen;
 }
 
 article {
@@ -89,7 +89,7 @@ article {
   top: 80px;
   width: 100%;
   height: 60px;
-  background-color:rgb(212, 245, 164); 
+  background-color:rgb(212, 245, 164);
 }
 
 .menu p a {
