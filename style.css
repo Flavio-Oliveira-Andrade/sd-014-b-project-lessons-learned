@@ -59,6 +59,7 @@ aside{
     padding-right: 500px;
     position:relative;
     left: -500px;
+    float:left;
 }
 .lado-direito{
     color:blueviolet;
@@ -68,4 +69,5 @@ aside{
     position: relative;
     top: -250px;
     left: 400px;
+    float:right;
 }
