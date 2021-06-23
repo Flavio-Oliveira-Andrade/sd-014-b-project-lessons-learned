@@ -11,7 +11,7 @@ body {
 #minha_foto {
   width: 200px;
   border-radius: 50%;
-  margin-left: 50px;
+  margin-left: 80px;
 }
 
 * {
@@ -19,6 +19,7 @@ body {
   word-spacing: 1px;
   color: rgb(31, 32, 29);
   font-size: 97%;
+  margin-left: 10px;
 }
 
 article {
@@ -31,4 +32,5 @@ aside {
   display: inline-block;
   max-width: 40%;
   position: relative;
+  padding-right: 30px;
 }
