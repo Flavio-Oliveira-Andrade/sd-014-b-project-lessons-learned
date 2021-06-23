@@ -48,8 +48,17 @@ aside{
     color: blue;
     font-size: 60px;
     line-height: 140%;
+    font-family:'Impact';
 
 }
-.colunas{
-    columns: 200px 3;
+#lado-esquerdo{
+    color: aqua;
+    text-align: justify;
+    float: left;
+
+}
+#lado-direito{
+    color:blueviolet;
+    text-align:center;
+    float: right;
 }
