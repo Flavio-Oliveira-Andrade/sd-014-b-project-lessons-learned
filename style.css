@@ -1,14 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
-  background-size: 250px 100px 400px 100px;
+  background-size: 360px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 aside {
-  padding: 2px 30px 40px 1px;
-}
-
-.texto {
   padding: 2px 30px 40px 1px;
 }
 
@@ -17,7 +13,7 @@ aside {
   float: right;
 }
 
-.color-title_left { 
+.color-title { 
   color: skyblue;
   font-size: 25px;
   font-weight: bold;
@@ -26,48 +22,52 @@ aside {
 }
 
 .lista_aprendi {
-    float: right;
-    width: 30px;
-    margin: 10px;
-    display: inline-block;
+  float: right;
+  width: 30px;
+  margin: 10px;
+  display: inline-block;
 }
 
 .lista_aaprender {
-    float: left;
-    width: 30px;
-    margin: 10px;
-    display: inline-block;
-    vertical-align: top;
+  float: left;
+  width: 30px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .textos-aprend_1 {
+  top: 500px;
   font-size: 16px;
-  line-height: 20px;
 }
 
 .textos-aprend_2 {
   font-size: 16px;
-  line-height: 20px;
 }
 
-#minha_foto {
-  display: inline-block;
-  vertical-align: top;
-  width: 150px;
-  border-radius: 50%;
-  }
+#sobre_mim {
+  padding-top: 400px;
+}
 
 #cabecalho {
   top: 0px;
   position: fixed;
   background-color: skyblue;
-  padding-inline: 800px;
+  padding-inline: 720px;
 }
 
 #titulo {
   color: white;
-  size: 100px;
+  size: 30px;
 }
+
+#minha_foto {
+    top: 8px;
+    width: 150px;
+    left: 50px;
+    position: absolute;
+    border-radius: 50%;
+  }
 
 #rodape {
   clear: both;
