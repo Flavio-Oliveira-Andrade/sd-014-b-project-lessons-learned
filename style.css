@@ -1,3 +1,8 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -10,12 +15,22 @@ body {
 
 #rodape {
   background-color: rgb(175, 131, 175);
-  height: 70px;
+  margin: 1px;
+  text-align: center;
+
 }
 
 #rodape a {
   text-decoration: none;
-  text-align: center;
+}
+
+#rodape li {
+  display: inline-block;
+}
+
+#rodape a img {
+  width: 30px;
+  padding-left: 28px;
 }
 
 table, th, td {
