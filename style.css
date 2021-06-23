@@ -28,7 +28,6 @@ body {
 #left_right {
   width: 100%;
   text-align: center;
-  top: 3010px;
 }
 
 .left_right {
@@ -38,8 +37,16 @@ body {
   vertical-align: top;
 }
 
+.left_right h2 {
+  color: darkgreen;
+}
+
 #licoes_aprendidas {
   font-size: 20px;
+}
+
+#licoes_aprendidas ol {
+  font-size: 30px;
 }
 
 #licoes_a_aprender {
@@ -63,11 +70,11 @@ section a {
 }
 
 article {
-  position: absolute;
   margin-left: 350px;
-  margin-top: -200px;
+  margin-top: -220px;
   font-size: 22px;
   font-style: italic;
+  line-height: 30px;
 }
 
 #passagem_aprendizado {
@@ -77,6 +84,7 @@ article {
   padding: 5px;
   width: 250px;
   height: 180px;
+  line-height: 20px;
 }
 
 .menu {
