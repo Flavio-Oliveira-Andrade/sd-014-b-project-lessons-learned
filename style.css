@@ -15,9 +15,9 @@ footer {
     height: 5%;
 }
 
-main {
+.central {
     height: 85%;
-    width: 85%;
+    width: 80%;
     display: block;
 }
 
