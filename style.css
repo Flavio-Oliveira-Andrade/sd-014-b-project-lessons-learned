@@ -44,3 +44,6 @@ article{
 aside{
     margin-top: 10px;
 }
+.colunas{
+    columns: 200px 2;
+}
