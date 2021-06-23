@@ -14,7 +14,7 @@ body{
 }
 
 
-#licoes_aprendidas{
+#lado-esquerdo{
    border-style: outset;
    width: 30%;
    margin-left: 20px;
@@ -25,7 +25,7 @@ body{
  font-family: 'Courier New', Courier, monospace;
     line-height: 30px;
 }
-#licoes_a_aprender{
+#lado-direito{
     border-style: outset;
     width: 30%;
     margin: 20px;
@@ -49,5 +49,5 @@ body{
     display: inline-block;
 }
 #rodape{
-    
+
 }
