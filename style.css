@@ -1,6 +1,19 @@
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: #036b52;
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+ 
+
+}
+#titulo {
+  color: rgb(253, 251, 251);
+  float: unset;
+
 }
 body {
   background-color: rgb(253, 251, 251);
