@@ -46,7 +46,6 @@ h2 {
   margin: 10px;
   margin-top: 90px;
   margin-bottom: 10px; 
-  
   color: rgb(26, 146, 26);
   font-weight: bold;
 
@@ -77,6 +76,7 @@ h2 {
   background-image: linear-gradient(180deg, #b4f2a0 0, #a1ec9c 16.67%, #89e397 33.33%, #6cd890 50%, #49cd8a 66.67%, #10c488 83.33%, #00bd88 100%);
   text-align: center;
   font-weight: bold;
+  font-size: 14px;
 
 }
 
@@ -86,6 +86,7 @@ h2 {
   width: 20%;
   border: 5px solid rgb(238, 238, 238);
   text-align: center;
+
 }
 
 #aside a {
@@ -95,8 +96,19 @@ h2 {
 .lado-esquerdo {
   border: 5px solid rgb(198, 243, 198);
   width: 30%;
+  padding: 10px 10px;
+}
+.lado-direito {
+  padding: 10px 10px;
+  border: 5px solid rgb(198, 243, 198);
+  width: 45%;
 }
 
+div section {
+  display: inline-block;
+  vertical-align: top;
+
+}
 table {
   border-collapse: collapse;
   width: 75%;
@@ -107,4 +119,3 @@ table, td, th {
   border: 4px solid rgb(198, 243, 198);
 
 }
-  
