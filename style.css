@@ -20,3 +20,11 @@ ul, ol{
 img{
     display: block;
 }
+
+article{
+    width: 40%;
+}
+
+aside{
+    width: 40%;
+}

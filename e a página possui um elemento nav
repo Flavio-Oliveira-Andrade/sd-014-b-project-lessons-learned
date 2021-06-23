@@ -1,0 +1,89 @@
+[33mcommit 2ebc906dfae3769f3a4bcb43067c34ba6d7021d4[m[33m ([m[1;36mHEAD -> [m[1;32mviniciusTanaka-lessons-learned-project[m[33m, [m[1;31morigin/viniciusTanaka-lessons-learned-project[m[33m)[m
+Author: Vinicius Tanaka <viniciusbtanaka@hotmail.com>
+Date:   Wed Jun 23 19:36:52 2021 -0400
+
+    add requisito #8
+
+[33mcommit 5fa8a9c42d9e79a0e95db35ec69d696c8b6879a3[m
+Author: Vinicius Tanaka <viniciusbtanaka@hotmail.com>
+Date:   Wed Jun 23 19:30:10 2021 -0400
+
+    add requisito #6 & #7
+
+[33mcommit 96cfc893863931dd913fd4219f8ed234409c78ce[m
+Author: Vinicius Tanaka <viniciusbtanaka@hotmail.com>
+Date:   Wed Jun 23 19:24:22 2021 -0400
+
+    add requisito #5
+
+[33mcommit 76480a72cf0f2a015345b3b7f8d73352b4dabccd[m
+Author: Vinicius Tanaka <viniciusbtanaka@hotmail.com>
+Date:   Wed Jun 23 19:07:37 2021 -0400
+
+    add requisito 4#
+
+[33mcommit 209f457475ac7949ae7fb834854ab5b8dc186d6c[m
+Author: Vinicius Tanaka <viniciusbtanaka@hotmail.com>
+Date:   Wed Jun 23 18:59:25 2021 -0400
+
+    update style.css
+
+[33mcommit 49912c433aa77fff6637ad45990844d458fa9762[m
+Author: Vinicius Tanaka <viniciusbtanaka@hotmail.com>
+Date:   Tue Jun 22 20:53:54 2021 -0400
+
+    add requisito #3
+
+[33mcommit d6bf3376624f4f9bddf22fd61a19fec897cbf0e1[m
+Author: Vinicius Tanaka <viniciusbtanaka@hotmail.com>
+Date:   Tue Jun 22 20:52:03 2021 -0400
+
+    fixed style.css
+
+[33mcommit f140284b3ce05ff226abeffbdb0af65397520d7a[m
+Author: Vinicius Tanaka <viniciusbtanaka@hotmail.com>
+Date:   Tue Jun 22 20:15:52 2021 -0400
+
+    add requisito #2
+
+[33mcommit 1f6edca3cbeef257e02e4e197a9fa2e28b46747a[m
+Author: Vinicius Tanaka <viniciusbtanaka@hotmail.com>
+Date:   Tue Jun 22 19:43:34 2021 -0400
+
+    add requisito #1
+
+[33mcommit fe66a4aeb9adc6f48a8eed21019537f883f50279[m
+Author: Vinicius Tanaka <viniciusbtanaka@hotmail.com>
+Date:   Tue Jun 22 19:15:46 2021 -0400
+
+    add index.html and style.css
+
+[33mcommit 47ca96e86754627b9adcbe0c43c4a309c7d60a21[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Bernardo Salgueiro <bernardo.roll@gmail.com>
+Date:   Tue Jun 22 13:12:19 2021 -0300
+
+    Update README.md
+
+[33mcommit 8d2a1c2439a3ddf5e7c10c43b64103a64d6d7f78[m
+Author: NandaInstrucao <84472298+NandaInstrucao@users.noreply.github.com>
+Date:   Mon Jun 21 15:12:01 2021 -0300
+
+    Update README.md
+
+[33mcommit cb072010cdf3310f4b14eadc04e6239a14f38b30[m
+Author: Jean Paulo Silva Vasconcelos <jean.vasconcelos6@gmail.com>
+Date:   Mon Jun 21 14:59:34 2021 -0300
+
+    Updating .github/workflows/main.yml
+
+[33mcommit ffe1dd497ae2e484a32a0bc20eac90cc6f3bca23[m
+Author: Jean Paulo Silva Vasconcelos <jean.vasconcelos6@gmail.com>
+Date:   Mon Jun 21 14:59:34 2021 -0300
+
+    Updating README.md
+
+[33mcommit 4503e8fbc0aa6c39a4b3cdd03d16cf6530b11f58[m
+Author: Jean Paulo Silva Vasconcelos <jean.vasconcelos6@gmail.com>
+Date:   Mon Jun 21 14:59:29 2021 -0300
+
+    Initial commit
