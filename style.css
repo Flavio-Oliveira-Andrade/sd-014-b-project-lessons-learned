@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', 'Times', 'serif';
   font-size: 16px;
   line-height: 28px;
   color: #023047;
@@ -16,7 +16,7 @@ header {
 }
 section a {
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 1px bold;
   color: black;
 }
 section a:hover {
@@ -25,8 +25,7 @@ section a:hover {
   padding: 5px;
   border-radius: 30%;
 }
-table tr,
-td {
+table tr, td{
   border: 1px black solid;
   text-align: left;
 }
@@ -34,10 +33,10 @@ td {
   float: right;
   width: 46%;
   display: inline;
-  margin: 10px;
+  margin: 15px;
 }
 .lado-esquerdo {
   float: left;
   width: 46%;
-  margin: 10px;
+  margin: 15px;
 }
