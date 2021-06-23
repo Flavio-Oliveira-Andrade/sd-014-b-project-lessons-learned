@@ -41,12 +41,8 @@ body {
   color: darkgreen;
 }
 
-#licoes_aprendidas {
+#licoes_aprendidas{
   font-size: 20px;
-}
-
-#licoes_aprendidas ol {
-  font-size: 30px;
 }
 
 #licoes_a_aprender {
@@ -71,10 +67,9 @@ section a {
 
 article {
   margin-left: 350px;
-  margin-top: -220px;
+  margin-top: -200px;
   font-size: 22px;
   font-style: italic;
-  line-height: 30px;
 }
 
 #passagem_aprendizado {
