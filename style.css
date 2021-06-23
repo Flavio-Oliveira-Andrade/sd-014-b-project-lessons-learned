@@ -33,3 +33,7 @@ h1 {
 .licoes {
   display: inline-block;
 }
+#minha_foto {
+  width: 20%;
+  border-radius: 10%;
+}
