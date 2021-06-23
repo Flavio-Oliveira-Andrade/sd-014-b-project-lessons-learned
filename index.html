@@ -1,106 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Document</title>
-</head>
+  <body>
+    <div class="container">
+      <header id="cabecalho">
+        <h1 id="titulo">Lições aprendidas - Trybe!</h1>
+        <nav>
+          <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="#minha_foto">Sobre</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <img id="minha_foto" src="./images/foto.jpg" alt="Foto Anderson">
+        <a href="https://www.linkedin.com/in/andersonleitedev/" target="_blank">Anderson Leite</a>
+      </main>
+      <section>
+        <ol id="licoes_aprendidas">
+          <li>Unix</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>HTML Semântico</li>
+          <li>Inspeccionar código</li>
+          <li>Zoom</li>
+          <li>Slack</li>
+          <li>Colaboração</li>
+        </ol>
 
-<body>
-  <div class="container">
-    <header id="cabecalho">
-      <h1 id="titulo">Lições aprendidas - Trybe!</h1>
-      <nav>
-        <ul>
-          <li><a href="./">Home</a></li>
-          <li><a href="#minha_foto">Sobre</a></li>
+        <ul id="licoes_a_aprender">
+          <li>JavaScript</li>
+          <li>DOM</li>
+          <li>Forms</li>
+          <li>Responsividade</li>
+          <li>ES6</li>
+          <li>HOF</li>
+          <li>Testes Unitários</li>
+          <li>React</li>
+          <li>Node</li>
+          <li>SQL</li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <img id="minha_foto" src="./images/foto.jpg" alt="Foto Anderson">
-      <a href="https://www.linkedin.com/in/andersonleitedev/" target="_blank">Anderson Leite</a>
-    </main>
-    <section>
-      <ol id="licoes_aprendidas">
-        <li>Unix</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>HTML Semântico</li>
-        <li>Inspeccionar código</li>
-        <li>Zoom</li>
-        <li>Slack</li>
-        <li>Colaboração</li>
-      </ol>
-
-      <ul id="licoes_a_aprender">
-        <li>JavaScript</li>
-        <li>DOM</li>
-        <li>Forms</li>
-        <li>Responsividade</li>
-        <li>ES6</li>
-        <li>HOF</li>
-        <li>Testes Unitários</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>SQL</li>
-      </ul>
-    </section>
-    <article class="lado-esquerdo">
-      <h2>Artigo</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam finibus venenatis velit, at placerat nulla
-        dictum quis. Proin vitae sapien in tortor volutpat aliquam quis et augue. Morbi sit amet semper purus.
-        Curabitur aliquet lorem et ultrices porta. Nullam sollicitudin magna vitae lorem tristique varius. Nam
-        fringilla sapien lacus, et dignissim felis aliquam sit amet. Interdum et malesuada fames ac ante ipsum primis
-        in faucibus. Donec sed augue velit.
-      </p>
-    </article>
-    <section>
-      <aside class="lado-direito">
-        <h2>Aprendizados</h2>
+      </section>
+      <article class="lado-esquerdo">
+        <h2>Artigo</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in
-          faucibus. Donec sed augue velit.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam finibus venenatis velit, at placerat nulla
+          dictum quis. Proin vitae sapien in tortor volutpat aliquam quis et augue. Morbi sit amet semper purus.
+          Curabitur aliquet lorem et ultrices porta. Nullam sollicitudin magna vitae lorem tristique varius. Nam
+          fringilla sapien lacus, et dignissim felis aliquam sit amet. Interdum et malesuada fames ac ante ipsum primis
+          in faucibus. Donec sed augue velit.
         </p>
-      </aside>
-    </section>
-    <div>
-      <table>
-        <tr>
-          <th>Elemento 1</th>
-          <th>Elemento 2</th>
-          <th>Elemento 3</th>
-        </tr>
-        <tr>
-          <td>Conteúdo 1</td>
-          <td>Conteúdo 2</td>
-          <td>Conteúdo 3</td>
-        </tr>
-        <tr>
-          <td>Conteúdo 4</td>
-          <td>Conteúdo 5</td>
-          <td>Conteúdo 6</td>
-        </tr>
-        <tr>
-          <td>Conteúdo 7</td>
-          <td>Conteúdo 8</td>
-          <td>Conteúdo 9</td>
-        </tr>
-      </table>
+      </article>
+      <section>
+        <aside class="lado-direito">
+          <h2>Aprendizados</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in
+            faucibus. Donec sed augue velit.
+          </p>
+        </aside>
+      </section>
+      <div>
+        <table>
+          <tr>
+            <th>Elemento 1</th>
+            <th>Elemento 2</th>
+            <th>Elemento 3</th>
+          </tr>
+          <tr>
+            <td>Conteúdo 1</td>
+            <td>Conteúdo 2</td>
+            <td>Conteúdo 3</td>
+          </tr>
+          <tr>
+            <td>Conteúdo 4</td>
+            <td>Conteúdo 5</td>
+            <td>Conteúdo 6</td>
+          </tr>
+          <tr>
+            <td>Conteúdo 7</td>
+            <td>Conteúdo 8</td>
+            <td>Conteúdo 9</td>
+          </tr>
+        </table>
+      </div>
+      <footer id="rodape">
+        Rodapé
+      </footer>
     </div>
-    <footer id="rodape">
-      Rodapé
-    </footer>
-  </div>
-</body>
-
+  </body>
 </html>
