@@ -1,11 +1,3 @@
-:root {
-  --dutch-white:    #DCCCA3;
-  --sugar-plum:     #824C71;
-  --dark-byzantium: #4A2545;
-  --black:          #000000;
-  --dark-sea-green: #90AA86;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +10,7 @@ body {
 
 header {
   background-color: #000000;
-  color: var(--dutch-white);
+  color: #DCCCA3;
   position: fixed;
   top: 0;
 
@@ -116,7 +108,7 @@ aside img {
 }
 
 footer {
-  background-color: var(--dark-byzantium);
+  background-color: #4A2545;
   color: white;
   height: 150px;
   width: 100%;
