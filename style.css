@@ -5,9 +5,15 @@ body {
 }
 
 .menu_ao_lado_right {
-  padding: 9px 0px 30px 430px;
-  margin: 20px;
   float: right;
+  height: 10px;
+  width: 400px;
+}
+
+#sobre_mim {
+  float: left;
+  height: 10px;
+  width: 500px;
 }
 
 .color-title { 
@@ -20,26 +26,18 @@ body {
 
 .lista_aprendi {
   float: right;
-  width: 30px;
-  margin: 10px;
-  display: inline-block;
+  width: 700px;
+  margin: 20px;
 }
 
 .lista_aaprender {
   float: left;
-  width: 30px;
+  width: 200px;
   margin: 10px;
-  display: inline-block;
-  vertical-align: top;
-}
-
-#sobre_mim {
-  padding: 160px 20px 10px 20px;
-  margin: 20px;
 }
 
 #link {
-    padding: 500px 200px 10px 300px;
+    padding: 300px 200px 10px 300px;
     margin: 20px;
 }
 
@@ -47,13 +45,14 @@ body {
   top: 0px;
   position: fixed;
   background-color: skyblue;
-  padding-inline: 720px;
+  padding-inline: 200px;
 }
 
 #titulo {
   color: white;
   size: 30px;
-  display: inline-flex;
+  height: 70px;
+  width: 500em;
   }
 
 #minha_foto {
@@ -65,6 +64,8 @@ body {
 }
 
 #rodape {
-  padding: 20px
+  height: 30px;
+  width: 50%;
+  padding: 0px
 }
 
