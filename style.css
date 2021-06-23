@@ -4,12 +4,9 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-aside {
-  padding: 2px 30px 40px 1px;
-}
-
 .menu_ao_lado_right {
-  text-align: right;
+  padding: 9px 0px 30px 430px;
+  margin: 20px;
   float: right;
 }
 
@@ -17,7 +14,7 @@ aside {
   color: skyblue;
   font-size: 25px;
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   text-decoration-style: solid;
 }
 
@@ -36,17 +33,14 @@ aside {
   vertical-align: top;
 }
 
-.textos-aprend_1 {
-  top: 500px;
-  font-size: 16px;
-}
-
-.textos-aprend_2 {
-  font-size: 16px;
-}
-
 #sobre_mim {
-  padding-top: 400px;
+  padding: 160px 20px 10px 20px;
+  margin: 20px;
+}
+
+#link {
+    padding: 500px 200px 10px 300px;
+    margin: 20px;
 }
 
 #cabecalho {
@@ -59,17 +53,18 @@ aside {
 #titulo {
   color: white;
   size: 30px;
-}
-
-#minha_foto {
-    top: 8px;
-    width: 150px;
-    left: 50px;
-    position: absolute;
-    border-radius: 50%;
+  display: inline-flex;
   }
 
-#rodape {
-  clear: both;
-  font-weight: lighter;  
+#minha_foto {
+  top: 8px;
+  width: 150px;
+  left: 50px;
+  position: absolute;
+  border-radius: 50%;
 }
+
+#rodape {
+  padding: 20px
+}
+
