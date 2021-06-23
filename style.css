@@ -3,6 +3,10 @@ body{
 }
 
 #titulo{
+    
+}
+
+#navegacao{
     top: 0;
 }
 
@@ -13,6 +17,10 @@ body{
 #aprendizado{
     width: 50%;
     height: 300px;
-    /*overflow-y: auto;
-    overflow-x: hidden;*/
+}
+
+#barralateral{
+    width: 50%;
+    height: 300px;
+    
 }
