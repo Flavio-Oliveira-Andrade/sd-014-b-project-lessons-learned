@@ -1,7 +1,7 @@
 /*some references from https://codepen.io/*/
 /* glass button https://codepen.io/chancesq/pen/GRovMQq*/
 /*the thing that make this button looks like glass is the conbination between box-shadow and background: linear-gradient*/
-
+/*this button changes the background position when hover then we have the glass effect*/
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 
 .buttonprog {

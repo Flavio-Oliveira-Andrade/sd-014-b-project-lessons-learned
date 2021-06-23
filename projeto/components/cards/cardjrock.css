@@ -3,9 +3,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
-
 /*container*/
 /*before*/
+/*use ease-in when things move out*/
+/*use ease-out when things move in*/
+/* ease-in and ease-out control the start/end speed of animation*/
 .infocardContainerjrock {
   font-family: 'Bree Serif', serif;
   font-weight: 16rem;
@@ -24,10 +26,8 @@
 .infocardContainerjrock div {
   width: 100%;
 }
-/*text and pic*/
+/*text*/
 /*before*/
-/*reset the margin and padding configs for the card expansion*/
-/*the text have no size before the hove*/
 .infocardContainerjrock div * {
   display: flex;
   overflow: hidden;
@@ -41,7 +41,6 @@
 /*now the text have the container size*/
 /*it is visible and have a transition time*/
 .infocardContainerjrock:hover div * {
-  display: flex;
   visibility: visible;
   transition: all 700ms ease-out;
   width: 100%;

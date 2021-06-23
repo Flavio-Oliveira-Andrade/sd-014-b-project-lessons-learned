@@ -6,35 +6,37 @@
 body{
     background: linear-gradient(-45deg, #fdfdfd, #a19fa0, #5d5d5e, #000000);
 	background-size: 400% 400%;
+    overflow-x: hidden;
 }
 /*title-jazz*/
-h2{
-    font-size: 85%;
-    position: relative;
-    top: -40px;
-}
-.jazztitle {
-	text-transform: uppercase;
+section.text {
+    position: absolute;
+    width: 100%;
+    min-width: 800px;
     text-align: center;
-    color: white;
-	letter-spacing: .5em;
-	display: inline-block;
-	padding: 1.5em 0em;
-	position: absolute;
-	top: 1%;
-	left: 54%;
-	width: 40em;
-	margin: 0 0 0 -20em;
-    font-size: 16px;
+    margin-top: -30px;
 }
-  .jazzspan {
-    color: white;
-    font:  4em/1 "Oswald", sans-serif;
-  	letter-spacing: 0;
-  	position: absolute;
-	display: block;
-	margin: 0 auto;
-  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+h2 {
+    font-family: "Bree Serif", serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #3a3a3a, 2px 2px #777676;
+    position: relative;
+    top: -60px;
+}
+h2 span {
+    display: inline-block;
+    vertical-align: middle;
+}
+h1 {
+    font-family: "Bree Serif", serif;
+    text-transform: uppercase;
+    font-weight: 700px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    position: relative;
 }
 /*column*/
 .column {

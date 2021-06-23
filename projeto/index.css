@@ -29,13 +29,10 @@ h2{
     font-family: "Bree Serif", serif;
     text-align: justify;
     text-justify: center;
-    margin-bottom: 3rem;
-    
+    margin-bottom: 3rem; 
 }
 .column {
     text-align: center;
-    position: relative;
-    bottom: 2rempx;
     float: left;
-    width: 33.33%;
+    width: 25%;
 }

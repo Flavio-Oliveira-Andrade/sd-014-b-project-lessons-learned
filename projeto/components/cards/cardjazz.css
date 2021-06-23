@@ -5,6 +5,9 @@
 
 /*container*/
 /*before*/
+/*use ease-in when things move out*/
+/*use ease-out when things move in*/
+/* ease-in and ease-out control the start/end speed of animation*/
 .infocardContainerjazz {
   font-family: 'Bree Serif', serif;
   font-weight: 16rem;
@@ -18,14 +21,13 @@
 /*after*/
 .infocardContainerjazz:hover {
   width: 500px;
-    transition: all 700ms ease-out;
+  transition: all 700ms ease-out;
 }
 .infocardContainerjazz div {
   width: 100%;
 }
-/*text and pic*/
+/*text*/
 /*before*/
-/*reset the margin and padding configs for the card expansion*/
 /*the text have no size before the hove*/
 .infocardContainerjazz div * {
   display: flex;
