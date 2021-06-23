@@ -1,3 +1,29 @@
 body{
     background: rgb(253, 251, 251)
 }
+h1{
+    text-align: center;
+}
+#cabecalho{
+    position:fixed;
+    top:0%;
+}
+#titulo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 25px;
+}
+#minha_foto{
+    width: 100px;
+    height: 100px;
+    border-radius:25%;
+}
+#licoes_aprendidas{
+    text-align: justify;
+}
+#licoes_a_aprender{
+    text-align: justify;
+}
+#rodape{
+    position:fixed;
+    bottom: 0;
+}
