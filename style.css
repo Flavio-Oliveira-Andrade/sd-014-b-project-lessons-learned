@@ -8,3 +8,19 @@ body {
   background-color: aqua;
 }
 
+#rodape {
+  background-color: rgb(175, 131, 175);
+  height: 70px;
+}
+
+#rodape a {
+  text-decoration: none;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid red;
+  border-collapse: collapse;
+}
+
+
