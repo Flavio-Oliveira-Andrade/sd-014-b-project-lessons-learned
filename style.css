@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "Trebuchet MS", sans-serif;
-  padding: 120px 0 0 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  padding: 120px 0 0;
   margin: 0;
   box-sizing: border-box;
 }
@@ -42,19 +42,14 @@ body {
   transition: 0.2s;
 }
 
-#menu a:hover {
-  background-color: rgb(109, 212, 123);
-  color: rgb(49, 97, 35);
-}
-
-.lado-esquerdo {
+.left {
   float: left;
   width: 340px;
   padding-left: 40px;
   box-sizing: border-box;
 }
 
-.lado-direito {
+.right {
   float: right;
   width: 80%;
   padding-right: 40px;
@@ -73,6 +68,11 @@ body {
   text-align: center;
   margin-bottom: 10px;
   transition: 0.2s;
+}
+
+#menu a:hover {
+  background-color: rgb(109, 212, 123);
+  color: rgb(49, 97, 35);
 }
 
 #linkSite:hover {
@@ -106,8 +106,9 @@ body {
   line-height: 1.5;
 }
 
-#artigo {
+.lado-esquerdo {
   width: 55%;
+  float: left;
 }
 
 article h2 {
@@ -116,7 +117,7 @@ article h2 {
   display: inline-block;
 }
 
-#licoes {
+.lado-direito {
   float: right;
   width: 38%;
 }
