@@ -19,10 +19,13 @@ aside {
 .color-title { 
   color: skyblue;
   size: 25px;
+  font-weight: bold;
 }
 
 .textos-aprend {
-   font size: 16px;
+   font-size: 16px;
+   line-height: 20px;
+   
 }
 
 #cabecalho {
@@ -43,5 +46,4 @@ aside {
 
 #rodape {
   color: skyblue;
-  border: 700px 40px 20px 700px;
 }
