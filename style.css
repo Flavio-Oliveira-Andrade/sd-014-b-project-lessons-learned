@@ -1,8 +1,16 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  color: #757575;
+
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+}
+
+.lista {
+  letter-spacing: 1px;
 }
