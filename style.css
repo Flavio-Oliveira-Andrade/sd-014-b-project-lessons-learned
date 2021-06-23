@@ -7,7 +7,9 @@
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 50px;
- 
+  border: 1px solid black;
+  width: 1380px;
+  margin: 0;
 
 }
 #titulo {
@@ -17,4 +19,8 @@
 }
 body {
   background-color: rgb(253, 251, 251);
+}
+img {
+  float: right;
+  margin-top: 200px;
 }
