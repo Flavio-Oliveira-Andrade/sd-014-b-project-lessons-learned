@@ -1,33 +1,33 @@
 body {
-background-color: rgb(253, 251, 251);
-background-size: 300px 100px;
+  background-color: rgb(253, 251, 251);
+  background-size: 300px 100px;
 }
 aside {
-padding: 2px 30px 40px 1px;
+  padding: 2px 30px 40px 1px;
 }
 
 .texto {
-padding: 2px 30px 40px 1px;
+  padding: 2px 30px 40px 1px;
 }
 
 .menu_ao_lado {
-float:right;
+  float:right;
 }
 
 #cabecalho {
-top: 0px;
-position: fixed;
-background-color: skyblue;
-padding: 1px 500px 1px 1px;
+  top: 0px;
+  position: fixed;
+  background-color: skyblue;
+  padding: 1px 500px 1px 1px;
 }
 
 #titulo {
-color: white;
+  color: white;
 }
 
 #minha_foto {
-display: inline-block;
-width: 150px;
+  display: inline-block;
+  width: 150px;
 }
 
 #licoes_aprendidas {
@@ -37,5 +37,5 @@ width: 150px;
 }
 
 #rodape {
-border: 700px 40px 20px 700px;
+  border: 700px 40px 20px 700px;
 }
