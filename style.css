@@ -1,6 +1,10 @@
 body {
-    background-color:  rgb(253, 251, 251);
-    padding-top: 95px;
+    background-color: rgb(253, 251, 251);
+    padding-top: 145px;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #cabecalho {
@@ -13,11 +17,12 @@ body {
 }
 
 #titulo {
-    color:  green;
+    color: green;
+    font-size: 40px;
 }
 
 #minha_foto {
-    padding:  5px;
+    padding: 5px;
     display: block;
 }
 
@@ -31,21 +36,21 @@ body {
 }
 
 #licoes_a_aprender {
-    border:  1px solid violet;
+    border: 1px solid violet;
 }
 
 #rodape {
-    border:  1px solid indigo;
+    border: 1px solid indigo;
 }
 
 table, td {
-    border:  1px solid #333;
-    text-align:  center;
+    border: 1px solid #333;
+    text-align: center;
 }
 
 thead {
-    background-color:  rgb(51, 51, 51);
-    color:  rgb(255, 255, 255)
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255)
 }
 
 a {
