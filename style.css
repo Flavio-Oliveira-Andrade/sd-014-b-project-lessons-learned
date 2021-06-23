@@ -20,39 +20,20 @@ nav {
 }
 
 main {
-  padding-top: 130px;
+  margin-top: 160px;
   font-family: Arial, Helvetica, sans-serif;
   color: darkblue;
   line-height: 120%;
 }
 
-#main_section {
-  width: 80%;
-  margin: 0px;
-}
-#licoes_aprendidas {
-  border: solid red 3px;
+ol {
+  border: 3px solid red;
+  padding-bottom: 15px;
   width: 40%;
-  padding-bottom: 10px;
-  margin: 10px;
-  float: left;
 }
 
-#licoes_a_aprender {
-  border: solid red 3px;
+ul {
+  border: 3px solid red;
+  padding-bottom: 15px;
   width: 40%;
-  padding-bottom: 10px;
-  margin: 10px;
-  float: right;
-}
-
-article {
-  display: inline-block;
-}
-
-aside {
-  text-align: right;
-  display: block;
-  float: right;
-  width: 15%;
 }
