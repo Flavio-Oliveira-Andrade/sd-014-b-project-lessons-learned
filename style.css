@@ -20,5 +20,5 @@ body {
 
 .lado-direito {
   width: 50%;
-  float: right;
+  display: inline-block;
 }
