@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Montserrat, sans-serif;
 }
 
 #cabecalho {
@@ -65,7 +66,7 @@ article {
   position: absolute;
   margin-left: 350px;
   margin-top: -200px;
-  font-size: 25px;
+  font-size: 22px;
   font-style: italic;
 }
 
