@@ -1,8 +1,13 @@
-header {
-    right: 0;
-    top: 50%;
-    position: fixed;
-}
 body {
     background-color: rgb(253, 251, 251);
 }
+header{
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:white;
+    text-align:center;
+    padding: 20px 0;
+  }
