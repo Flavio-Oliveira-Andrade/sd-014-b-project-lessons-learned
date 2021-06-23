@@ -1,6 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
-    font-family: Georgia, 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+    font-family: Georgia, "Times New Roman", Times, serif, Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
@@ -20,6 +20,7 @@ body {
 #menu a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
+    font-size: 18px;
     background-color: #fff;
     color: #000;
     list-style: none;
@@ -31,13 +32,65 @@ body {
 }
 
 #minha_foto {
+    display: block;
     width: 300px;
-    margin-top: 160px;
     border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 35px;
 }
 
-#licoes_a_aprender {
+.lado-esquerdo {
     display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    margin:40px;
+    margin-left: 14%;
+    list-style: none;
+    text-align: center;
+
+}
+
+.lado-esquerdo h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.lado-direito {
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: justify;
+    width: 500px;
+    height: 500px;
+    margin: 40px;
+    padding: 10px;
+    vertical-align: top;
+
+}
+
+#side-bar {
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: justify;
+    width: 500px;
+    height: 500px;
+    margin: 40px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+
+#rodape {
+    text-align: center;
+    margin-top: 80px;
 }
 
 #git {
@@ -52,5 +105,9 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+}
+
+#copy {
+    margin-top: 15px;
 }
 
