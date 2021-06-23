@@ -23,6 +23,8 @@ body {
   padding-left: 20px;
   padding-block: 15px;
   color: azure;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2em;
 }
 
 #link-about {  
@@ -50,6 +52,7 @@ a:link {
   margin-left: 30px;
   margin-right: 50%;
   background-color: blue;    
+  line-height: 1.3;
 }
 
 #first-list {
@@ -91,5 +94,14 @@ a:link {
 }
 
 #rodape {
-  
+ margin-left: 50%;
+}
+
+#table{
+
+  margin-left: 20%;
+}
+
+#oi {
+  border: 1px solid black; ;
 }
