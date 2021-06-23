@@ -1,11 +1,30 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin-left: 3%;
+
 }
 
 #cabecalho {
-  position: fixed;
+  /*position: fixed;*/
   top: 0;
-  display: inline-block;
-  margin-left: 180px;
 }
 
+#minha_foto {
+  margin-left: 20px;
+  border-radius: 25%;
+  margin-right: 5%;
+  border: 3px solid black
+}
+
+.indice {
+  font-size: 150%;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  margin-top: 5%;
+}
