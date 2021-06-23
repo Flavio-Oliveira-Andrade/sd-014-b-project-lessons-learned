@@ -42,25 +42,30 @@ h1{
 article{
     margin-top: 10px;
     color: grey;
+    font-size: 30px;
 }
 aside{
     margin-top: 10px;
     color: blue;
-    font-size: 60px;
+    font-size: 30px;
     line-height: 140%;
     font-family:'Impact';
 
 }
 .lado-esquerdo{
     color: aqua;
-    float: left;
-    margin-left: 40px;
-    margin-right: 40px;
-
+        
+    padding-left:500px;
+    padding-right: 500px;
+    position:relative;
+    left: -500px;
 }
 .lado-direito{
     color:blueviolet;
-    float: right;
-    margin-left: 40px;
-    margin-right: 40px;
+     
+    padding-left:500px;
+    padding-right: 500px;
+    position: relative;
+    top: -250px;
+    left: 400px;
 }
