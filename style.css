@@ -5,5 +5,66 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-align: center;
+    color: rgb(41, 37, 37);
 }
 
+#minha_foto {
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(100, 59, 73);
+}
+
+.picture {
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+
+header {
+    margin: 1px;
+    padding: 2px;
+    border: 1px;
+    left: -4px;
+    width: 100%;
+    margin-bottom: 100px;
+    background-color: rgb(201, 160, 173);
+}
+
+.lado-direito {
+    float: right;
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    margin: 10px;
+}
+
+.lado-esquerdo {
+    display: inline-block;
+    float: left;
+    bottom: 50px;
+    width: 50%;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid rgb(235, 154, 181);
+}
+
+table {
+    border: 2px solid green;
+}
+
+aside {
+    border: 2px solid green;
+}
+
+footer {
+    border: 2px solid green;
+}
+
+nav {
+    border: 2px solid green;
+}
