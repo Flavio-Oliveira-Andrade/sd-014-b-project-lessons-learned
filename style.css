@@ -1,4 +1,13 @@
 body {
     background-color: rgb(253,251,251); 
 }  
+header{
+    border-block: 2px solid;
+    color: green; 
+    } 
+footer {
+    border-block: 2px solid;
+    color: green;
+}
+
 
