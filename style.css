@@ -1,7 +1,40 @@
 body{
     background-color: rgb(253, 251, 251);
+    
+   
+
 }
 #cabecalho{
-    position: fixed;
+    
+    font-family: 'Courier New', Courier, monospace;
     top: 0;
+    font-size: 40px;
+    position: fixed;
+}
+
+
+#licoes_aprendidas{
+   border-style: outset;
+   width: 30%;
+   margin-left: 20px;
+   padding: 20px 10px 5px 30px;
+   right: 50px;
+  font-size: 20px;
+    color: blue;
+ font-family: 'Courier New', Courier, monospace;
+    line-height: 30px;
+}
+#licoes_a_aprender{
+    border-style: outset;
+    width: 30%;
+    margin: 20px;
+    padding: 50px;
+    font-size: 20px;
+
+   
+}
+
+#rodape{
+
+
 }
