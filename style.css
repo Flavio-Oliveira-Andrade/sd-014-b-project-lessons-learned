@@ -1,9 +1,11 @@
 #cabecalho {
   position: fixed;
   top: 0;
-  font-size: large;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
+  #titulo {
+    color: blue;
+  }
+
 body {
   background-color: rgb(253, 251, 251);
 }
