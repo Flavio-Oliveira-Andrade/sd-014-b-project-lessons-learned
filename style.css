@@ -1,12 +1,33 @@
 body {
-         background-color: rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-        position: fixed; 
-        top: 0;
-        width: 90%;
-        border: 15px solid rgb(4, 170, 4);
-        padding: 20px;
-        margin: 10px;
+    position: fixed; 
+    top: 0;
+    height: 10%;
+    border: 15px solid rgb(4, 170, 4);
+    padding: 20px;
+    margin: 10px;
 }
+
+footer {
+    height: 5%;
+}
+
+main {
+    height: 85%;
+    width: 85%;
+    display: block;
+}
+
+aside {
+    border-color: brown;
+    border: 5px;
+    border-style: solid;
+    height: 85%;
+    width: 15%;
+    float: right;    
+}
+
+
