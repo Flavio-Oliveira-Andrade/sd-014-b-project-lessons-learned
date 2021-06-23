@@ -24,6 +24,7 @@ body{
     color: blue;
  font-family: 'Courier New', Courier, monospace;
     line-height: 30px;
+    margin-top: 300px;
 }
 #licoes_a_aprender{
     border-style: outset;
@@ -37,16 +38,19 @@ body{
 .lado-esquerdo{
     line-height: 30px;
     margin: auto;
-    padding: 15px 50px 15px 15px;
+    padding: 30px 30px 30px 30px;
+    width: 200px;
     max-width: 400px;
-    margin-left: 200px;
     display: inline-block;
-    
+    border-style: outset;
 }
 .lado-direito{
-    
+    line-height: 40px;
+    width: 200px;
     padding: 20px;
-    max-width: 200px;
-    margin-right: 100px;
+    max-width: 400px;
+    margin-right: 200px;
     float: right;
+    border: outset;
+    
 }
