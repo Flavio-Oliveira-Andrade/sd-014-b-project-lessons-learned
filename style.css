@@ -9,6 +9,7 @@ body {
   background-color: darkgreen;
   width: 100%;
   height: 80px;
+  
 }
 
 #titulo {
@@ -42,4 +43,12 @@ body {
 
 section a {
   color: darkgreen;
+}
+
+article {
+  position: absolute;
+  margin-left: 350px;
+  margin-top: -200px;
+  font-size: 25px;
+  font-style: italic;
 }
