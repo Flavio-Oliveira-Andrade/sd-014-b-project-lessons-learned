@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   letter-spacing: 1px;
+  line-height: 20px;
   font-family: monospace;
   font-size: 14px;
   color: gray;
