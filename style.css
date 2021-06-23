@@ -29,7 +29,7 @@ article {
 
 aside {
   float: right;
-  display: inline-block;
+  display: block;
   max-width: 40%;
   position: relative;
   padding-right: 30px;
