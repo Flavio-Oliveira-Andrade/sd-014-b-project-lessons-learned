@@ -10,6 +10,8 @@ body {
 
 #minha_foto {
   width: 200px;
+  border-radius: 50%;
+  margin-left: 50px;
 }
 
 * {
@@ -17,4 +19,16 @@ body {
   word-spacing: 1px;
   color: rgb(31, 32, 29);
   font-size: 97%;
+}
+
+article{
+  max-width: 40%;
+  display: inline-block;
+}
+
+aside {
+  float:right;
+  display: inline-block;
+  max-width: 40%;
+  position: relative;
 }
