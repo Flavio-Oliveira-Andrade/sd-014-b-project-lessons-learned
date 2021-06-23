@@ -12,3 +12,11 @@ header{
 main{
     padding-top: 130px;
 }
+
+ul, ol{
+    display: inline-block;
+}
+
+img{
+    display: block;
+}
