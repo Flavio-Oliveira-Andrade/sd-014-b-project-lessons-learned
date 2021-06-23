@@ -3,6 +3,29 @@ body{
 }
 
 #cabecalho{
-    position: fixed;
     top: 0;
+    position: fixed;
+    right: 40%;
+}
+
+#titulo{
+    right: 50%;
+}
+
+.img_container{
+    height: 300px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+#minha_foto{
+    height: 300px;
+    padding: 10px;
+    background-color: black;
+}
+
+nav{
+    padding: 7px;
+    background-color: aqua;
+    width: 10%;
 }
