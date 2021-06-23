@@ -8,7 +8,6 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  position: inherit;
 }
 
 #minha_foto {
@@ -24,25 +23,24 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   width: 24%;
   margin-top: 2%;
-}
-nav a:hover{
-  color: blue;
 }
 
 nav a {
   text-decoration: none;
   color: black;
+}
 
+nav a:hover {
+  color: blue;
 }
 
 footer {
   margin-top: 5%;
 }
 
-.divid{
+.divid {
   margin: 1%;
   padding: 1%;
   border: 1px solid black;
@@ -55,18 +53,18 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20 px;
   color: rgb(95, 95, 95);
-  letter-spacing: 1px ;
+  letter-spacing: 1px;
 }
 
 .lado-esquerdo {
- max-width: 49.5%;
-display: inline-block;
+  max-width: 49.5%;
+  display: inline-block;
 }
 
 .lado-direito {
-max-width: 49.5%;
-display: inline-block;
-vertical-align: top;
+  max-width: 49.5%;
+  display: inline-block;
+  vertical-align: top;
 }
 
 #titulo {
