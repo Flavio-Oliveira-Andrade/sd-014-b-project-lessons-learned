@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  background-size: 300px 100px;
+  background-size: 500px 200px 800px 200px;;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -16,11 +16,20 @@ aside {
   float: right;
 }
 
+.color-title { 
+  color: skyblue;
+  size: 25px;
+}
+
+.textos-aprend {
+   font size: 16px;
+}
+
 #cabecalho {
   top: 0px;
   position: fixed;
   background-color: skyblue;
-  padding: 1px 600px 1px 1px;
+  padding: 1px 800px 1px 1px;
 }
 
 #titulo {
@@ -32,12 +41,7 @@ aside {
   width: 150px;
 }
 
-#licoes_aprendidas {
-}
-
-#licoes_a_aprender {
-}
-
 #rodape {
+  color: skyblue;
   border: 700px 40px 20px 700px;
 }
