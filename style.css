@@ -26,45 +26,41 @@ body {
   border-radius: 50%;
 }
 
-section .lista_aprendi {
+ol .lista_aprendi {
   float: right;
-  margin-top: 0px;
-  display: table;
+}
+
+ul .lista_aaprender {
+  float: left;
+}
+
+footer #rodape {
+  height: 10px;
+  width: 20px;
+  
 }
 
 section .sobre_mim {
   float: left;
-  width: 395px;
+  width: 400px;
   margin-top: 250px;
 }
 
 .menu_ao_lado_right {
   float: right;
   height: 1px;
-  width: 300px;
+  width: 400px;
+  margin-top: 200px;
 }
 
 .color-title {
   color: skyblue;
   font-size: 25px;
-  font-weight: bolder 20px;
+  font-weight: 700;
   letter-spacing: 2px;
   text-decoration-style: solid;
 }
 
-.lista_aaprender {
-  float: left;
-  width: 200px;
-  margin: 1px;
-}
-
 #link {
-  padding: 300px 200px 10px 300px;
-  margin: 20px;
-}
-
-#rodape {
-  height: 30px;
-  width: 50%;
-  padding: 1px;
+  padding: 300px 100px 30px 300px;
 }
