@@ -4,16 +4,44 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#cabecalho {
+  top: 0px;
+  position: fixed;
+  background-color: skyblue;
+  padding-inline: 20px;
+}
+
+#titulo {
+  color: white;
+  size: 30px;
+  height: 50px;
+  width: 400em;
+}
+
+#minha_foto {
+  top: 100px;
+  width: 140px;
+  left: 20px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+section .lista_aprendi {
+  float: right;
+  margin-top: 0px;
+  display: table;
+}
+
+section .sobre_mim {
+  float: left;
+  width: 395px;
+  margin-top: 250px;
+}
+
 .menu_ao_lado_right {
   float: right;
   height: 1px;
   width: 300px;
-}
-
-.sobre_mim {
-  float: left;
-  width: 10px;
-  margin: 1px;
 }
 
 .color-title {
@@ -22,12 +50,6 @@ body {
   font-weight: bolder 20px;
   letter-spacing: 2px;
   text-decoration-style: solid;
-}
-
-.lista_aprendi {
-  float: right;
-  width: 400px;
-  margin: 1px;
 }
 
 .lista_aaprender {
@@ -39,28 +61,6 @@ body {
 #link {
   padding: 300px 200px 10px 300px;
   margin: 20px;
-}
-
-#cabecalho {
-  top: 0px;
-  position: fixed;
-  background-color: skyblue;
-  padding-inline: 200px;
-}
-
-#titulo {
-  color: white;
-  size: 30px;
-  height: 70px;
-  width: 500em;
-}
-
-#minha_foto {
-  top: 8px;
-  width: 150px;
-  left: 50px;
-  position: absolute;
-  border-radius: 50%;
 }
 
 #rodape {
