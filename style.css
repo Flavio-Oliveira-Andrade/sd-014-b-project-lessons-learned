@@ -3,13 +3,10 @@
   top: 0;
   background-color: #036b52;
   text-align: center;
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-left: 50px;
+  padding: 0px 10px 10px 10px;
   border: 1px solid black;
-  width: 1370px;
-  margin: 0px;
+  width: 1000px;
+  margin: 100px;
 }
 #titulo {
   color: rgb(253, 251, 251);
@@ -21,35 +18,41 @@ body {
   background-color: rgb(253, 251, 251);
   line-height:15px;
 }
-img {
+#minha_foto {
   float: right;
-  top: 400px;
-}
+  }
 #links-social {
-  top: 300px;
+  top: 500px;
   border: 1px solid black;
-
 }
 .lado-esquerdo {
   float: left;
-  width: 400px;
+  display: inline;
+  height: 150px;
+  width: 49%;
   border: 1px solid black;
-
 }
 .lado-direito {
   float: right;
-  width: 300px;
+  display: inline;
+  height: 150px;
+  width: 48%;
   border: 1px solid black;
-
+}
+.table {
+width: 300px;
 
 }
 section {
   padding: 0px;
   border: 1px solid black;
+  top: 50px;
 }
 ul {
   border: 1px solid black;
+  width: 300px;
 }
 ol{
-  
+  border: 1px solid black;
+  width: 300px;
 }
