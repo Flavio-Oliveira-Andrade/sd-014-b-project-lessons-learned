@@ -1,13 +1,23 @@
 body {
     background-color: rgb(253,251,251); 
 }  
-header{
+header , footer{
     border-block: 2px solid;
-    color: green; 
+    color:rgba(200,100,50); 
+    position:relative;
+    top: 0px;
+    text-align: center;
+    background-color:rgb(100,251,251);
     } 
-footer {
-    border-block: 2px solid;
-    color: green;
-}
+    #minha_foto {
+        position: relative;
+        left: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+
+
+ 
 
 
