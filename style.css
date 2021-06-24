@@ -23,18 +23,33 @@ body {
 }
 img {
   float: right;
-  margin-top: 200px;
+  top: 400px;
 }
 #links-social {
- 
+  top: 300px;
+  border: 1px solid black;
+
 }
 .lado-esquerdo {
   float: left;
-  margin: 50px;
   width: 400px;
+  border: 1px solid black;
+
 }
 .lado-direito {
   float: right;
-  margin: 200px;
-  width: 400px;
+  width: 300px;
+  border: 1px solid black;
+
+
+}
+section {
+  padding: 0px;
+  border: 1px solid black;
+}
+ul {
+  border: 1px solid black;
+}
+ol{
+  
 }
