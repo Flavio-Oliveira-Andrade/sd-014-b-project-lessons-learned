@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Esteban&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-//Regra achada no StackOverflow
+/* Regra achada no StackOverflow */
 html {
   margin: 0;
 }
@@ -8,6 +8,7 @@ html {
 * { 
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
 
 body {
@@ -91,6 +92,10 @@ a::after {
   line-height: 1.5em;
 }
 
+#lista {
+  margin: auto;
+}
+
 .img_icon {
   width: 30px;
   margin-right: 10px;
@@ -101,7 +106,7 @@ th, td {
 }
 
 .section-block {
-  display: inline-block;
+  display: block;
 }
 
 ol, ul {
@@ -114,10 +119,13 @@ ol, ul {
 }
 
 .lado-direito {
-  width: 30%;
+  width: 38%;
   float: right;
 }
 
 #rodape {
   display: block;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
 }
