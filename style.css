@@ -11,7 +11,7 @@ h1 {
   font-style: initial;
   font-size: 10px;
   color: mediumblue;
-  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-family: "Lucida Sans", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   line-height: initial;
 }
 
@@ -30,10 +30,10 @@ section , aside {
 
 .lado-esquerdo {
   position: fixed;
-  left: 0px;
+  left: 0%;
 }
 
 .lado-direito {
   position: fixed;
-  right: 0px;
+  right: 0%;
 }
