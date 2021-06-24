@@ -3,20 +3,20 @@ body {
 }
 
 header {
-    position:fixed;
-    top:0;
+    position: fixed;
+    top: 0;
 }
 
 h1 {
     font-style: initial;
     font-size: 10px;
     color: mediumblue;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     line-height: initial;
 }
 
 .nav {
-    background-color:ivory;
+    background-color: ivory;
     width: 100%;
     padding: 15px;
     border: 5px solid black;
@@ -24,12 +24,12 @@ h1 {
 }
 
 section, aside {
-    width:40%;
+    width: 40%;
     display: inline-block;
 }
 
 .lado-esquerdo {
-    position:fixed;
+    position: fixed;
     left: 0px;
 }
 
