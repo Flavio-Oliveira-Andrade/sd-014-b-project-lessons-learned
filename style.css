@@ -4,8 +4,7 @@ body {
 header , footer{
     border-block: 2px solid;
     color:rgba(200,100,50); 
-    position:relative;
-    top: 0px;
+    position:top 0px;
     text-align: center;
     background-color:rgb(100,251,251);
     } 
