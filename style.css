@@ -26,18 +26,16 @@
 }
 
 .lado_esquerdo {
-    display: inline-block;
-    width: 45%;
+  display: inline-block;
+  width: 45%;
 }
 
 .lado_direito {
-    display: inline-block;
-    width: 45%;
-    vertical-align: top;
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
 }
 
-#linkext {
-    display: block;
+#footer {
+  display: block;
 }
-
-
