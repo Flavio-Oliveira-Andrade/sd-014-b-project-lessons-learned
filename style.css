@@ -1,5 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: tahoma, sans-serif;
+  font-size: 14;
+  line-height: 1.5;
 }
 header {
   position: fixed;
@@ -9,4 +12,4 @@ header {
   margin: 130;
   padding: 130;
   border: green;
-}
+} 
