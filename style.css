@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   background-size: 360px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .menu_ao_lado_right {
@@ -68,4 +68,6 @@ body {
   width: 50%;
   padding: 1px;
 }
+
+
 
