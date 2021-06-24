@@ -3,24 +3,31 @@
   top: 0;
   background-color: #036b52;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-right: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   padding-left: 50px;
   border: 1px solid black;
   width: 1380px;
-  margin: 0;
+  margin: 20px;
+
+
 
 }
 #titulo {
   color: rgb(253, 251, 251);
   float: unset;
-
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body {
   background-color: rgb(253, 251, 251);
+  line-height:15px;
 }
 img {
   float: right;
   margin-top: 200px;
+}
+#links-social {
+  top: 400px;
 }
