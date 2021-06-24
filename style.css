@@ -2,8 +2,9 @@ body{
     background-color: rgb(253, 251, 251);
 }
 
-#titulo{
-    
+#cabecalho{
+    position: fixed;
+    top: 0;
 }
 
 #licoes_aprendidas{
@@ -11,7 +12,7 @@ body{
     font-style: oblique;
     font-size: small;
     color:blue; 
-    letter-spacing: 3%;
+    word-spacing: 3%; 
 }
 
 #licoes_a_aprender{
