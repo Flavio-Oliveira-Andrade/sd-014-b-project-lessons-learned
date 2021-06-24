@@ -1,7 +1,26 @@
-body {
-    background-color: rgb(253, 251, 251);
+#corpo {
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
+  position: fixed;
+  background-color: black;
+  color: white;
+
+}
+
+#minha_foto {
+    margin-top: 100px;
+}
+
+.nav_buttons {
+    background-color: grey;
+    padding: 10px;
+    text-decoration: none;
+    color: honeydew;
+    border: white 1px solid;
+}
+
+#titulo {
+    margin-left: 12px;
 }
