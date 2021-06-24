@@ -27,7 +27,7 @@ nav {
   margin: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,h2,h3,h4,h5,h6 {
   font-family: Oswald, sans-serif;
 }
 
@@ -101,7 +101,7 @@ a:after {
   margin-right: 10px;
 }
 
-th, td {
+th,td {
   padding: 15px;
 }
 
@@ -109,7 +109,7 @@ th, td {
   display: block;
 }
 
-ol, ul {
+ol,ul {
   display: inline-block;
 }
 
