@@ -1,93 +1,90 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
-    text-align: center;
-    color: rgb(41, 37, 37);
+  position: fixed;
+  top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  text-align: center;
+  color: rgb(41, 37, 37);
 }
 
 #minha_foto {
-    width: 150px;
-    padding: 10px;
-    background-color: rgb(100, 59, 73);
+  width: 150px;
+  padding: 10px;
+  background-color: rgb(100, 59, 73);
 }
 
 .picture {
-    position: relative;
-    top: 80px;
-    text-align: center;
+  position: relative;
+  top: 80px;
+  text-align: center;
 }
 
 header {
-    margin: 1px;
-    padding: 2px;
-    border: 1px;
-    left: -4px;
-    width: 100%;
-    margin-bottom: 100px;
-    background-color: rgb(201, 160, 173);
+  margin: 1px;
+  padding: 2px;
+  border: 1px;
+  left: -4px;
+  width: 100%;
+  margin-bottom: 100px;
+  background-color: rgb(201, 160, 173);
 }
 
 .lado-direito {
-    float: right;
-    width: 40%;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 20px;
-    margin-top: 100px;
-    color: rgb(41, 37, 37);
-    margin-bottom: 50px;
+  float: right;
+  width: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  margin-top: 100px;
+  color: rgb(41, 37, 37);
+  margin-bottom: 50px;
 }
 
 .lado-esquerdo {
-    display: inline-block;
-    float: left;
-    bottom: 40px;
-    width: 40%;
-    line-height: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    left: 80px;
-    margin-top: 100px;
-    padding: 10px;
-    #border: 2px solid rgb(235, 154, 181);
-    color: rgb(41, 37, 37);
-    margin-left: 50px;
+  float: left;
+  bottom: 40px;
+  width: 40%;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  left: 80px;
+  margin-top: 100px;
+  padding: 10px;
+  color: rgb(41, 37, 37);
+  margin-left: 50px;
 }
 
 table, tr, th, td {
-    border-collapse: separate;
-    text-align: center;
-    color: rgb(41, 37, 37);
-    margin-top: 50px;
-    margin-bottom: 30px;
-    margin-left: 35px;
+  border-collapse: separate;
+  text-align: center;
+  color: rgb(41, 37, 37);
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 52px;
 }
 
 aside {
-    display: inline-block;
-    width: 43%;
-    padding: 6px;
-    color: rgb(41, 37, 37);
-    line-height: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 35px;
+  display: inline-block;
+  width: 43%;
+  padding: 6px;
+  color: rgb(41, 37, 37);
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 52px;
 }
 
 nav {
-    display: inline-block;
-    float: right;
-    margin-left: 100px;
-    text-decoration;
+  float: right;
+  margin-left: 100px;
+  margin-top: 56px;
 }
 
 #rodape {
-    display: inline;
-    top: 250px;
-    font-size: 5;
-    margin-top: 300px;
-    text-align: center;
+  display: block;
+  top: 192px;
+  font-size: 5;
+  margin-top: 89px;
+  text-align: left;
 }
