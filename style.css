@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   background-size: 360px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .menu_ao_lado_right {
@@ -12,14 +12,14 @@ body {
 
 .sobre_mim {
   float: left;
-  height: 500px;
   width: 10px;
+  margin: 1px;
 }
 
 .color-title {
   color: skyblue;
   font-size: 25px;
-  font-weight: bolder;
+  font-weight: bolder 20px;
   letter-spacing: 2px;
   text-decoration-style: solid;
 }
@@ -68,6 +68,3 @@ body {
   width: 50%;
   padding: 1px;
 }
-
-
-
