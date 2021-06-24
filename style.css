@@ -8,32 +8,32 @@ header {
 }
 
 h1 {
-    font-style: initial;
-    font-size: 10px;
-    color: mediumblue;
-    font-family: "Lucida Sans", "Lucida Sans Regular";
-    line-height: initial;
+  font-style: initial;
+  font-size: 10px;
+  color: mediumblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  line-height: initial;
 }
 
 .nav {
-    background-color: ivory;
-    width: 100%;
-    padding: 15px;
-    border: 5px solid black;
-    margin-left: 0%;
+  background-color: ivory;
+  width: 100%;
+  padding: 15px;
+  border: 5px solid black;
+  margin-left: 0%;
 }
 
 section , aside {
-    width: 40%;
-    display: inline-block;
+  width: 40%;
+  display: inline-block;
 }
 
 .lado-esquerdo {
-    position: fixed;
-    left: 0px;
+  position: fixed;
+  left: 0px;
 }
 
 .lado-direito {
-    position: fixed;
-    right: 0px;
+  position: fixed;
+  right: 0px;
 }
