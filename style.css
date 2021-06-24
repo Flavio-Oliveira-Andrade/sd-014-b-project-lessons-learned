@@ -5,8 +5,40 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  background-color: rgb(35, 187, 116);
 }
 
 #minha_foto {
   width: 200px;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  color: rgb(13, 124, 72);
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#licoes_aprendidas {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#licoes_a_aprender {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#rodape {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
