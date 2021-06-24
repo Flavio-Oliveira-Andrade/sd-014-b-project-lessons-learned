@@ -1,17 +1,17 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 header {
-    position: fixed;
-    top: 0;
+  position: fixed;
+  top: 0;
 }
 
 h1 {
     font-style: initial;
     font-size: 10px;
     color: mediumblue;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular";
     line-height: initial;
 }
 
@@ -23,7 +23,7 @@ h1 {
     margin-left: 0%;
 }
 
-section, aside {
+section , aside {
     width: 40%;
     display: inline-block;
 }
