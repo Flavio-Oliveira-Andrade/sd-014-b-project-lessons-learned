@@ -3,8 +3,18 @@ body {
 }
 
 header#cabecalho {
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: cyan;
     position: fixed;
     top: 0px;
+}
+
+#titulo {
+    justify-content: center;
+    align-items: center;
 }
 
 #minha_foto {
@@ -14,5 +24,10 @@ header#cabecalho {
 
 .Habilidades {
     padding-top: 50px;
-    padding-bottom: 50px;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
