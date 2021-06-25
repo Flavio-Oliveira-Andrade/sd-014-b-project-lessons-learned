@@ -4,9 +4,8 @@
   background-color: #036b52;
   text-align: center;
   padding: 0px 10px 10px 10px;
-  border: 1px solid black;
-  width: 1000px;
-  margin: 100px;
+  width: 1880px;
+  margin: 0px;
 }
 #titulo {
   color: rgb(253, 251, 251);
@@ -19,11 +18,12 @@ body {
   line-height:15px;
 }
 #minha_foto {
-  float: right;
-  }
-#links-social {
-  top: 500px;
+  
   border: 1px solid black;
+  }
+.links-social {
+  margin-top: 100px;
+  color: aliceblue;
 }
 .lado-esquerdo {
   float: left;
@@ -31,21 +31,23 @@ body {
   height: 150px;
   width: 49%;
   border: 1px solid black;
+  
 }
 .lado-direito {
   float: right;
   display: inline;
   height: 150px;
-  width: 48%;
+  width: 50%;
   border: 1px solid black;
+  
 }
 .table {
-width: 300px;
-
+width: 400px;
+margin: 0px 100px 0px 700px;
+border: 01px solid black;
 }
 section {
   padding: 0px;
-  border: 1px solid black;
   top: 50px;
 }
 ul {
@@ -55,4 +57,12 @@ ul {
 ol{
   border: 1px solid black;
   width: 300px;
+}
+#rodape {
+  background-color: #036b52;
+  margin-left: 40px;
+  border: 1px solid black;
+  color: aliceblue;
+  border: aliceblue;
+
 }
