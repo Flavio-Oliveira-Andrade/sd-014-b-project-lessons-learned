@@ -1,5 +1,9 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: monospace;
+    color: black;
+    line-height: 30px;
+    font-size: 15px;
 }
 
 header {
@@ -12,4 +16,5 @@ header {
 #minha_foto {  
     border-radius: 6000px;
     height: 200px;
+
 }
