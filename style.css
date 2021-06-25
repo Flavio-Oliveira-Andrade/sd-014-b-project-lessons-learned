@@ -1,8 +1,11 @@
 body {
   background-color: rgb(253, 251, 251);
   background-size: 360px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0px;
+  font-family: Calibri, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0px;
+  font-style: normal;
+  color: blue;
 }
 
 #cabecalho {
@@ -32,7 +35,7 @@ ol .lista_aprendi {
 }
 
 ul .lista_aaprender {
-  width: 30px;
+  width: 90px;
 }
 
 #link {
@@ -57,9 +60,4 @@ section .sobre_mim {
   float: right;
   height: 20px;
   margin-top: 250px;
-}
-
-.color-title {
-  color: skyblue;
-  letter-spacing: 2px;
 }
