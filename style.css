@@ -2,6 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
   background-size: 360px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
 }
 
 #cabecalho {
@@ -27,40 +28,38 @@ body {
 }
 
 ol .lista_aprendi {
-  float: right;
+  width: 30px;
 }
 
 ul .lista_aaprender {
-  float: left;
+  width: 30px;
+}
+
+#link {
+  padding-inline-end: 0px;
+  margin: 30px 50px 30px 90px;
+  position: absolute;
 }
 
 footer #rodape {
   height: 10px;
-  width: 20px;
-  
+  clear: inherit;
 }
 
 section .sobre_mim {
   float: left;
   width: 400px;
+  height: 10px;
   margin-top: 250px;
 }
 
 .menu_ao_lado_right {
   float: right;
-  height: 1px;
-  width: 400px;
-  margin-top: 200px;
+  height: 20px;
+  margin-top: 250px;
 }
 
 .color-title {
   color: skyblue;
-  font-size: 25px;
-  font-weight: 700;
   letter-spacing: 2px;
-  text-decoration-style: solid;
-}
-
-#link {
-  padding: 300px 100px 30px 300px;
 }
