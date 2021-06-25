@@ -19,7 +19,7 @@ footer{
     }
 #titulo{
     margin-top: 30px;
-    position: absolute;
+    position:absolute;
 }
 #minha_foto {
         position:relative;
@@ -43,13 +43,11 @@ aside {
 }
 .list-edit{
     padding: 30px 70px 98px 70px;
-    width: 80%;
-}
-.list-edit{
     width: 30%;
     margin: auto;
-    display: inline-block;
+    display: inline-flex;
 }
+
 
 
 
