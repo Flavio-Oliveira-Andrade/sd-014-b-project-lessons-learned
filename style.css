@@ -1,15 +1,26 @@
 body {
     background-color: rgb(253,251,251); 
     }  
-header , footer{
+footer{
     border-block: 2px solid;
     color:rgba(200,100,50); 
     position:relative;
     padding-top: 0px;
     text-align: center;
     background-color:rgb(100,251,251); 
-
     } 
+#cabecalho{
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 35px;
+    }
+#titulo{
+    margin-top: 30px;
+    position: absolute;
+}
 #minha_foto {
         position:relative;
         left: 30px;
