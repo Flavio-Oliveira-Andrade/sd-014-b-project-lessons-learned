@@ -1,22 +1,45 @@
 body {
     background-color: rgb(253,251,251); 
-}  
+    }  
 header , footer{
     border-block: 2px solid;
     color:rgba(200,100,50); 
-    position:top 0px;
+    position:relative;
+    padding-top: 0px;
     text-align: center;
-    background-color:rgb(100,251,251);
+    background-color:rgb(100,251,251); 
+
     } 
-    #minha_foto {
-        position: relative;
+#minha_foto {
+        position:relative;
         left: 30px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    
+article {
+    padding: 78px 30px;
+    text-align: center;
+    margin: auto;
+    max-width: 60%;
+    font-size: 22px;
+}
+aside {
+    padding: 78px 30px;
+    text-align: center;
+    margin: auto;
+    max-width: 60%;
+    font-size: 22px;
+}
+.list-edit{
+    padding: 30px 70px 98px 70px;
+    width: 80%;
+}
+.list-edit{
+    width: 30%;
+    margin: auto;
+    display: inline-block;
+}
 
 
- 
 
 
