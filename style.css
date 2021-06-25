@@ -32,12 +32,13 @@ header#cabecalho {
 }
 
 #artigo {
-    padding-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 16vw;
 }
 
 #aside1 {
-    padding-top: 50px;
+    padding-top: 10px;
     width: 16vw;
     padding-bottom: 50px;
 }
