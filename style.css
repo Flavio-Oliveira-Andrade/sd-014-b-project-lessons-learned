@@ -1,22 +1,22 @@
 body {
-    background-color:rgb(253, 251, 251);
+  background-color:rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0; 
-    color: firebrick
+  position: fixed;
+  top: 0; 
+  color: firebrick;
 }
 
 #minha_foto {
-    margin-top: 8em;
+  margin-top: 8em;
 }
 
 .Subtitulo-verde h3 {
-    color: olivedrab;
+  color: olivedrab;
 }
 
 nav {
-   background-color: olivedrab
+  background-color: olivedrab;
 }
 
