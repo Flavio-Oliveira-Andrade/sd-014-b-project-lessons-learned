@@ -31,3 +31,13 @@ header#cabecalho {
     margin: 0;
 }
 
+#artigo {
+    padding-top: 50px;
+    width: 16vw;
+}
+
+#aside1 {
+    padding-top: 50px;
+    width: 16vw;
+    padding-bottom: 50px;
+}
