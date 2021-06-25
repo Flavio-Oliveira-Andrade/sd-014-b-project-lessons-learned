@@ -5,11 +5,11 @@ body {
 #cabecalho {
     position: fixed;
     top: 0; 
-    color: whitesmoke
+    color: firebrick
 }
 
 #minha_foto {
-    margin-top: 4em;
+    margin-top: 8em;
 }
 
 .Subtitulo-verde h3 {
@@ -20,6 +20,3 @@ nav {
    background-color: olivedrab
 }
 
-h4 {
-    color: teal;
-}
