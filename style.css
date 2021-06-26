@@ -5,6 +5,9 @@
 
 body{
   background-color: rgb(253, 251, 251);
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  color: #383636;
 }
 
 section{
