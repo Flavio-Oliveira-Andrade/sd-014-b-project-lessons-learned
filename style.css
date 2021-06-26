@@ -13,13 +13,9 @@ body {
     position: fixed;
     top: 0;
     background-color: #223E88;
-    margin: 0px 0px;
-    padding-left: 1rem;
-    padding-right: 1rem;
     display: flex;
-    height: 3rem;
+    height: 60px;
     width: 100%;
-    text-align: center;
     align-items: center;
 }
 
@@ -30,14 +26,18 @@ h1 {
 
 #minha_foto {
     border-radius: 50%;
-    margin-top: 80px;
+    margin-top: 90px;
     margin-left: 40px;
-    margin-bottom: 10px;
-    align-items: center;
+}
+
+h4 {
+    color: #D62323;
+    margin-left: 50px;
 }
 
 div.licoes {
     background-color: #ebe9e9;
+    margin-top: 30px;
 }
 
 h2 {
@@ -67,14 +67,29 @@ h3 {
 .lado-esquerdo {
     width: 30%;
     float: left;
-    padding-left: 50px;
+    margin-left: 10%;
+    margin-top: 50px;
 }
 
 .lado-direito {
     width: 30%;
     float: right;
+    padding-left: 0;
+    margin-right: 180px;
+    margin-top: 50px;
 }
 
 #rodape {
     clear: both;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+#link {
+    padding: 10px 20px 10px 20px;
+    background-color: #D62323;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #D8D8D8;
 }
