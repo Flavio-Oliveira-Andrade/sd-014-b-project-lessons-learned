@@ -5,5 +5,46 @@ body {
 #cabecalho {
   top: 0;
   position: fixed;
+  background-color: rgb(206, 194, 194);
+  padding-right: 1025px;
+  padding-left: 25px;
 }
 
+#header-list li {
+  display: inline;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+  background-color: grey;
+  color: aliceblue;
+  padding: 30px;
+  padding-left: 50px;
+  line-height: 30px;
+  width: 500px;
+  margin-right: 25px;
+  border: solid rgb(48, 46, 46);
+}
+
+#aside, #article {
+  width: 500px;
+  padding: 30px;
+  line-height: 25px;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: large;
+}
+
+.lado-direito {
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  padding-top: 100px;
+}
+
+div {
+  position: relative;
+}
