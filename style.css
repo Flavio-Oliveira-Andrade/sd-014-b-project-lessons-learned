@@ -1,7 +1,10 @@
 body {
-    background-color: black;
+    background-color:rgb(253, 251, 251)
 
     
+}
+img {
+    margin-left:240px;
 }
 #pagina {
     margin-right:150px;
@@ -47,5 +50,5 @@ footer {
     margin-bottom: 0px;
     font-size: 10px;
     text-align:center;
-    color:white;
+    color:black;
 }
