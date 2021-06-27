@@ -17,6 +17,10 @@ body {
     width: 200px;
     color: gray;
 }
+#rodape{
+  margin-bottom: 10px;
+  
+}
 #minha_foto {
 padding: 10px;
 background-color: gray;
@@ -32,10 +36,14 @@ background-color: gray;
       border: 5px solid gray;
   }
 .lado-esquerdo{
-float: left;
+margin-left: 0%;
+display: inline-block;
+width: 45%;
 }
 .lado-direito{
-  float: right;
+  margin-right: 0%;
+  display: inline-block;
+  width: 45%;
 }
 li:hover{
   color: purple;
