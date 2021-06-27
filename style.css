@@ -3,27 +3,26 @@
   top: 0;
   background-color: #036b52;
   text-align: center;
-  padding: 0px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
   width: 1405px;
-  margin: 0px;
 }
 #titulo {
   color: rgb(253, 251, 251);
   float: unset;
   font-size: 50px;
-  font-family: 'Franklin Gothic Medium',  sans-serif;
+  font-family: 'Franklin Gothic Medium', sans-serif;
 }
 body {
   background-color: rgb(253, 251, 251);
-  line-height:15px;
+  line-height: 15px;
 }
 #minha_foto {
   float: right;
   margin-right: 110px;
 }
 .links-social {
-  margin-top: 100px;
-  color: aliceblue;
+  margin-top: 120px;
+  color: black;
 }
 .lado-esquerdo {
   float: left;
@@ -39,18 +38,19 @@ body {
 }
 .table {
   width: 400px;
-  margin: 0px 400px 100px 700px;
+  margin: 5px 200px 50px 700px;
 }
 section {
-  top: 50px;
+  top: 100px;
 }
 ul {
   width: 400px;
 }
-ol{
+ol {
   width: 400px;
   margin-top: 150px;
 }
 #rodape {
   background-color: #036b52;
+  border: 1px solid black;
 }
