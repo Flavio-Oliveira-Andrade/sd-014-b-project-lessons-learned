@@ -32,3 +32,21 @@ table tr td {
   border: solid black; /* adicionando borda no td */
   padding: 7px; /* + padding borda maior */
 }
+
+/* requisito 15 bonus */
+/* alinhando elementos */
+.lado-esquerdo {
+  float: left;
+  margin-left: auto;
+  width: 40%;
+}
+
+.lado-direito {
+  float: right;
+  margin-right: auto;
+  width: 20%;
+}
+
+.clearFloat {
+  clear: both;
+}
