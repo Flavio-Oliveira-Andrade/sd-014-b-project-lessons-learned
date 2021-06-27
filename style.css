@@ -40,7 +40,6 @@ body {
 }
 
 .lado-esquerdo {
-  line-height: 24px;
   margin-left: 1%;
   display: inline-block;
   text-align: justify;
@@ -49,7 +48,6 @@ body {
 }
 
 .lado-direito {
-  line-height: 35px;
   margin-right: 90px;
   display: inline-block;
   text-align: justify;
@@ -111,12 +109,13 @@ body {
 
 #w3s {
   text-decoration: none;
-  color: inherit;
   color: white;
+  line-height: 25px;
 }
 
 h4, h5 {
   color: white;
+  line-height: 25px;
 }
 
 li {
