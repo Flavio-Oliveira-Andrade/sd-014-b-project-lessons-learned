@@ -64,16 +64,48 @@ body {
   border: 2px solid black;
 }
 
+.lists {
+  margin: 0 20px 0 20px;
+}
+
+#lista1 {
+  border: 1px solid black;
+  background-color: orange;
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+
+#lista2 {
+  border: 1px solid black;
+  background-color: orange;
+  text-align: center;
+  width: 50%;
+  float: right;
+}
+
 #licoes_aprendidas {
+  border: 1px solid black;
+  background-color: orange;
   text-align: center;
   width: 50%;
   float: left;
 }
 
 #licoes_a_aprender {
+  border: 1px solid black;
+  background-color: orange;
   text-align: center;
   width: 50%;
   float: right;
+}
+
+.footer-text {
+  margin: 230px 20px 20px;
+  
+  border: 1px solid black;
+  background-color: orange;
+  text-align: center;
 }
 
 li {
