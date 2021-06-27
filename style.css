@@ -1,11 +1,19 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: "Quicksand", sans-serif;
 }
 
+#minha_foto {
+  border-radius: 50%;
+  display: inline-block;
+}
 #cabecalho {
   position: fixed;
   top: 0;
-  display: block;
+  display: inline;
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
 
 #sobre-meu-aprendizado {
@@ -19,12 +27,12 @@ body {
   margin: auto;
 }
 
-.licoescontainer{
+.licoescontainer {
   width: 40%;
   display: inline-block;
   border: 2px solid gray;
 }
 
-.licoescontainer h3{
+.licoescontainer h3 {
   margin-left: 15px;
 }
