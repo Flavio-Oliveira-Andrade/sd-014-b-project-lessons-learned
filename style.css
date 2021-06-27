@@ -19,7 +19,7 @@ body {
 }
 
 #minha_foto {
-  margin-top: 150px;
+  margin-top: 180px;
   margin-left: 20px;
   width: 280px;
   border-radius: 50%;
@@ -66,20 +66,16 @@ section a {
 }
 
 article {
-  margin-left: 350px;
-  margin-top: -200px;
   font-size: 22px;
   font-style: italic;
 }
 
 #passagem_aprendizado {
+  margin-left: 20px;
   border-style: initial;
   border-radius: 10px;
-  background-color: rgb(212, 245, 164);
-  padding: 5px;
-  width: 250px;
-  height: 180px;
-  line-height: 20px;
+  background-color: rgb(212, 245, 164); 
+  line-height: 30px;
 }
 
 .menu {
@@ -107,4 +103,35 @@ article {
 
 .efeito:active {
   color: rgb(255, 254, 254);
+}
+
+.artigo_e_aprendizados {
+  width: 100%;
+  margin: 80px 0 80px 0;
+  text-align: center;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 40%;
+  height: 250px;
+  background-color: rgb(212, 245, 164); 
+  border-style: initial;
+  border-radius: 10px;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 40%;
+  height: 250px;
+  vertical-align: top;
+}
+
+.frases {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  color: darkgreen;
 }
