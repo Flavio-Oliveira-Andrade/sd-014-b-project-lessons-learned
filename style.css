@@ -1,19 +1,21 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Noto Sans', sans-serif;
 }
 
 #cabecalho {
-    position: fixed; 
+    display: block; 
     top: 0;
     height: 10%;
     border: 15px solid rgb(4, 170, 4);
-    padding: 20px;
-    margin: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 
 main {
-    
-
+    display:block;
+    border: 5px solid black;
+    top: 100 px;
 }
 
 footer {
@@ -26,7 +28,7 @@ footer {
 }
 
 .article {
-    
+    float: right;
 }
 
 #licoes_a_aprender {
@@ -34,16 +36,18 @@ footer {
 }
 
 #licoes_a_aprender {
-    display: inline;
+    display: inline-block;
+    /* float: right; */
 }
 
 aside {
-    border-color: brown;
-    border: 5px;
-    border-style: solid;
+    border: 5px solid rgb(76, 45, 190);
     height: 85%;
-    width: 15%;
+    width: 15%;    
     float: right;    
 }
 
+.italic {
+    font-style: italic;
+}
 
