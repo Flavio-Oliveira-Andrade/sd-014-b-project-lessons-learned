@@ -1,22 +1,27 @@
 body {
-  background-color:rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
   position: fixed;
-  top: 0; 
+  top: 0;
   color: firebrick;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #minha_foto {
   margin-top: 8em;
 }
 
-.Subtitulo-verde h3 {
+.Subtitulo-verde h2 {
   color: olivedrab;
 }
 
 nav {
   background-color: olivedrab;
+}
+
+#rodape h3 {
+  color: olivedrab;
 }
 
