@@ -11,9 +11,20 @@ body {
 #sobre-meu-aprendizado {
   width: 500px;
   margin: auto;
-  padding: 0;
+  padding: 15px;
+  border: 1px solid gray;
 }
 
-#licoes{
+#licoes {
+  margin: auto;
+}
 
+.licoescontainer{
+  width: 40%;
+  display: inline-block;
+  border: 2px solid gray;
+}
+
+.licoescontainer h3{
+  margin-left: 15px;
 }
