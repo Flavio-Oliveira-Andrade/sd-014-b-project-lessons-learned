@@ -3,12 +3,16 @@ body {
   font-family: "Times New Roman", "Times", "serif";
   font-size: 16px;
   line-height: 28px;
-  color: #023047;
+  color: #666;
 }
 header {
+  background-color: #666;
+  width: 100%;
   position: fixed;
   top: 0;
-  margin-left: 300px;
+  text-align: center;
+  color: #fff;
+  height: auto;
 }
 #minha_foto {
   width: 25%;
@@ -17,13 +21,13 @@ header {
 section a {
   text-decoration: none;
   font-weight: 1px bold;
-  color: black;
+  color: #666;
 }
 section a:hover {
-  background-color: green;
+  background-color: gray;
   color: white;
-  padding: 5px;
-  border-radius: 30%;
+  padding: 6px;
+  border-radius: 15%;
 }
 table tr,
 td {
@@ -40,4 +44,18 @@ td {
   float: left;
   width: 46%;
   margin: 15px;
+}
+header nav ul li {
+  font-weight: bold;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px;
+  border: 1px gray solid;
+  padding: 1px;
+  border-radius: 15%;
+}
+header nav {
+  background-color: #a0a0a0;
+  padding: 3px;
+  text-align: left;
 }
