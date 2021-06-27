@@ -40,7 +40,7 @@ body {
 }
 
 .lado-esquerdo {
-  margin-left: 1%;
+  margin-left: 10px;
   display: inline-block;
   text-align: justify;
   width: 40%;
@@ -113,7 +113,7 @@ body {
   line-height: 25px;
 }
 
-h4, h5 {
+h4 , h5 {
   color: white;
   line-height: 25px;
 }
