@@ -4,19 +4,24 @@ body {
 }
 
 p {
-  font-size: 14px;
+  font-size: 15px;
   color: black;
   line-height: 20px;
 }
+
 #minha_foto {
   border-radius: 50%;
-  display: inline-block;
+}
+#sobre-mim {
+  display: block;
+  margin-top: 50px;
+  height: 300px;
 }
 #cabecalho {
   position: fixed;
   top: 0;
   display: inline;
-  margin: auto;
+  margin: 30px;
   width: 100%;
   text-align: center;
 }
@@ -25,11 +30,22 @@ nav {
   display: block;
 }
 
-#sobre-meu-aprendizado {
+.lado-direito {
+  width: 450px;
+  height: 300px;
+  border: 1px solid gray;
+  padding: 15px;
+  font-size: 15px;
+  display: inline-block;
+  top: 0;
+}
+
+.lado-esquerdo{
   width: 500px;
-  margin: auto;
+  height: 300px;
   padding: 15px;
   border: 1px solid gray;
+  display: inline-block;
 }
 
 #licoes {
