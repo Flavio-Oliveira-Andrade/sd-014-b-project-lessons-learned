@@ -1,0 +1,89 @@
+* {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  top: 0;
+  margin: 5px;
+  padding-left: 20px; 
+  padding-right: 20px; 
+  position: fixed;
+  background-color: #282256;
+
+}
+
+#minha_foto {
+  width: 400px;
+  margin-top: 100px;
+}
+
+section aside , article p{
+  width: 45%;
+  float: left;
+  margin: 10px;
+  font: 100;
+  line-height:20px;
+  margin-block-end: 1px;
+  background-color: #3F303F;
+  margin-top: 10px;
+  padding-top: 8px;
+}
+
+section:hover { 
+  color: white;
+}
+
+article:hover { 
+  color: white;
+}
+
+.lado-esquerdo , .lado-direito {
+  width: 40%;
+  float: left;
+  font-size: 10px;
+  font-family: Lucida Sans, Lucida Sans Regular,
+  Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+  background-color: #6D4B11;
+}
+
+ ul, ol {
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+}
+
+ ul li, ol li{
+  background-color: #6D4B11;
+  color:grey;
+  margin: 3px;
+}
+
+li:hover { 
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  width: fit-content;
+  display: block;
+}
+
+#rodape {
+  clear: both;
+  position: relative;
+  height: 100px;
+  padding: 40px;
+  border: 2px;
+  background-color: #563D28;
+}
+
+.info{
+  width: fit-content;
+}
+
+h3{
+  width: fit-content;
+  display: flex;
+  margin-block-start: 250px;
+  margin-block-end: 10px; 
+  background-color: #6D4B11;
+}
+
+
