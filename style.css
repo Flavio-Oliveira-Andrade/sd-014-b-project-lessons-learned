@@ -48,7 +48,7 @@ body {
 }
 
 .lado-direito {
-  margin-right: 90px;
+  margin-right: 50px;
   display: inline-block;
   text-align: justify;
   width: 40%;
@@ -122,4 +122,8 @@ h4 , h5 {
 
 li {
   list-style-type: none;
+}
+
+p {
+  font-size: 20px;
 }
