@@ -3,6 +3,11 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+p {
+  font-size: 14px;
+  color: black;
+  line-height: 20px;
+}
 #minha_foto {
   border-radius: 50%;
   display: inline-block;
@@ -14,6 +19,10 @@ body {
   margin: auto;
   width: 100%;
   text-align: center;
+}
+
+nav {
+  display: block;
 }
 
 #sobre-meu-aprendizado {
