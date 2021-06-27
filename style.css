@@ -10,15 +10,30 @@ body {
 table, th, td {
   border: 1px solid red;
   border-collapse: collapse;
+  padding: 25px;
+
 }
 
 section p {
   font-size: 16px;
   color: 00000090;
-  text-align: center;
   padding: 15px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1,5;
+}
+
+.lado-esquerdo  {
+  float: left;
+  width: 50%;
+}
+
+.lado-direito  {
+  float: right;
+  width: 50%;
+}
+
+.clear {
+  clear: both;
 }
 
 #cabecalho {
@@ -28,7 +43,7 @@ section p {
 }
 
 #rodape {
-  background-color: rgb(175, 131, 175);
+  background-color: rgb(197, 167, 197);
   margin: 1px;
   text-align: center;
 
@@ -46,7 +61,6 @@ section p {
   width: 30px;
   padding-left: 28px;
 }
-
 
 
 
