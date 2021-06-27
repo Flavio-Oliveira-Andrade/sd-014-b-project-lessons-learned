@@ -7,22 +7,29 @@ body {
     position: fixed;
     top: 0;
   } 
-
+  #titulo{
+    margin-left: 350px;
+  }
 #menu{
     position: fixed;
     right: 0;
     top: 50%;
-    width: 250px;
+    width: 200px;
+    color: gray;
 }
-
+#minha_foto {
+padding: 10px;
+background-color: gray;
+}
 .list-style{
       background-color: black; 
       color: white;
-      font-family: 'Times New Roman', Times, serif;
+      font-family: monospace;
       font-size: 10px;
       font-weight: bold;
       font-style: italic;
       line-height: 15px;
+      border: 5px solid gray;
   }
 .lado-esquerdo{
 float: left;
@@ -35,4 +42,8 @@ li:hover{
 }
 li:active{
   color: violet;
+}
+h1:hover{
+  color: white;
+  background-color: purple;
 }
