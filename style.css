@@ -7,7 +7,7 @@ body {
   top: 0;
   color: firebrick;
   font-family: 'Roboto Condensed', sans-serif;
-  margin: 0px 50px 800px 800px; 
+  margin: 0px 50px 800px 800px;
   letter-spacing: 0.5em;
 
 }
@@ -39,28 +39,25 @@ table {
 table th {
   width: 50%;
   border: 5px solid green;
-  padding-block: 0px;
+  padding-block: 1px;
   letter-spacing: 3px;
   font-size: 20px;
 }
 
+#meu-aprendizado {
+padding-top: 0;
+}
+
 table td {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 1px;
+  padding-right: 1px;
   letter-spacing: 0.15em;
   
 }
 
-.lado-esquerdo {
-  line-height: 1em
-  
-}
-
-.lado-direito {
-  line-height: 1em
-}
-
-.lado-direito, .lado-esquerdo
-{
+.lado-direito, .lado-esquerdo {
+  line-height: 1em;
+  width: 45%;
+  text-align: center;
   display: inline-block;
 }
