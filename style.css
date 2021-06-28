@@ -2,10 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
 }
 
 body {
   background-color: rgb(253, 251, 251);
+  color: rgb(34, 34, 34);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgb(255, 189, 74);
+  width: 100%;
 }
 
 #cabecalho {
@@ -13,5 +24,51 @@ body {
   width: 1137px;
   height: 52px;
   left: 126px;
-  top: 0px;
+  top: 0;
+}
+
+header h1 {
+  color: rgb(34, 34, 34);
+  font-size: 35px;
+  margin: 24px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: rgb(34, 34, 34);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 10px;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+header nav ul li a:hover {
+  color: rgb(238, 73, 93);
+  background-color: rgba(231, 221, 205, 0.267);
+}
+
+#minha_foto {
+  position:absolute;
+  max-height: 215px;
+  left: 210px;
+  top: 116px;
+
+  border: solid 10px rgb(255, 189, 74);
+  border-radius: 22px 45%;
+}
+
+article {
+  position: absolute;
+  width: 485px;
+  height: 105px;
+  left: 440px;
+  top: 170px;
+
+  font-size: 16px;
+  line-height: 30px;
 }
