@@ -33,12 +33,24 @@ header#cabecalho {
 }
 
 #artigo {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+    color: black;
+    font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 16vw;
 }
 
 #aside1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+    color: black;
+    font-size: 20px;
     padding-top: 10px;
     width: 16vw;
     padding-bottom: 50px;
