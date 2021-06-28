@@ -1,0 +1,105 @@
+<!--
+
+    Possuir cor de fundo no body: rgb(253, 251, 251)
+    Uma barra superior com id = cabecalho, a barra superior deve sempre ficar no topo com o top = 0 e position fixed;
+    Um titulo dentro da barra superior com <h1> e id = titulo;
+    
+    Deve haver uma foto, se utilizando de <img> e com id = minha_foto;
+    Deve ter uma lista ordenada com 10 lições aprendidas com o id = "licoes_aprendidas";
+    Deve ter uma lista não ordenada com 10 lições que quero aprender com o ID "licoes_a_aprender";
+    Deve ter um roda pé com <footer> e id = rodape
+    Deve ter um link exertno a páginaa que abra em outro navegador;
+    Deve ter um artigo sobre meu aprendizado entre 300 á 600 caracteres e estar num <article>
+    Devve ter uma secão com uma passagem do meu aprendizado com entre 100 e 300 caracteres e estar num <aside>
+    
+    Verificar se tem <article>, <header>, <nav>, <section>, <aside>, <footer>.
+    Verificafr no CodeSniffer se está 100%
+
+    Ter uma tabela na pagina
+    Alterar margin, padding e border
+    Modificar tamanho da letra
+    Modificar a cor da letra
+    Alterar o espaçamento das linnhas
+    Alterar o font-family
+    Utilizar class "lado-esquerdo" como se fosse um framworkk
+    Utilizar class "lado-direito" do mesmo jeito
+
+    Preencher formulario;
+
+-->
+
+<!DOCTYPE html>
+<html lang="Pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Projeto lessons-learned</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="container" id="cabecalho">
+        <h1 id="titulo">Vinicius Oliveira Bittencourt - Trybe</h1>
+        <nav>
+            <table>
+                <tr>
+                    <td><a>Perfil</a></td>
+                    <td><a>Aprendizado</a></td>
+                    <td><a>Rodapé</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+    <main class="container-main">
+        <article id="perfil">
+            <section id="perfil-me">
+                <img alt="Foto de Vinicius Oliveira Bittencourt" class="container-img" src="https://scontent.faju1-1.fna.fbcdn.net/v/t1.6435-9/168720070_2257946674338730_2137874750775225459_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=730e14&_nc_eui2=AeGokNOnmBWgmGLvUnZdIY2LW1szpA-svWxbWzOkD6y9bJETYaefsY7zvlWjWe8omu_fnPgPnNqoIyf-Yqx67XKj&_nc_ohc=c4hymuL2sqkAX96uGI9&_nc_ht=scontent.faju1-1.fna&oh=b69e9daa528cfed1f87ba843f75f5152&oe=60DD7567">
+                <p><em>"Eu costumava ser um aventureiro como voce, mas ai eu tive tomei uma flechada no joelho"</em>Witherun Securit Guard</p>
+            </section><!--Perfil Eu-->
+            <section id="perfil-aprendizados">
+                <ol id="licoes_aprendidas">
+                    <li>Sistema Unix</li>
+                    <li>Git & GitHub</li>
+                    <li>Como a Internet Funciona</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Semântica HTML</li>
+                    <li>Organização</li>
+                    <li>Calma</li>
+                    <li>Resiliência</li>
+                    <li>"git add .; git commit -m "commit pq o prédio está pegando fogo"; git push -u origin</li>
+                </ol>
+                <ul id="licoes_a_aprender">
+                    <li>JavaScript</li>
+                    <li>Auto-Conhecimento</li>
+                    <li>SQL</li>
+                    <li>Arquitetura de Rede</li>
+                    <li>DOM</li>
+                    <li>React</li>
+                    <li>API</li>
+                    <li>Pyton</li>
+                    <li>Estrutura De Dados</li>
+                    <li>MongoDB</li>
+                </ul>
+            </section><!--Perfil Aprendizados-->
+        </article><!--Perfil-->
+        <article id="sobre_meu_aprendizado">
+            <h3>Aprendizado na Trybe:</h3>
+            <p>O aprendizado está maravilhoso, algumas das coisas que aprendi eu já usava, mas n tinha o conhecimento do pq, estou achando muito gratificante. E a alta quantidade de conhecimento está me agraciando bastante. No ínicio eu estava com um pequeno problema de tentar absorver todos os conteúdos de maneira perfeita, mas me diciplinei a entender que a perfeição vem apenas com o tempo. Mas está maravilhoso esse tempo de aprendizado.</p>
+        </article><!--Sobre Aprendizado-->
+        <aside>
+            <h3>Uma pasasgem do meu aprendizado:</h3>
+            <p>Uma passagem interessante do meu aprendizado foi desenvolver essa calma de que a perfeição só vêm com a prática e n ficar me agoniando sobre erros que venham acontecer com o tempo.</p>
+        </aside>
+    </main>
+    <footer id="rodapeS">
+        <h2>Todos os direitos reservados!</h2>
+        <section class="redes_socais">
+            <h3>Facebook:</h3><a target="_blank" href="https://www.facebook.com/vinicius.oliveira.1656854/">Link Aqui</a>
+            <h3>Instagram:</h3><a target="_blank" href="https://www.instagram.com/the_vbittencourt/">Link Aqui</a>
+        </section><!--Redes Socias-->
+    </footer>
+  </body>
+</html>
