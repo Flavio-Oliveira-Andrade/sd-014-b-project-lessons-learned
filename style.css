@@ -18,7 +18,7 @@ table, th, td {
 
 #minha_foto{
   border-radius: 30px;
-  margin: 20px;
+  margin-left: 90%;
   box-shadow: 0 0 10px 3px #00000055;
 
 }
@@ -52,7 +52,7 @@ section p {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: rgb(228, 248, 248);
+  background-color: rgb(227, 28, 245);
   text-align: center;
   left: 400px;
 }
