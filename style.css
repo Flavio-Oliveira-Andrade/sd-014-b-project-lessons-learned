@@ -9,7 +9,7 @@ body{
 }
 header{
     position: fixed;
-    top: -45px;
+    top: 0px;
     left: 12%;
     background-color: #7F7F7F;
     padding-left: 200px;
