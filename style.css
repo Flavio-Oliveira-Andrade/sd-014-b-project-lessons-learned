@@ -29,6 +29,7 @@ header#cabecalho {
 * {
     padding: 0;
     margin: 0;
+    border: 0;
 }
 
 #artigo {
@@ -41,4 +42,9 @@ header#cabecalho {
     padding-top: 10px;
     width: 16vw;
     padding-bottom: 50px;
+}
+
+.texto1 {
+    border: 10px;
+
 }
