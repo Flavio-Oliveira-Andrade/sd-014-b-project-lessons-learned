@@ -5,6 +5,7 @@ body {
   line-height: 28px;
   color: #666666;
 }
+
 header {
   background-color: #666666;
   width: 100%;
@@ -14,37 +15,44 @@ header {
   color: #ffffff;
   height: auto;
 }
+
 #minha_foto {
   width: 25%;
   margin-top: 50px;
 }
+
 section a {
   text-decoration: none;
   font-weight: 1px bold;
   color: #666666;
 }
+
 section a:hover {
   background-color: gray;
   color: #ffffff;
   padding: 6px;
   border-radius: 15%;
 }
+
 table tr,
 td {
   border: 1px black solid;
   text-align: left;
 }
+
 .lado-direito {
   float: right;
   width: 46%;
   display: inline;
   margin: 15px;
 }
+
 .lado-esquerdo {
   float: left;
   width: 46%;
   margin: 15px;
 }
+
 header nav ul li {
   font-weight: bold;
   display: inline-block;
@@ -54,8 +62,9 @@ header nav ul li {
   padding: 1px;
   border-radius: 15%;
 }
+
 header nav {
-  background-color: #A0A0A0;
+  background-color: #a0a0a0;
   padding: 3px;
   text-align: left;
 }
