@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: rgb(253, 251, 251);
     font-family: 'Roboto', sans-serif;
@@ -6,7 +10,7 @@ body{
 header{
     position: fixed;
     top: -45px;
-    left: 21%;
+    left: 12%;
     background-color: #7F7F7F;
     padding-left: 200px;
     padding-right: 200px;
@@ -18,6 +22,7 @@ header{
 }
 header h1{
     margin-top: 60px;
+    font-size: 40px;
 }
 header table{
     margin-bottom: -20px;
@@ -26,6 +31,8 @@ header table a{
     margin: 60px;
     font-size: 22px;
     font-weight: bold;
+    color: rgb(253, 251, 251);
+    text-decoration: none;
 }
 header table a:hover{
     text-decoration: underline;
@@ -38,14 +45,59 @@ header table a:hover{
 }
 .lado-esquerdo{
     width: 50%;
-    display: inline-block;
-    left: 0;
+    float: left;
+    clear: both;
 }
 .lado-direito{
+    margin-top: 5px;
     width: 50%;
-    display: inline-block;
-    right: 0;
+    float: right;
 }
 main{
     width: 100%;
+}
+#perfil-me{
+    margin-bottom: 20px;
+    color: #58555A;
+}
+#perfil-aprendizados{
+    height: 240px;
+    width: 100%;
+    background-color: #FFEB4D;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 19px;
+}
+#perfil-aprendizados ul{
+    list-style: none;
+}
+.licoes-aprendidas{
+    position: absolute;
+    left: 300px;
+    top: 850px;
+}
+#sobre_meu_aprendizado{
+    max-width: 600px;
+    margin-top: 20px;
+    color: #58555A;
+}
+#sobre_meu_aprendizado h3{
+    font-size: 25px;
+}
+#sobre_meu_aprendizado p{
+    font-size: 18px;
+}
+aside{
+    max-width: 250px;
+    color: #58555A;
+}
+footer{
+    margin-top: 300px;
+    background: #FFEB4D;
+}
+footer h2{
+    margin-bottom: 10px;
+}
+footer h3 a{
+    margin-bottom: 40px;
 }
