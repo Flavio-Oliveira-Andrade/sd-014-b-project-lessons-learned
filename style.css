@@ -10,6 +10,10 @@ body{
 
 #titulo{
     right: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 107, 107);
+    line-height: 1%;
+
 }
 
 .img_container{
