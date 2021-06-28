@@ -7,21 +7,60 @@ body {
   top: 0;
   color: firebrick;
   font-family: 'Roboto Condensed', sans-serif;
+  margin: 0px 50px 800px 800px; 
+  letter-spacing: 0.5em;
+
 }
 
 #minha_foto {
   margin-top: 8em;
+  padding-left: 825px ;
+  padding-right: 800px;
 }
 
 .Subtitulo-verde h2 {
   color: olivedrab;
-}
+  }
 
 nav {
-  background-color: olivedrab;
+  background-color:rgb(108, 143, 39);
+  color: white;
+
 }
 
 #rodape h3 {
   color: olivedrab;
 }
 
+table {
+  width: 100%;
+}
+
+table th {
+  width: 50%;
+  border: 5px solid green;
+  padding-block: 0px;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+table td {
+  padding-left: 0px;
+  padding-right: 0px;
+  letter-spacing: 0.15em;
+  
+}
+
+.lado-esquerdo {
+  line-height: 1em
+  
+}
+
+.lado-direito {
+  line-height: 1em
+}
+
+.lado-direito, .lado-esquerdo
+{
+  display: inline-block;
+}
