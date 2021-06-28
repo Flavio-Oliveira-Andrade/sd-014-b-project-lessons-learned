@@ -14,7 +14,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   background-color: rgb(255, 189, 74);
   width: 100%;
 }
@@ -27,18 +26,18 @@ header {
   top: 0;
 }
 
-header h1 {
+#cabecalho h1 {
   color: rgb(34, 34, 34);
   font-size: 35px;
   margin: 24px;
 }
 
-header nav ul {
+.menu {
   display: flex;
   list-style: none;
 }
 
-header nav ul li a {
+.menu li a {
   color: rgb(34, 34, 34);
   text-decoration: none;
   text-transform: uppercase;
@@ -47,28 +46,114 @@ header nav ul li a {
   border-radius: 10px;
 }
 
-header nav ul li a:hover {
+.menu li a:hover {
   color: rgb(238, 73, 93);
   background-color: rgba(231, 221, 205, 0.267);
 }
 
-#minha_foto {
-  position:absolute;
-  max-height: 215px;
-  left: 210px;
-  top: 116px;
+section {
+  background-color: rgba(255, 245, 231, 1);
+  display: inline-block;
+  margin: auto 7%;
+  width: 1200px;
+  height: 649px;
+}
 
+.img-article {
+  display: flex;
+  justify-content: space-between;
+}
+
+#minha_foto {
+  position: absolute;
+  max-height: 330px;
+  left: 200px;
+  top: 116px;
   border: solid 10px rgb(255, 189, 74);
   border-radius: 22px 45%;
 }
 
-article {
+h2 {
+  color: rgb(238, 73, 93);
+}
+
+.aprendizado {
   position: absolute;
   width: 485px;
   height: 105px;
   left: 440px;
   top: 170px;
-
+  text-align: justify;
   font-size: 16px;
   line-height: 30px;
+}
+
+#lessons {
+  position: relative;
+  display: flex;
+  width: 185px;
+  height: 263px;
+  left: 330px;
+  top: 353px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.lado-esquerdo li {
+  list-style: none;
+  text-align: center;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+  background-color: rgba(238, 73, 92, 0.637);
+  text-align: center;
+  margin: -5% 20%;
+  padding: 10px 45px;
+  border-radius: 10px;
+}
+
+.lado-direito li {
+  list-style: none;
+  text-align: center;
+}
+
+.table {
+  background-color: rgba(255, 245, 231, 1);
+  margin: 0 71px 25px 95px;
+  padding: 0 90px 20px 163px;
+}
+
+.table h3 {
+  color: rgb(238, 73, 93);
+  border-radius: 3px;
+  margin-left: 200px;
+  width: 40%;
+  text-align: center;
+}
+
+table td {
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(238, 73, 92, 0.637);
+  border-radius: 3px;
+  width: 30%;
+}
+
+.aside {
+  position: absolute;
+  width: 176px;
+  height: 494px;
+  left: 1016px;
+  top: 165px;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#rodape p {
+  position: absolute;
+  width: 100%;
+  right: 50px;
+  text-align: center;
+  background-color: rgb(255, 189, 74);
 }
