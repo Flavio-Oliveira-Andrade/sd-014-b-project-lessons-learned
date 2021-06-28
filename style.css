@@ -90,6 +90,7 @@ main{
 aside{
     max-width: 250px;
     color: #58555A;
+    line-height: 2px;
 }
 footer{
     margin-top: 300px;
