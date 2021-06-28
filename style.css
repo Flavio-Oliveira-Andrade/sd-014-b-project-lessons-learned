@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,5 +10,8 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0;
+  width: 1137px;
+  height: 52px;
+  left: 126px;
+  top: 0px;
 }
