@@ -1,141 +1,115 @@
-
-body {
-  background: rgb(253, 251, 251);
-  color: rgb(253, 251, 251);
-  margin-left: 20%;
+body{
+  background-color:rgb(253, 251, 251);
+  color: #B01E07;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  li{
+  list-style: none;
+  }
+  header{position: fixed;
+    top: 0;
+    left: 20px;
+    color: whitesmoke;
+  }
 
-}
-#cabecalho {top: 0;
-
-  position: fixed;
-  margin-left: -18%;
-  margin-top: 7px;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
-}
+  a{color:#59C4EB}
 
 #navegacao {list-style: none;
-  text-align: right;
-  background-color:darkcyan;
-  border: tomato solid 5px;
-
-  margin-left: -24%;
+    text-align: right;
+  background-color:#B01E07;
+  border: #3DFCA6 solid 5px;
 }
-#n1 {border: solid 1px cyan;
+#n1 {border: solid 1px #3DFCA6 ;
   margin: 15px;
+  color: white;
   display: inline-block;
 }
-#n2 {border: solid 1px cyan;
+#n2 {border: solid 1px #3DFCA6 ;
   margin: 15px;
+  color: white;
   display: inline-block;
 }
-#n3 {border: solid 1px cyan;
+#n3 {border: solid 1px #3DFCA6 ;
   margin: 15px;
+  color: white;
   display: inline-block;
 }
-#n4 {border: solid 1px cyan;
+#n4 {border: solid 1px #3DFCA6 ;
   margin: 15px;
+  color: white;
   display: inline-block;
 }
-#n1:hover {background-color: cyan;
-color: orangered;
+#n1:hover {background-color: #3DFCA6 ;
+color: #B01E07;
 font-weight: bold;
 font-size: 20px;
   }
-#n2:hover {background-color: cyan;
-  color: orangered;
+#n2:hover {background-color: #3DFCA6 ;
+  color: #B01E07;
   font-weight: bold;
   font-size: 20px;
   }
-#n3:hover {background-color: cyan;
-  color: orangered;
+#n3:hover {background-color: #3DFCA6 ;
+  color: #B01E07;
   font-weight: bold;
   font-size: 20px;
   }
-#n4:hover {background-color: cyan;
-  color: orangered;
+#n4:hover {background-color: #3DFCA6;
+  color: #B01E07;
   font-weight: bold;
   font-size: 20px;
   }
-
-
-li{
-  list-style: none;
-  z-index: 1;
-}
 #minha_foto{
-  position: absolute;
-  z-index: 3;
-  left: 600px;
-  top: 260px;
-  height: 350px;
-
-}
-
-#licoes_aprendidas{
-  float: left;
-  padding: 75px;
-  background-color: teal;
-  border: tomato solid 5px;
-  border-right: unset;
-  position: absolute;
-  z-index: 1;
-  left: 20%;
-  padding-bottom: 200px;
-}
-#licoes_a_aprender{
-  background-color: teal;
-  padding:75px;
-  float: right;
-  border: tomato solid 5px;
-  border-left: unset;
-  position: absolute;
-  z-index: 2;
-  right: inherit;
-  padding-right: 300px;
-  padding-bottom: 200px;
+  display: block;
+  width: 500px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
-.comeco
+
+#licoes_aprendidas
 {
-  display: inline-block;
-  padding-bottom: 75px;
+  float: left;
+  position: absolute;
+  top: 150px;
+  text-align: left;
+}
+
+#licoes_a_aprender
+{
+  float: right;
+  right: 5%;
+  text-align: right;
+  position: absolute;
+  top: 150px;
 }
 
 .lado-direito{
-  background-color: teal;
-  border: tomato solid 5px;
-  text-align: left;
-  width: 200px;
-  float: right;
-  padding: 25px;
-  margin-right: 200px;
-}
-.lado-esquerdo
-{
-  background-color: teal;
-  border: tomato solid 5px;
-  text-align: left;
-  width: 200px;
-  padding: 25px;
-  float: left;
-  padding-bottom: 207px;
+position: absolute;
+  width: 33%;
+  right: 4%;
+  text-align: right;
 
 }
-article{
-display: inline-block;
-margin-top: 550px;
-line-height: 20px;
+.lado-esquerdo{
+  position: absolute;
+  width: 33%;
+  left: 4%;
+  line-height: 20px;
+  padding-bottom: 5px;
 }
 
-#rodape{
-  margin-left: -240px;
-  margin-top: 1050px;
+#rodape {
+  position: absolute;
+  display: block;
+  top: 80.5%;
+  right: 33%;
+  left: 33%;
   text-align: center;
-  background-color: teal;
-  padding: 10px;
-  border: tomato solid 5px;
+  background-color: #B01E07;
+  color: white;
+  margin: 60px;
 
 }
