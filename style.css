@@ -48,7 +48,7 @@ img {
     background-color: red;
     text-decoration: none;
 }
-section .sobre_mim {
+.sobre_mim {
     float:right;
     height:10px;
     margin-top:200px;
