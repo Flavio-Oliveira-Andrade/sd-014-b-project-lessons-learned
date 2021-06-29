@@ -2,7 +2,7 @@ body {
     background-color: rgb(253, 251, 251);
 }
 .cabecalho {
-    top: 0px;
+    top: 0;
     position: fixed;
     right: 0;
     width: 8em;
@@ -27,8 +27,13 @@ img {
     letter-spacing: 2px;
     text-decoration-style: solid;
 }
-.lista_aprendi {
+.licoes_aprendidas {
     float: left;
+    width: 200px;
+    margin: 1px;
+}
+.licoes_a_aprender{
+    float: right;
     width: 200px;
     margin: 1px;
 }
