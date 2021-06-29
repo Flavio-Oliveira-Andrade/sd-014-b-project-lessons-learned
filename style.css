@@ -17,9 +17,9 @@ section{
 }
 
 aside{
+  margin-top: 40px;
   clear: both;
 }
-
 
 #cabecalho{
   position: fixed;
@@ -44,7 +44,6 @@ aside{
 }
 
 #rodape{
-  background-color: #7cfc00;
   margin: auto;
   margin-top: 10px;
   padding: 20px;
@@ -68,4 +67,17 @@ aside{
 .lado-direito{
   float: right;
   width: 45%;
+}
+
+.table-rodape{
+  margin: auto;
+}
+
+.table-rodape td{
+  padding: 10px;
+}
+
+.table-rodape a{
+  text-decoration: none;
+  color: #383636;
 }
