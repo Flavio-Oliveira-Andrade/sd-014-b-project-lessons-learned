@@ -22,8 +22,7 @@ body {
 #cabecalho {
     background-color: teal;
     padding: 17px 30px;
-    top: 0;
-    
+    top: 0
 }
 
 #link {
@@ -41,9 +40,7 @@ body {
     padding: 30px 30px;
     max-width: 80%;
     margin: auto;
-    border-radius: 10px;
-    
-
+    border-radius: 10px
 }
 
 .listas {
