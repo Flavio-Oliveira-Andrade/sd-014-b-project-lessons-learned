@@ -3,7 +3,7 @@
             font-family: Montserrat;
         }
 
-        #nav li{
+        .nav li{
         color: rgb(253, 251, 251);
         display: inline-block;
         
@@ -35,6 +35,7 @@
         #minha_foto{
         border-radius: 3%;
         width: 300px;
+        
 
         }
 
@@ -53,8 +54,8 @@
 
         .lado-esquerdo{
             border: 1px solid black;
-            display: 
-            width: 40%;
+            display:inline-block;
+            
             vertical-align: top;
 
         }
@@ -63,7 +64,7 @@
             border: 1px solid black;
             display: inline-block;
             width: 40%;
-            padding: 70px;
+            
 
         }
 
