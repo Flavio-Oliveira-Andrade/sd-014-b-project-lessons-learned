@@ -1,68 +1,77 @@
-body {
-background-color:rgb(253, 251, 251);
-background-size: 360px;
-font-family: Sans-serif, Verdana, Geneva, Tahoma
-}
-.barra {
-    background-color:green;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 35px;
-  }
-h1 {
-text-align:center;
-text-shadow:2px 2px 5px gray;
-}
-h2 {
-text-align:right;
-text-shadow:2px 2px 5px gray;
-
-}
-h3 {
-text-align:right;
-text-shadow:2px 2px 5px gray; 
-}
-img {
-float:right;
-  }
-.color-title {
-color:green;
-font-size:25px;
-font-weight:bolder 20px;
-letter-spacing:2px;
-text-decoration-style:solid;
-}
-.lista_aprendi {
-float:left;
-width:200px;
-margin:1px;
-}
-.licoes_a_aprender{
-float:right;
-width:200px;
-margin:1px;
-}
-.link {
-padding:300px 200px 10px 300px;
-margin:20px;
-color:black;
-text-align:center;
-display:inline-block;
-background-color:red;
-text-decoration:none;
-}
-.sobre_mim {
-float:right;
-height:10px;
-margin-top:200px;
-}
-.menu_ao_lado_right{
-float:left;
-height:1px;
-margin-top:200px;
- }
-.rodape {
-text-align:right;
-}
+.body {
+    background-color:rgb(253, 251, 251);
+    background-size: 360px;
+    font-family: Sans-serif, Verdana, Geneva, Tahoma
+    }
+    #barra {
+        background-color:green;
+        position: fixed;
+        top: 0;
+        left: 50px;
+        right: 100px;
+        height: 80px;
+      }
+    .h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px gray;
+    }
+    .h2 {
+    text-align: center;
+    position: center;
+    text-shadow: 2px 2px 5px gray;
+    margin: 20px;
+    }
+    .h3 {
+    text-align:right;
+    text-shadow:2px 2px 5px gray; 
+    }
+    .color-title {
+    color: black;
+    font-size: 25px;
+    letter-spacing: 5px;
+    position: center;
+    }
+    .licoes_aprendidas {
+    float: right;
+    width:200px;
+    margin:10px;
+    }
+    .licoes_a_aprender{
+    float:left;
+    width:200px;
+    margin:1px;
+    }
+    .link {
+    padding:300px 200px 10px 300px;
+    margin:20px;
+    color:black;
+    text-align:center;
+    display:inline-block;
+    text-decoration:none;
+    }
+    .sobre_mim {
+    float:right;
+    height: 300px;
+    margin-top:100px;
+    text-align:center;
+    margin:30px;
+    }
+    .menu_ao_lado_right{
+    float:left;
+    height:1px;
+    margin-top:200px;
+    }
+    #rodape {
+    text-align:right;
+    }
+    .img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+    #minha_foto {
+      box-sizing: border-box;
+    }
+    
