@@ -1,11 +1,9 @@
-body { background-color: rgb (253, 251,251) 
+body { 
+    background-color: rgb (253, 251,251) 
 }
 img {
     width: 250px;
 }
 header {
-    top: 0;
-}
-ul {
-    float: right;
-}
+  position: fixed;  top: 0;
+} 
