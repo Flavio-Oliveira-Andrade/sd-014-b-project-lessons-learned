@@ -5,7 +5,7 @@ body {
 }
 
 #titulo-content {
-    max-width: 60%;
+    max-width: 50%;
     margin: auto;
 }
 
@@ -13,7 +13,6 @@ body {
     color:antiquewhite;
     font-size: 35px;
     font-weight: 600px;
-    text-align: center;
     background-position: center;
     text-align: center;
     margin: auto;
@@ -21,7 +20,11 @@ body {
 
 #cabecalho {
     background-color: teal;
-    padding: 17px 30px;
+    position: fixed;
+    padding: 15px 15px;
+    left: 0;
+    right: 0;
+    height: 100px;
     top: 0
 }
 
@@ -39,19 +42,21 @@ body {
     width: 500px;
     padding: 30px 30px;
     max-width: 80%;
-    margin: auto;
+    margin: 10%;
     border-radius: 10px
 }
 
-.listas {
-   padding: 30px 70px 90px 70px;
-   width: 80%;
-}
 
-#licoes_aprendidas #licoes_a_aprender {
+
+#licoes_aprendidas {
    width: 45%;
    margin: 30px; 
 }
+
+#licoes_a_aprender {
+    width: 45%;
+    margin: 30px; 
+ }
 
 .listas-container {
     font-size: 10;
@@ -88,7 +93,7 @@ aside {
     text-align: center;
     padding: 8px 13px;
     border-radius: 5px;
-} 
+}
 
 
 * {
