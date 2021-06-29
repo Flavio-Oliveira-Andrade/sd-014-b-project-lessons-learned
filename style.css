@@ -17,8 +17,12 @@ h1 {
 }
 h2 {
     text-align:right;
-    text-shadow:2px 2px 5px gray  ;
+    text-shadow:2px 2px 5px gray;
 
+}
+h3 {
+    text-align:right;
+    text-shadow:2px 2px 5px gray; 
 }
 img {
     float:right;
@@ -55,7 +59,10 @@ img {
     margin-top:200px;
     }
 .menu_ao_lado_right{
-        float: left;
-        height: 1px;
-        margin-top: 200px;
+    float: left;
+    height: 1px;
+    margin-top: 200px;
     }
+.rodape {
+text-align: right;
+}
