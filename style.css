@@ -46,8 +46,6 @@ body {
     border-radius: 10px
 }
 
-
-
 #licoes_aprendidas {
    width: 45%;
    margin: 30px; 
@@ -58,16 +56,14 @@ body {
     margin: 30px; 
  }
 
-.listas-container {
-    font-size: 10;
-}
-
 h2 {
     font-size: 11px;
 }
 
 h3 {
     font-size: 16px;
+    width: 45%;
+    margin: 30px;
 }
 
 article {
