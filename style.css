@@ -37,3 +37,18 @@ img {
     width: 200px;
     margin: 1px;
 }
+.link {
+    padding: 300px 200px 10px 300px;
+    margin: 20px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    background-color: red;
+    text-decoration: none;
+}
+.sobre_mim {
+    float: right;
+    height: 10px;
+    margin-top: 200px;
+    }
+    
