@@ -1,5 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
+    background-size: 360px;
+    font-family: Sans-serif, Verdana, Geneva, Tahoma
 }
 .cabecalho {
     top: 0;
@@ -46,9 +48,13 @@ img {
     background-color: red;
     text-decoration: none;
 }
-.sobre_mim {
+section .sobre_mim {
     float: right;
     height: 10px;
     margin-top: 200px;
     }
-    
+    .menu_ao_lado_right{
+        float: left;
+        height: 1px;
+        margin-top: 200px;
+    }
