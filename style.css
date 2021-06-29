@@ -16,3 +16,9 @@ body{
     font-size: 30px;
     color: aliceblue;
 }
+
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+}
