@@ -3,11 +3,14 @@ background-color:rgb(253, 251, 251);
 background-size: 360px;
 font-family: Sans-serif, Verdana, Geneva, Tahoma
 }
-.cabecalho {
-top:0;
-position:fixed;
-background-color:green;
-}
+.barra {
+    background-color:green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+  }
 h1 {
 text-align:center;
 text-shadow:2px 2px 5px gray;
