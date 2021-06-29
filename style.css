@@ -2,7 +2,7 @@ body {
     background-color: rgb(253, 251, 251);
 }
 .cabecalho {
-    top:0px;
+    top: 0px;
     position: fixed;
     right: 0;
     width: 8em;
@@ -26,4 +26,9 @@ img {
     font-weight: bolder 20px;
     letter-spacing: 2px;
     text-decoration-style: solid;
+}
+.lista_aprendi {
+    float: left;
+    width: 200px;
+    margin: 1px;
 }
