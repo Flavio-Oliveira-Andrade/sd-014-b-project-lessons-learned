@@ -1,68 +1,65 @@
 body {
-    background-color:rgb(253, 251, 251);
-    background-size: 360px;
-    font-family: Sans-serif, Verdana, Geneva, Tahoma
+background-color:rgb(253, 251, 251);
+background-size: 360px;
+font-family: Sans-serif, Verdana, Geneva, Tahoma
 }
 .cabecalho {
-    top: 0;
-    position:fixed;
-    right:0;
-    left: 0;
-    height: 35px;
-    background-color: green;
+top:0;
+position:fixed;
+background-color:green;
 }
 h1 {
-    text-align:center;
-    text-shadow:2px 2px 5px gray;
+text-align:center;
+text-shadow:2px 2px 5px gray;
 }
 h2 {
-    text-align:right;
-    text-shadow:2px 2px 5px gray;
+text-align:right;
+text-shadow:2px 2px 5px gray;
 
 }
 h3 {
-    text-align:right;
-    text-shadow:2px 2px 5px gray; 
+text-align:right;
+text-shadow:2px 2px 5px gray; 
 }
 img {
-    float:right;
+float:right;
   }
 .color-title {
-    color:green;
-    font-size:25px;
-    font-weight:bolder 20px;
-    letter-spacing: 2px;
-    text-decoration-style:solid;
+color:green;
+font-size:25px;
+font-weight:bolder 20px;
+letter-spacing:2px;
+text-decoration-style:solid;
 }
 .lista_aprendi {
-    float:left;
-    width:200px;
-    margin:1px;
+float:left;
+width:200px;
+margin:1px;
 }
 .licoes_a_aprender{
-    float: right;
-    width: 200px;
-    margin: 1px;
+float:right;
+width:200px;
+margin:1px;
 }
 .link {
-    padding:300px 200px 10px 300px;
-    margin:20px;
-    color:black;
-    text-align:center;
-    display: inline-block;
-    background-color: red;
-    text-decoration: none;
+padding:300px 200px 10px 300px;
+margin:20px;
+color:black;
+text-align:center;
+display:inline-block;
+background-color:red;
+text-decoration:none;
 }
 .sobre_mim {
-    float:right;
-    height:10px;
-    margin-top:200px;
-    }
+float:right;
+height:10px;
+margin-top:200px;
+}
 .menu_ao_lado_right{
-    float: left;
-    height: 1px;
-    margin-top: 200px;
-    }
+float:left;
+height:1px;
+margin-top:200px;
+ }
 .rodape {
-text-align: right;
+text-align:right;
 }
