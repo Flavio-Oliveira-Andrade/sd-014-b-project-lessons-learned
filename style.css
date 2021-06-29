@@ -1,17 +1,17 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
     margin: 0;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header{
+header {
     background: fixed;
     background-color: aquamarine;
     padding: 5%;
 }
 
-#cabecalho{
+#cabecalho {
     position: fixed;
     top: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -19,7 +19,7 @@ header{
     font-size: 25px;
 }
 
-.navegation, a, a:link{
+.navegation , a , a:link {
     background-color: black;
     padding: 1px;
     color: blanchedalmond;
@@ -27,7 +27,7 @@ header{
     font-family: fantasy, sans-serif;
 }
 
-.list{
+.list {
     display: inline-block;
     border-style: groove;
     padding: 10px;
@@ -35,12 +35,12 @@ header{
     border-radius: 10%;
 }
 
-h2{
+h2 {
     text-align: center;
     font-family: monospace, sans-serif;
 }
 
-article{
+article {
     border-style: groove;
     border-radius: 3%;
     border-color: yellow;
@@ -53,7 +53,7 @@ article{
     margin-left: 20px;
 }
 
-aside{
+aside {
     width: 25%;
     float: right;
     height: 50%;
