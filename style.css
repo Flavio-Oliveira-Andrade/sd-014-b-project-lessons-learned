@@ -3,7 +3,7 @@
     background-size: 360px;
     font-family: Sans-serif, Verdana, Geneva, Tahoma
     }
-    #cabecalho {
+  #cabecalho {
         background-color:skyblue;
         position:fixed;
         top:0;
@@ -11,21 +11,21 @@
         right:50px;
         height:80px;
       }
-    .h1 {
+  .h1 {
     text-align:center;
     text-shadow:2px 2px 5px gray;
     }
-    .h2 {
+  .h2 {
     text-align:center;
     position:center;
     text-shadow: 2px 2px 5px gray;
     margin: 100px;
     }
-    .h3 {
+  .h3 {
     text-align:right;
     text-shadow:2px 2px 5px gray; 
     }
-    .color-title {
+  .color-title {
     color: black;
     font-size: 25px;
     letter-spacing: 5px;
@@ -74,7 +74,7 @@
     #minha_foto {
       box-sizing: border-box;
     }
-    #titulo {
+#titulo {
     position:fixed;
     z-index:999;
     left:0%;
