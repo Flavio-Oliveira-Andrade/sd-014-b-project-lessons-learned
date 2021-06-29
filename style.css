@@ -31,6 +31,14 @@ nav a {
 h2 {
   font-size: 20px;
   color: brown;
-  line-height: 30px; 
-  font-family: 'Times New Roman', Times, serif;
+  line-height: 30px;
+  font-family:Verdana, Tahoma, sans-serif;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+}
+
+.lado-direito {
+  display: inline-block;
 }
