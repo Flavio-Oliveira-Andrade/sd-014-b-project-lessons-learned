@@ -4,6 +4,8 @@ body {
 .cabecalho {
     top:0px;
     position: fixed;
+    right: 0;
+    width: 8em;
 background-color: green;
 }
 h1 {
@@ -18,4 +20,10 @@ h2 {
 img {
     float: right;
   }
-  
+  .color-title {
+    color: green;
+    font-size: 25px;
+    font-weight: bolder 20px;
+    letter-spacing: 2px;
+    text-decoration-style: solid;
+}
