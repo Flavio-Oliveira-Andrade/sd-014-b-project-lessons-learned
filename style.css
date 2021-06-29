@@ -4,10 +4,12 @@ body {
     font-family: Sans-serif, Verdana, Geneva, Tahoma
 }
 .cabecalho {
-    top:0;
+    top: 0;
     position:fixed;
     right:0;
-    width:8em;
+    left: 0;
+    height: 35px;
+
 background-color: green;
 }
 h1 {
@@ -22,7 +24,7 @@ h2 {
 img {
     float:right;
   }
-  .color-title {
+.color-title {
     color:green;
     font-size:25px;
     font-weight:bolder 20px;
@@ -53,7 +55,7 @@ img {
     height:10px;
     margin-top:200px;
     }
-    .menu_ao_lado_right{
+.menu_ao_lado_right{
         float: left;
         height: 1px;
         margin-top: 200px;
