@@ -12,11 +12,13 @@ p {
 #minha_foto {
   border-radius: 50%;
 }
+
 #sobre-mim {
   display: block;
   margin-top: 50px;
   height: 300px;
 }
+  
 #cabecalho {
   position: fixed;
   top: 0;
@@ -59,4 +61,8 @@ nav {
 
 .licoescontainer h3 {
   margin-left: 15px;
+}
+
+.lado-direito, .lado-esquerdo {
+  float: left;
 }
