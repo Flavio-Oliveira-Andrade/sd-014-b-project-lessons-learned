@@ -1,6 +1,7 @@
-.body {
-  background-color:rgb(253,251,251);
-  font-family: Sans-serif, Verdana, Geneva, Tahoma
+body {
+  font-family: Sans-serif,Verdana;
+  background-color:rgb(253, 251, 251);
+  background-size: 360px;
 }
 #cabecalho {
   background-color:skyblue;
