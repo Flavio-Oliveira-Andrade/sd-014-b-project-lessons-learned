@@ -1,86 +1,78 @@
 .body {
-background-color:rgb(253,251,251);
-background-size: 360px;
-font-family: Sans-serif, Verdana, Geneva, Tahoma
+  background-color:rgb(253,251,251);
+  font-family: Sans-serif, Verdana, Geneva, Tahoma
 }
 #cabecalho {
-background-color:skyblue;
-position:fixed;
-top:0;
-left:50px;
-right:50px;
-height:80px;
+  background-color:skyblue;
+  position:fixed;
+  top:0;
+  left:50px;
+  right:50px;
+  height:80px;
 }
 .h1 {
-text-align:center;
-position:fixed;
-text-shadow:2px 2px 5px gray;
+  text-align:center;
+  position:fixed;
+  text-shadow:2px 2px 5px gray;
 }
 .h2 {
-text-align:center;
-position:center;
-text-shadow: 2px 2px 5px gray;
-margin: 100px;
+  text-align:center;
+  position:center;
+  text-shadow: 2px 2px 5px gray;
+  margin: 100px;
 }
 .barra {
-position:center;
+  position:center;
 }
 .color-title {
-color: black;
-font-size: 25px;
-letter-spacing: 5px;
-position: center;
+  color: blue; 
+  font-size: 25px;
+  letter-spacing: 5px;
+  position: center;
 }
 #licoes_aprendidas {
-float: right;
-width:200px;
-margin:10px;
+  float: right;
+  width:200px;
+  margin:1px;
 }
 #licoes_a_aprender{
-float:left;
-width:200px;
-margin:1px;
+  float:left;
+  width:200px;
+  margin:1px;
 }
 .link {
-padding:300px 200px 10px 300px;
-margin:20px;
-color:black;
-text-align:center;
-display:inline-block;
-text-decoration:none;
+  padding:300px 200px 10px 300px;
+  margin:20px;
+  text-align:center;
+  display:inline-block;
+  text-decoration:none;
 }
 .sobre_mim {
-float:right;
-height: 300px;
-margin-top:200px;
-text-align:center;
-margin:40px;
-}
-.menu_ao_lado_right{
-float:left;
-height:1px;
-margin-top:200px;
+  float:right;
+  height: 300px;
+  margin-top:200px;
+  text-align:center;
+  margin:40px;
 }
 #rodape {
-text-align:right;
+  text-align:left;
 }
 .img{
-margin: 0;
-padding: 0;
-border: 0;
-box-sizing: border-box;
-text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 #minha_foto {
   box-sizing: border-box;
 }
-#titulo {
-position:fixed;
-z-index:999;
-left:0%;
-right: 0%;
-top:0;
-overflow:hidden;
-text-align:center
+section #titulo {
+  position:fixed;
+  z-index:999;
+  left:0%;
+  right: 0%;
+  top:0;
+  overflow:hidden;
+  text-align:center
 }
-
