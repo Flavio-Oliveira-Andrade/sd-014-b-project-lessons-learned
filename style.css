@@ -20,10 +20,10 @@ body {
     width: 30%;
 }
 #licoes_a_aprender {
-    float: right;
-    margin: 0px 0px 0px 0px;
-    text-align: justify;
-    width: 30%;
+  float: right;
+  margin: 0px;
+  text-align: justify;
+  width: 30%;
 }
 #separador {
     clear: both;
