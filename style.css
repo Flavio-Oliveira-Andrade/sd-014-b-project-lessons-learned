@@ -13,7 +13,6 @@ body {
   color: rgb(255, 240, 240);
   text-align: center;
   padding-top: 30px;
-  z-index: 2;
 }
 
 #minha_foto {
@@ -34,11 +33,6 @@ body {
 
 #separador {
   clear: both;
-}
-
-#section aside, article p {
-  width: 45%;
-  float: left;
 }
 
 #rodape {
