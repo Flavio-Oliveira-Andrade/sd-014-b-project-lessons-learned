@@ -20,12 +20,6 @@ body {
   margin-top: 130px;
 }
 
-#listas {
-  float: left;
-  text-align: justify;
-  width: 80%;
-}
-
 #licoes_aprendidas {
   float: left;
   text-align: justify;
@@ -40,12 +34,6 @@ body {
 
 #separador {
   clear: both;
-}
-
-#secao {
-  float: left;
-  text-align: justify;
-  width: 100%;
 }
 
 .lado_direito {
