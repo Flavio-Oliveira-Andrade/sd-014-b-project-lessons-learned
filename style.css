@@ -37,15 +37,14 @@ body {
 }
 
 .lado_direito {
-  float: right;
-  width: 55%;
-  padding: 10px;
+  max-width: 49.5%;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .lado_esquerdo {
-  float: left;
-  width: 35%;
-  padding: 10px;
+  max-width: 49.5%;
+  display: inline-block;
 }
 
 #rodape {
