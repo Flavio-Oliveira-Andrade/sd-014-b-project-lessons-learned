@@ -35,15 +35,25 @@ body{
 
 #minha_foto{
     width: 17%;
+    
 }
 
 #aprendizado{
-    width: 50%;
-    height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: small;
+    color:blue;    
+    margin-left: 30%;
+    text-align: right;
+    display: inline-block;
 }
 
 #barralateral{
-    width: 50%;
-    height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: small;
+    color:blue;
+    display: inline-block;
+    text-align: left;
     
 }
