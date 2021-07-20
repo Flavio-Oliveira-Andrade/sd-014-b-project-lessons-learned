@@ -2,9 +2,16 @@ body{
     background-color: rgb(253, 251, 251);
 }
 
+.titulo{
+    position: fixed;
+    top: 0;
+    text-align: center;
+}
+
 #cabecalho{
     position: fixed;
     top: 0;
+    text-align: center;
 }
 
 
@@ -57,3 +64,28 @@ body{
     text-align: left;
     
 }
+
+.lado-esquerdo {
+    color: black;
+    line-height: 1.6;
+    width: 40%;
+    padding: 10px;
+    text-align: justify;
+    display: inline-block;
+  }
+  
+  .lado-direito {
+    color: black;
+    line-height: 1.6;
+    width: 50%;
+    margin-left: 10px;
+    text-align: justify;
+    display: inline-block;
+  }
+
+  td {
+    text-align: left;
+    border-collapse: collapse;
+    padding: 20px;
+    border-spacing: 6px;
+  }
