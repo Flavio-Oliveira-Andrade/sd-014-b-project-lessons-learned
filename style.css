@@ -7,12 +7,16 @@ body{
     top: 0;
 }
 
+
 #licoes_aprendidas{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
     font-size: small;
-    color:blue; 
-    word-spacing: 3%; 
+    color:blue;    
+    margin-left: 30%;
+    text-align: right;
+    display: inline-block;
+    
 }
 
 #licoes_a_aprender{
@@ -20,7 +24,9 @@ body{
     font-style: oblique;
     font-size: small;
     color:blue;
-    letter-spacing: 3%;
+    display: inline-block;
+    text-align: left;
+    
 }
 
 #navegacao{
