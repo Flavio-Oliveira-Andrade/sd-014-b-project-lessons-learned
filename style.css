@@ -1,41 +1,39 @@
 header {
-    display: flex;
-    flex-direction: column;
-    height: 100px;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
 }
 nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
 }
 
 header h1 {
-    align-self: center;
+  align-self: center;
 }
 
 #profile {
-    display: flex;
+  display: flex;
 }
 
 #profile-info {
-    align-self: center;
+  align-self: center;
 }
 
 #skills {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items:flex-end;
-    padding-top: 50px;
-    
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items:flex-end;
+  padding-top: 50px;
 }
 #main {
-    display: flex;
-    padding-top: 50px;
+  display: flex;
+  padding-top: 50px;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
