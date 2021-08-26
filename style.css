@@ -25,6 +25,8 @@ a {
   text-align: right;
   background-color: rgb(176, 30, 7);
   border: rgb(61, 252, 166) solid 5px;
+  margin: 0;
+  padding: 0;
 }
 
 #n1 {
@@ -89,6 +91,11 @@ a {
   height: 300px;
   margin-left: auto;
   margin-right: auto;
+  line-height: normal;
+}
+
+.lado-esquerdo {
+  width: 500px;
 }
 
 #licoes_aprendidas {
